@@ -1,0 +1,23 @@
+::SQL Inner Join::
+Which of the following statements are correct?
+{
+    ~Inner-joins are the least frequent types of joins
+    ~SQL joins can't produce valid output if there are common columns and values on 2 or more tables
+    ~Inner-joins are opposite of Equijoins.
+    =In SQL joins, Inner JOIN is one of the most commonly used JOIN. 
+}
+
+::SQL Inner Join::
+What is the output of the following SQL statement?
+SELECT Orders.orderId, Orders.totalamount, Customers.customerID, Customers.f_name, Customers.L_Name
+FROM Orders, customers 
+WHERE customers.customerID = orders.customerid;
+{
+    ~A list of all employee IDs and their First_name and Last_name
+    =A list of all the customers and their order amounts
+    ~A list of matching employee IDs and their First_name and Last_name
+    ~None of the above
+}
+
+
+

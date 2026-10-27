@@ -1,0 +1,28 @@
+//MCQ
+
+::Partitioning::
+Which of the following operations help us in changing the number of partitions in Spark?
+{
+    ~ join 
+    = Repartition 
+    ~ Cogroup
+    ~ None
+    }
+
+::Sorting in DataFrame::
+Which function can be used to sort a Spark DataFrame in descending order based on a column?
+{
+    ~ groupBy()
+    = orderBy(col("column_name").desc())
+    ~ select()
+    ~ repartition()
+}
+
+::Coalesce vs Repartition::
+Which statement correctly describes coalesce() in Spark?
+{
+    = It is mainly used to decrease the number of partitions without full shuffle.
+    ~ It always increases the number of partitions.
+    ~ It sorts data within partitions.
+    ~ It performs aggregation on partitions.
+}

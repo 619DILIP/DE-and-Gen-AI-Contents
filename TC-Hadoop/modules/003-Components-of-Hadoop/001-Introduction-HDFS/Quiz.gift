@@ -1,0 +1,51 @@
+//MCQ
+
+::Introduction HDFC::
+The heartbeat signals are sent from
+{
+~JObtracker to Tasktracker
+=Tasktracker to Job tracker
+~Tasktracker to namenode
+~Jobtracker to namenode
+}
+
+::Introduction HDFC::
+Which of the following is used to store each block of file into hdfs?
+{
+~Name node
+=Data node
+~Master node
+~None of these
+}
+
+::Introduction HDFC::
+Which of the following does the Node Manager sends back to the Resource Manager?
+{
+=Heartbeat
+~Pulse
+~Poke
+~YARN
+}
+
+::Introduction HDFC::
+What is the default block size in hadoop?
+{
+~128GB
+~138MB
+=128MB
+~138GB
+}
+
+::Introduction HDFC::
+The Datanode is the master node in Hadoop HDFS.
+{F}
+
+::Introduction HDFC::
+What is the default replication factor in HDFS?
+{
+~4
+~2
+~5
+=None of the above
+}
+

@@ -1,0 +1,50 @@
+//MCQ
+
+::Components::
+How many V's are commonly used to describe the characteristics of Big Data?
+{
+~2
+~3
+~4
+=6
+}
+
+::Components::
+Which of the following is **NOT** one of the 6 V's of Big Data?
+{
+~Volume
+~Variety
+~Value
+=Accuracy
+}
+
+::Components::
+Which of the following Big Data characteristics refers to the accuracy, reliability, and quality of data?
+{
+~Volume
+~Velocity
+=Veracity
+~Value
+}
+
+::Components::
+State True/False - Many experts consider Hadoop a substitute for traditional business data warehouses because it can efficiently manage unstructured and semi-structured data while handling continuously increasing data volumes.
+{F}
+
+::Components::
+In a relational database, data is primarily:
+{
+=Structured
+~Unstructured
+~Semi-structured
+~Metadata
+}
+
+::Components::
+Log files are typically classified as:
+{
+~Structured
+~Unstructured
+=Semi-structured
+~Metadata
+}

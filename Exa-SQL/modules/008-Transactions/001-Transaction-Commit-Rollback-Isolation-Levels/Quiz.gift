@@ -1,0 +1,17 @@
+// Quiz for Isolation Levels topic
+
+::Isolation Levels::
+Which is not an isolation phenomena? {
+~Dirty read 
+~Non Repeatable read 
+=Repeatable Read
+~Phantom Read 
+}
+
+::Isolation Levels::
+Which is the highest isolation level? {
+=Serializable
+~Read Committed
+~Repeatable read 
+~Read Uncommitted
+}

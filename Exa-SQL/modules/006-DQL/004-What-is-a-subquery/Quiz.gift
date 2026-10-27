@@ -1,0 +1,26 @@
+::SQL Subqueries::
+In SQL a subquery is a query wrapped in a query. {T}
+
+::SQL Subqueries::
+Choose the different types of Subqueries.
+{
+    =Inline view, Inner Query, Nested Query
+    ~Nested Query, Super Query, Set Query
+    ~Union Query, Join Query, Inline View
+    ~None of these
+}
+
+::SQL Subqueries::
+While executing a query, the outer query is executed before a nested query. {
+    ~ True
+    = False
+}
+
+::SQL Subqueries::
+Subqueries can produce the same results as a join. {T}
+
+::SQL Subqueries::
+Subqueries are more performant than joins. {
+    ~ True
+    = False
+}

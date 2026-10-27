@@ -1,0 +1,3 @@
+<br>
+
+When a business is working with a relational database, it leverages schemas to manage all of its information, especially related to sales of product. The business has tables of relational data stored inside the schema for all of their products and related sales. Along with this they have stored procedures, views and functions associated with this sales information for repeated queries to generate for repeated analysis such as quarterly reports to deliver to the company, sales reports for specific items, profit margins, etc.

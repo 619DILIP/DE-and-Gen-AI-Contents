@@ -1,0 +1,4 @@
+SQLite is a simple SQL database engine that is often used in test environments or when learning how to use SQL, though it has expanded beyond these use cases since its conception. Python has built-in compatibility with the software, which makes it incredibly easy to get a database up and running. There are many benefits to working with SQLite:
+- lightweight: SQLite requires almost no configuration to get up and running
+- self-contained: SQLite works off a single file with no server needed to manage the database
+- high reliability: SQLite follows the standard principles that other SQL-compliant databases also follow

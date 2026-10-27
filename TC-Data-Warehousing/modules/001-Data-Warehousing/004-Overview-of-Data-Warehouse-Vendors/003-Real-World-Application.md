@@ -1,0 +1,3 @@
+## Vendor Choice in Practice
+
+A company already running its applications on AWS is likely to choose Redshift, since it avoids the added complexity of managing data across cloud providers and takes advantage of existing AWS billing and security setup. A company that operates across multiple cloud providers, or that wants to avoid being tied to any single one, might choose Snowflake specifically because of its cloud agnostic design. These decisions are typically made once, early in a project, since migrating a data warehouse to a different platform later is a significant undertaking.

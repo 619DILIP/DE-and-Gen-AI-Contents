@@ -1,0 +1,26 @@
+::Variables and Datatypes::
+Which data type is used to store true/false values in Python?
+{
+~Integer
+~Float
+=Boolean
+~String
+}
+
+::Variables and Datatypes::
+Which function can be used to check the data type of a variable in Python?
+{
+~dtype()
+=type()
+~check_type()
+~var_type()
+}
+
+::Variables and Datatypes::
+Which of the following is a valid variable name in Python?
+{
+~2ndVariable
+~total count
+~@var
+=my_variable
+}

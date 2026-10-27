@@ -1,0 +1,6 @@
+-   RDD operations are categorized into Transformations and Actions
+-   Transformations return a new RDD and are evaluated lazily
+-   Actions trigger execution and return non-RDD values
+-   Transformations can be narrow or wide
+-   Wide transformations involve shuffling and are more expensive
+-   Understanding these operations is essential for writing efficient Spark programs

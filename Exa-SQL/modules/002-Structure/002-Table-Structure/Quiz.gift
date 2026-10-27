@@ -1,0 +1,28 @@
+::Table::
+A relational database consists of a collection of ____?
+{
+    ~Keys
+    ~Columns
+    =Tables
+    ~Constraints
+}
+
+::Table::
+A _____ in a table represents a relationship among a set of values.
+{
+    =Row
+    ~Column
+    ~Foreign key
+    ~Primary key
+}
+
+::Table::
+The term _____ refers to a column in table.
+{
+    ~Constraint
+    =Attribute
+    ~Record
+    ~Criteria
+}
+
+

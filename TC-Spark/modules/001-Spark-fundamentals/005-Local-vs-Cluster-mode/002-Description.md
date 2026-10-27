@@ -1,0 +1,70 @@
+## Local Mode
+
+Local Mode runs Spark entirely on a single machine.
+
+Characteristics:
+
+-   Driver runs on the same machine as the application.
+-   Executors run as threads within the same process.
+-   No external cluster manager required.
+-   Uses local CPU cores.
+
+Master examples:
+
+local\
+local\[2\]\
+local\[\*\]
+
+Local mode is ideal for:
+
+-   Learning
+-   Development
+-   Testing
+-   Debugging small datasets
+
+------------------------------------------------------------------------
+
+## Cluster Mode
+
+Cluster Mode runs Spark applications across multiple machines.
+
+Characteristics:
+
+-   Driver runs inside the cluster.
+-   Executors run on worker nodes.
+-   Resources managed by a cluster manager.
+-   Client can disconnect after job submission.
+
+Cluster managers include:
+
+-   Standalone
+-   YARN
+-   Kubernetes
+
+Cluster mode is used for:
+
+-   Production workloads
+-   Large-scale data processing
+-   Fault-tolerant distributed execution
+
+------------------------------------------------------------------------
+
+## Client vs Cluster Deployment
+
+Client Mode: - Driver runs on the submitting machine. - Executors run on
+cluster nodes.
+
+Cluster Mode: - Driver runs inside the cluster. - Job continues even if
+client disconnects.
+
+------------------------------------------------------------------------
+
+## Key Differences
+
+| Feature           | Local Mode               | Cluster Mode        |
+|------------------|--------------------------|---------------------|
+| Environment      | Single machine           | Multiple machines   |
+| Driver Location  | Local machine            | Cluster node        |
+| Executors        | Local threads            | Distributed nodes   |
+| Scalability      | Limited                  | Highly scalable     |
+| Use Case         | Development & Testing    | Production          |

@@ -1,0 +1,3 @@
+You can't always expect data to take the form necessary for your application: often, you will need to transform data into a compatible format. This will typically require opening the file or files with the data you need and parsing through the content to find what you need. 
+
+Alternatively, when you need to provide others with data, you will more likely than not be required to provide data in a human-friendly format. This means you need to know how to create files and fill them with the necessary data in whatever expected format you or your company uses.

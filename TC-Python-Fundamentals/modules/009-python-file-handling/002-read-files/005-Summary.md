@@ -1,0 +1,3 @@
+- read mode allows for viewing the content of a file, which is typically faster than writing content to a file
+- there is a "read & write" mode that allows you to make edits to a file
+- to view non-text data you have to open a file in binary mode by adding a "b" to your mode selection in the open function

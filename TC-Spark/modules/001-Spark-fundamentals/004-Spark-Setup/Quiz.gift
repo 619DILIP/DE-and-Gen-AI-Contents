@@ -1,0 +1,40 @@
+::Scala Version::
+State True/False - It is not possible to check the version of Scala.
+{
+~ True
+= False
+}
+
+::Spark RDD Manipulation::
+Which one provides a domain-specific language to manipulate RDDs in Scala?
+{
+~Spark Streaming
+=Saprk SQL
+~Spark 
+~None of the above
+}
+
+::Machine Learning Library::
+Which one implements many common machine learning algorithms?
+{
+=MLlib
+~ML
+~GraphX
+~RDDs
+}
+
+::Spark and EC2::
+State True/False - Users can easily run Spark on top of Amazon's EC2.
+{
+= True
+~ False
+}
+
+::Spark Lanauge Support::
+Which of the following language is not supported by Spark?
+{
+=Pascal
+~Java
+~Scala
+~Python
+}

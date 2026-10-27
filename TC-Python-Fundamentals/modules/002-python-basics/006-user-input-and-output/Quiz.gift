@@ -1,0 +1,40 @@
+::MCQ::
+What function is used to get user input during runtime in Python?
+{
+~get_input()
+=input()
+~user_input()
+~receive()
+}
+
+::MCQ::
+By default, how do multiple objects in a print() function get separated?
+{
+~By comma
+~By hyphen
+=By space
+~By newline
+}
+
+::MCQ::
+What type of data does the input() function return by default?
+{
+~Integer
+~Float
+=String
+~Boolean
+}
+
+::MCQ::
+The sep argument in print() controls how multiple objects are separated.
+{
+= True
+~ False
+}
+
+::MCQ::
+By default, print() ends each output with a newline character.
+{
+= True
+~ False
+}

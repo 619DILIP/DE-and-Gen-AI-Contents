@@ -1,0 +1,473 @@
+{
+  "id": "92edc46f-799f-4ccb-a69d-a99838e395b9",
+  "title": "Next-Gen Foundation SQL",
+  "description": " SQL",
+  "prerequisites": {
+    "url": "README",
+    "title": "Prerequisites and Learning Objectives",
+    "tooltip": "Prerequisites and Learning Objectives"
+  },
+  "studyGuide": {
+    "url": "study-guide",
+    "title": "study-guide",
+    "tooltip": "study-guide"
+  },
+  "modules": [
+    {
+      "id": "7b658c75-d25f-437b-8501-f956717f6b80",
+      "title": "Database-Theory",
+      "url": "modules/Database-Theory",
+      "description": " Database-Theory",
+      "tooltip": " Database-Theory",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "9b234826-7434-42e0-9f96-67449e6a0421",
+          "url": "modules/001-Database-Theory/001-What-is-a-Database/Cumulative.md",
+          "title": " What Is A Database",
+          "tooltip": " What-is-a-Database"
+        },
+        {
+          "id": "793be24b-cb2f-4fbd-836e-68e0ce587a70",
+          "url": "modules/001-Database-Theory/002-What-is-SQL/Cumulative.md",
+          "title": " What Is SQL",
+          "tooltip": " What-is-SQL"
+        },
+        {
+          "id": "d4258cb8-eb35-432c-b219-518ed6508162",
+          "url": "modules/001-Database-Theory/003-Consistency/Cumulative.md",
+          "title": " Consistency",
+          "tooltip": " Consistency"
+        },
+        {
+          "id": "7e7b7240-30c8-484f-a3dc-691117bd6dec",
+          "url": "modules/001-Database-Theory/004-Introduction-to-RDBMS/Cumulative.md",
+          "title": " Introduction To RDBMS",
+          "tooltip": " Introduction-to-RDBMS"
+        }
+      ]
+    },
+    {
+      "id": "b7718e6c-4a05-4dc1-b72c-301fc8831be0",
+      "title": "Structure",
+      "url": "modules/Structure",
+      "description": " Structure",
+      "tooltip": " Structure",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "6113b9a9-d41f-49cc-aa58-4c4ac273127a",
+          "url": "modules/002-Structure/001-Schema/Cumulative.md",
+          "title": " Schema",
+          "tooltip": " Schema"
+        },
+        {
+          "id": "6b2b8083-ec34-4aaf-9fe6-b03d4e91f1e5",
+          "url": "modules/002-Structure/002-Table-Structure/Cumulative.md",
+          "title": " Table Structure",
+          "tooltip": " Table-Structure"
+        },
+        {
+          "id": "e67e68fa-6feb-4484-859e-6640fd1351f2",
+          "url": "modules/002-Structure/003-SQL-Data-Types/Cumulative.md",
+          "title": " SQL Data Types",
+          "tooltip": " SQL-Data-Types"
+        },
+        {
+          "id": "363a5950-b558-4655-a0da-705df7171a7f",
+          "url": "modules/002-Structure/004-Normalization/Cumulative.md",
+          "title": " Normalization",
+          "tooltip": " Normalization"
+        },
+        {
+          "id": "c2cf47a0-8e39-4120-827f-8b4675ce9d8f",
+          "url": "modules/002-Structure/005-Multiplicity/Cumulative.md",
+          "title": " Multiplicity",
+          "tooltip": " Multiplicity"
+        },
+        {
+          "id": "13eab1b5-827b-45b6-9304-1f820dac06e7",
+          "url": "modules/002-Structure/006-Data-Modeling-and-ERD/Cumulative.md",
+          "title": " Data Modeling And ERD",
+          "tooltip": " Data-Modeling-and-ERD"
+        },
+        {
+          "id": "a88b38a5-11f1-4964-bed5-ffef3e661063",
+          "url": "modules/002-Structure/007-Primary-Key/Cumulative.md",
+          "title": " Primary Key",
+          "tooltip": " Primary-Key"
+        },
+        {
+          "id": "8b739d7c-c64b-45cd-81f5-1369936a01da",
+          "url": "modules/002-Structure/008-Composite-Key/Cumulative.md",
+          "title": " Composite Key",
+          "tooltip": " Composite-Key"
+        },
+        {
+          "id": "3d6a2e60-d18c-4198-8d79-f1f8a738ab6e",
+          "url": "modules/002-Structure/009-Foreign-Key/Cumulative.md",
+          "title": " Foreign Key",
+          "tooltip": " Foreign-Key"
+        },
+        {
+          "id": "b477f05a-a82c-436f-917a-a30ab8dac93b",
+          "url": "modules/002-Structure/010-Unique-Key/Cumulative.md",
+          "title": " Unique Key",
+          "tooltip": " Unique-Key"
+        },
+        {
+          "id": "0de9f4be-4564-41f8-b4e9-9674efd29ae5",
+          "url": "modules/002-Structure/011-Secondary-Alternate-Key/Cumulative.md",
+          "title": " Secondary Alternate Key",
+          "tooltip": " Secondary-Alternate-Key"
+        },
+        {
+          "id": "7e1a93c7-1e48-4757-aacb-f869e0f4ceef",
+          "url": "modules/002-Structure/012-Referential-Integrity/Cumulative.md",
+          "title": " Referential Integrity",
+          "tooltip": " Referential-Integrity"
+        }
+      ]
+    },
+    {
+      "id": "a28fd4a6-c590-4ea9-aa59-1b25f6116474",
+      "title": "Sublanguages",
+      "url": "modules/Sublanguages",
+      "description": " Sublanguages",
+      "tooltip": " Sublanguages",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "026fca77-0087-4399-99ab-3defcd12f180",
+          "url": "modules/003-Sublanguages/001-Overview-of-Sublanguages/Cumulative.md",
+          "title": " Overview Of Sublanguages",
+          "tooltip": " Overview-of-Sublanguages"
+        },
+        {
+          "id": "35da2576-1cab-4daa-9e99-6d2dc1789abc",
+          "url": "modules/003-Sublanguages/002-DDL/Cumulative.md",
+          "title": " DDL",
+          "tooltip": " DDL"
+        },
+        {
+          "id": "518355d4-405c-4962-b8f9-189fd74db77b",
+          "url": "modules/003-Sublanguages/003-DML/Cumulative.md",
+          "title": " DML",
+          "tooltip": " DML"
+        },
+        {
+          "id": "bbf32e56-6661-4186-99cd-2db784fa245a",
+          "url": "modules/003-Sublanguages/004-DQL/Cumulative.md",
+          "title": " DQL",
+          "tooltip": " DQL"
+        },
+        {
+          "id": "61e6f671-3274-460d-b30e-68e4a3ec5596",
+          "url": "modules/003-Sublanguages/005-DCL/Cumulative.md",
+          "title": " DCL",
+          "tooltip": " DCL"
+        },
+        {
+          "id": "230ea1c9-5b27-4536-9ab4-3500ac9cc484",
+          "url": "modules/003-Sublanguages/006-TCL/Cumulative.md",
+          "title": " TCL",
+          "tooltip": " TCL"
+        }
+      ]
+    },
+    {
+      "id": "bbfa0709-1a8c-4f86-aced-3af5ab2a5c66",
+      "title": "DDL",
+      "url": "modules/DDL",
+      "description": " DDL",
+      "tooltip": " DDL",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "bd8a366f-4f79-46b4-93dd-4c3c7692a5bf",
+          "url": "modules/004-DDL/001-Defining-Schema/Cumulative.md",
+          "title": " Defining Schema",
+          "tooltip": " Defining-Schema"
+        },
+        {
+          "id": "ee2e6b62-fb05-436d-8a15-f251bf6f7a6b",
+          "url": "modules/004-DDL/002-CREATE-DROP-TRUNCATE/Cumulative.md",
+          "title": " CREATE DROP TRUNCATE",
+          "tooltip": " CREATE-DROP-TRUNCATE"
+        },
+        {
+          "id": "7e532e76-2ba8-4fe0-a7ba-dca08b2dc049",
+          "url": "modules/004-DDL/003-Constraints/Cumulative.md",
+          "title": " Constraints",
+          "tooltip": " Constraints"
+        },
+        {
+          "id": "dd14c195-68a1-48d4-9e94-5278b6914304",
+          "url": "modules/004-DDL/004-Auto-Incrementing/Cumulative.md",
+          "title": " Auto Incrementing",
+          "tooltip": " Auto-Incrementing"
+        },
+        {
+          "id": "96f851ff-26e2-4e8f-b51f-78eb78df0e0d",
+          "url": "modules/004-DDL/005-CHECK/Cumulative.md",
+          "title": " CHECK",
+          "tooltip": " CHECK"
+        },
+        {
+          "id": "76eb7372-8af2-40fa-a9d0-9229857c5983",
+          "url": "modules/004-DDL/006-DEFAULT/Cumulative.md",
+          "title": " DEFAULT",
+          "tooltip": " DEFAULT"
+        },
+        {
+          "id": "dad18e36-1830-4832-9fa1-7a91e29ab9c1",
+          "url": "modules/004-DDL/007-CASCADE/Cumulative.md",
+          "title": " CASCADE",
+          "tooltip": " CASCADE"
+        }
+      ]
+    },
+    {
+      "id": "7348ee57-5949-4bf6-beeb-c6b7b1e38cc5",
+      "title": "DML",
+      "url": "modules/DML",
+      "description": " DML",
+      "tooltip": " DML",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "4d06fa89-66fd-4951-86a9-da3d29766d2c",
+          "url": "modules/005-DML/001-INSERT/Cumulative.md",
+          "title": " INSERT",
+          "tooltip": " INSERT"
+        },
+        {
+          "id": "17276150-5da7-4c0b-9d65-72d5135c071f",
+          "url": "modules/005-DML/002-UPDATE/Cumulative.md",
+          "title": " UPDATE",
+          "tooltip": " UPDATE"
+        },
+        {
+          "id": "77277973-40e7-42d7-b263-84474d91a43d",
+          "url": "modules/005-DML/003-DELETE/Cumulative.md",
+          "title": " DELETE",
+          "tooltip": " DELETE"
+        }
+      ]
+    },
+    {
+      "id": "439d22e2-a4a6-49e5-a577-1ca440b18126",
+      "title": "DQL",
+      "url": "modules/DQL",
+      "description": " DQL",
+      "tooltip": " DQL",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "a7456136-3b98-40be-964a-f0101c51b9d4",
+          "url": "modules/006-DQL/001-Queries/Cumulative.md",
+          "title": " Queries",
+          "tooltip": " Queries"
+        },
+        {
+          "id": "2fe3c3cb-d50a-4ed3-8590-7a0cc18c76f5",
+          "url": "modules/006-DQL/002-Aggregate-Functions/Cumulative.md",
+          "title": " Aggregate Functions",
+          "tooltip": " Aggregate-Functions"
+        },
+        {
+          "id": "b4cd7704-6ba9-412c-9f31-0c543e32fc6c",
+          "url": "modules/006-DQL/003-Clauses/Cumulative.md",
+          "title": " Clauses",
+          "tooltip": " Clauses"
+        },
+        {
+          "id": "017e7645-6efa-4a13-87e7-a9010c5386d7",
+          "url": "modules/006-DQL/004-What-is-a-subquery/Cumulative.md",
+          "title": " What Is A Subquery",
+          "tooltip": " What-is-a-subquery"
+        },
+        {
+          "id": "bbff5242-ca6a-4a30-9bc4-dee0367ee4a9",
+          "url": "modules/006-DQL/005-What-is-a-join/Cumulative.md",
+          "title": " What Is A Join",
+          "tooltip": " What-is-a-join"
+        }
+      ]
+    },
+    {
+      "id": "6ff36e7e-2c6b-4fcd-95cc-babe314279f6",
+      "title": "Joins",
+      "url": "modules/Joins",
+      "description": " Joins",
+      "tooltip": " Joins",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "13996572-e8ca-4259-9704-22bff565a727",
+          "url": "modules/007-Joins/001-Aliases/Cumulative.md",
+          "title": " Aliases",
+          "tooltip": " Aliases"
+        },
+        {
+          "id": "ec4d92f6-1394-4e48-87cd-6d31e9ebb025",
+          "url": "modules/007-Joins/002-Cross-Join/Cumulative.md",
+          "title": " Cross Join",
+          "tooltip": " Cross-Join"
+        },
+        {
+          "id": "53559e79-f0ea-4467-ac02-2c1f900eaf91",
+          "url": "modules/007-Joins/003-Equi-and-Theta-Joins/Cumulative.md",
+          "title": " Equi And Theta Joins",
+          "tooltip": " Equi-and-Theta-Joins"
+        },
+        {
+          "id": "7a04a729-0745-41ff-8da6-fffc8b0f828e",
+          "url": "modules/007-Joins/004-Inner-Join/Cumulative.md",
+          "title": " Inner Join",
+          "tooltip": " Inner-Join"
+        },
+        {
+          "id": "1f1241c2-fe15-4604-bc02-b536b6271d39",
+          "url": "modules/007-Joins/005-Left-and-Right-Joins/Cumulative.md",
+          "title": " Left And Right Joins",
+          "tooltip": " Left-and-Right-Joins"
+        },
+        {
+          "id": "e168c568-cd53-4fe7-bec8-4918e97ee9c1",
+          "url": "modules/007-Joins/006-Outer-Join/Cumulative.md",
+          "title": " Outer Join",
+          "tooltip": " Outer-Join"
+        }
+      ]
+    },
+    {
+      "id": "7ada7239-3116-44b5-a648-1495e84827a2",
+      "title": "Transactions",
+      "url": "modules/Transactions",
+      "description": " Transactions",
+      "tooltip": " Transactions",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "91cf41df-21a6-4b21-aff0-8e932af8c345",
+          "url": "modules/008-Transactions/001-Transaction-Commit-Rollback-Isolation-Levels/Cumulative.md",
+          "title": " Transaction Commit Rollback Isolation Levels",
+          "tooltip": " Transaction-Commit-Rollback-Isolation-Levels"
+        },
+        {
+          "id": "29d59cae-8b53-4e69-a38d-cc0c4823551d",
+          "url": "modules/008-Transactions/002-What-is-a-Transaction/Cumulative.md",
+          "title": " What Is A Transaction",
+          "tooltip": " What-is-a-Transaction"
+        },
+        {
+          "id": "f0451d7f-f9bd-418b-b48c-53162a8dd306",
+          "url": "modules/008-Transactions/003-ACID-Properties/Cumulative.md",
+          "title": " ACID Properties",
+          "tooltip": " ACID-Properties"
+        },
+        {
+          "id": "c2b1e0c9-caaa-419e-8441-80be8e5cd5e8",
+          "url": "modules/008-Transactions/004-Transaction-Properties/Cumulative.md",
+          "title": " Transaction Properties",
+          "tooltip": " Transaction-Properties"
+        },
+        {
+          "id": "bbf51ae6-d399-4e9d-bbff-030b1ed0ddec",
+          "url": "modules/008-Transactions/005-CRUD-Operations/Cumulative.md",
+          "title": " CRUD Operations",
+          "tooltip": " CRUD-Operations"
+        }
+      ]
+    },
+    {
+      "id": "5b3e3a72-c422-451b-89f8-b6e28d44ff21",
+      "title": "Advanced-SQL",
+      "url": "modules/Advanced-SQL",
+      "description": " Advanced-SQL",
+      "tooltip": " Advanced-SQL",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "0e8ed258-eccc-4ffe-9612-8f55a5ddbf0a",
+          "url": "modules/009-Advanced-SQL/001-Indexes/Cumulative.md",
+          "title": " Indexes",
+          "tooltip": " Indexes"
+        },
+        {
+          "id": "4ae00a65-7cb5-43e3-bc4c-65cdfbc7e9c6",
+          "url": "modules/009-Advanced-SQL/002-Scalar-Functions/Cumulative.md",
+          "title": " Scalar Functions",
+          "tooltip": " Scalar-Functions"
+        },
+        {
+          "id": "44e0f1d8-f64d-4820-bd2a-9ce7f8c81c01",
+          "url": "modules/009-Advanced-SQL/003-Sequence/Cumulative.md",
+          "title": " Sequence",
+          "tooltip": " Sequence"
+        },
+        {
+          "id": "6abdd5aa-800e-4d5f-ba97-24ff0aa745fe",
+          "url": "modules/009-Advanced-SQL/004-Trigger/Cumulative.md",
+          "title": " Trigger",
+          "tooltip": " Trigger"
+        },
+        {
+          "id": "45a9e3aa-9ab7-40fc-b6d9-6bbe1d01309c",
+          "url": "modules/009-Advanced-SQL/005-Views/Cumulative.md",
+          "title": " Views",
+          "tooltip": " Views"
+        },
+        {
+          "id": "d3baf91c-e5f7-420f-88f5-132f8608c4b4",
+          "url": "modules/009-Advanced-SQL/006-What-is-a-Stored-Procedure/Cumulative.md",
+          "title": " What Is A Stored Procedure",
+          "tooltip": " What-is-a-Stored-Procedure"
+        },
+        {
+          "id": "213087c4-25be-44b3-9906-2a957b5e00b9",
+          "url": "modules/009-Advanced-SQL/007-What-is-a-User-Defined-Function/Cumulative.md",
+          "title": " What Is A User Defined Function",
+          "tooltip": " What-is-a-User-Defined-Function"
+        }
+      ]
+    }
+  ]
+}

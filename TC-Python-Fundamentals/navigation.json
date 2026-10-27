@@ -1,0 +1,487 @@
+{
+	"id": "2d5d96ae-eaa6-41ae-b489-a5f4a1d5ebb0",
+	"title": "Next-Gen Foundation TC-Python-Fundamentals",
+	"description": " TC-Python-Fundamentals",
+	"Prerequisites": {
+		"url": "README",
+		"title": "Prerequisites and Learning Objectives",
+		"tooltip": "Prerequisites and Learning Objectives"
+	},
+	"StudyGuide": {
+		"url": "Study-Guide",
+		"title": "Study-Guide",
+		"tooltip": "Study-Guide"
+	},
+	"modules": [
+		{
+			"id": "737a2c47-d986-4317-a55a-847b7cac3b52",
+			"title": "Python-Orientation",
+			"url": "modules/Python-Orientation",
+			"description": " Python-Orientation",
+			"tooltip": " Python-Orientation",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "8a42663d-33a3-4134-97d5-4c3e91178872",
+					"url": "modules/001-Python-Orientation/001-Full-Stack-Overview/Cumulative.md",
+					"title": " Full Stack Overview",
+					"tooltip": " Full-Stack-Overview"
+				},
+				{
+					"id": "2c1141ca-18c3-4343-b971-d50c497a940e",
+					"url": "modules/001-Python-Orientation/002-Interpreter-vs-Compiler/Cumulative.md",
+					"title": " Interpreter vs Compiler",
+					"tooltip": " Interpreter-vs-Compiler"
+				}
+			]
+		},
+		{
+			"id": "53fd763a-4a58-4dc4-911d-34c440d6a38f",
+			"title": "Python-Basics",
+			"url": "modules/Python-Basics",
+			"description": " Python-Basics",
+			"tooltip": " Python-Basics",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "dbdde9bf-bed4-49fe-817d-57639d0ab725",
+					"url": "modules/002-Python-Basics/001-What-is-Python-Why-Python/Cumulative.md",
+					"title": " What is Python Why Python",
+					"tooltip": " What-is-Python-Why-Python"
+				},
+				{
+					"id": "f8d7cbd3-4381-4ad2-9411-c206f58d98c2",
+					"url": "modules/002-Python-Basics/002-Python-Syntax/Cumulative.md",
+					"title": " Python Syntax",
+					"tooltip": " Python-Syntax"
+				},
+				{
+					"id": "9383bec9-977a-4444-ba65-ccd328aaeef2",
+					"url": "modules/002-Python-Basics/003-Comments/Cumulative.md",
+					"title": " Comments",
+					"tooltip": " Comments"
+				},
+				{
+					"id": "eae5c5e4-344c-49ca-81b4-955bb27d3654",
+					"url": "modules/002-Python-Basics/004-Variables-and-Datatypes/Cumulative.md",
+					"title": " Variables and Datatypes",
+					"tooltip": " Variables-and-Datatypes"
+				},
+				{
+					"id": "a66bbb87-99cb-481d-9de0-750c07f86cbe",
+					"url": "modules/002-Python-Basics/005-Operators/Cumulative.md",
+					"title": " Operators",
+					"tooltip": " Operators"
+				},
+				{
+					"id": "feadfb7a-3bf0-43ad-a9f8-d59a8c97919e",
+					"url": "modules/002-Python-Basics/006-User-Input-and-Output/Cumulative.md",
+					"title": " User Input and Output",
+					"tooltip": " User-Input-and-Output"
+				}
+			]
+		},
+		{
+			"id": "a46b885b-e762-488f-93c7-fdf3902a216a",
+			"title": "Python-Datatypes",
+			"url": "modules/Python-Datatypes",
+			"description": " Python-Datatypes",
+			"tooltip": " Python-Datatypes",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "9790cbbf-df95-4e2b-b79a-3232008c8605",
+					"url": "modules/003-Python-Datatypes/001-Namespaces/Cumulative.md",
+					"title": " Namespaces",
+					"tooltip": " Namespaces"
+				},
+				{
+					"id": "ad0ed9ce-2d45-46c4-a9f2-f45ca5416576",
+					"url": "modules/003-Python-Datatypes/002-Strings/Cumulative.md",
+					"title": " Strings",
+					"tooltip": " Strings"
+				},
+				{
+					"id": "58a1dc8e-f515-45f5-8a40-e247a12c4345",
+					"url": "modules/003-Python-Datatypes/003-Casting/Cumulative.md",
+					"title": " Casting",
+					"tooltip": " Casting"
+				},
+				{
+					"id": "307f235b-8595-4398-9672-49727f178faa",
+					"url": "modules/003-Python-Datatypes/004-Boolean/Cumulative.md",
+					"title": " Boolean",
+					"tooltip": " Boolean"
+				},
+				{
+					"id": "8bde28b4-d040-4280-b686-45843fd4581f",
+					"url": "modules/003-Python-Datatypes/005-Lists/Cumulative.md",
+					"title": " Lists",
+					"tooltip": " Lists"
+				},
+				{
+					"id": "a9164568-ecdf-4a15-884b-930491920f12",
+					"url": "modules/003-Python-Datatypes/006-Tuples/Cumulative.md",
+					"title": " Tuples",
+					"tooltip": " Tuples"
+				},
+				{
+					"id": "8a7805d4-7f03-4ec4-8b82-fc3bd2db6d06",
+					"url": "modules/003-Python-Datatypes/007-Range/Cumulative.md",
+					"title": " Range",
+					"tooltip": " Range"
+				},
+				{
+					"id": "1323fe56-33ad-4a4a-92bd-2a72334c4510",
+					"url": "modules/003-Python-Datatypes/008-Sets/Cumulative.md",
+					"title": " Sets",
+					"tooltip": " Sets"
+				},
+				{
+					"id": "5fb8a0d0-0026-4069-a189-73cd43989d26",
+					"url": "modules/003-Python-Datatypes/009-Binary-Type/Cumulative.md",
+					"title": " Binary Type",
+					"tooltip": " Binary-Type"
+				},
+				{
+					"id": "f18d7187-3158-417d-91f2-0e3ef2253243",
+					"url": "modules/003-Python-Datatypes/010-Nontype/Cumulative.md",
+					"title": " Nontype",
+					"tooltip": " nontype"
+				},
+				{
+					"id": "4d78b5d9-1555-4b74-bac6-8702f7730d75",
+					"url": "modules/003-Python-Datatypes/011-Dictionaries/Cumulative.md",
+					"title": " Dictionaries",
+					"tooltip": " Dictionaries"
+				},
+				{
+					"id": "1ab38ad8-2023-4121-a8a1-15db58ac4bfe",
+					"url": "modules/003-Python-Datatypes/012-Numbers/Cumulative.md",
+					"title": " Numbers",
+					"tooltip": " Numbers"
+				},
+				 {
+                    "id": "07978540-3aff-4c63-accd-c275802b7e8a",
+                    "url": "modules/003-python-datatypes/013-datetime/Cumulative.md",
+                    "title": " Datetime",
+                    "tooltip": " datetime"
+                },
+                {
+                    "id": "6821bf74-5bea-496d-8c39-0357f78e0679",
+                    "url": "modules/003-python-datatypes/014-collections-module/Cumulative.md",
+                    "title": " Collections Module",
+                    "tooltip": " collections-module"
+                },
+                {
+                    "id": "26026058-7bbf-4d72-978d-6af98c88084d",
+                    "url": "modules/003-python-datatypes/015-counters/Cumulative.md",
+                    "title": " Counters",
+                    "tooltip": " counters"
+                },
+                {
+                    "id": "562f003a-d764-4ca1-97ff-1068f9def030",
+                    "url": "modules/003-python-datatypes/016-named-tuples/Cumulative.md",
+                    "title": " Named Tuples",
+                    "tooltip": " named-tuples"
+                },
+                {
+                    "id": "fc9a8bd4-e853-4e0d-a31a-7ecfb26b6cab",
+                    "url": "modules/003-python-datatypes/017-ordered-dicts/Cumulative.md",
+                    "title": " Ordered Dicts",
+                    "tooltip": " ordered-dicts"
+                }
+			]
+		},
+		{
+			"id": "9f4815fa-d780-47c4-a2fc-1e31458919ae",
+			"title": "Python-FlowControlStmts",
+			"url": "modules/Python-FlowControlStmts",
+			"description": " Python-FlowControlStmts",
+			"tooltip": " Python-FlowControlStmts",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "f779a457-066f-4d66-ac93-462a6944f626",
+					"url": "modules/004-Python-FlowControlStmts/001-if-else/Cumulative.md",
+					"title": " If-Else",
+					"tooltip": " if-else"
+				},
+				{
+					"id": "ad5ed30d-f5aa-42e0-b12e-116474b47808",
+					"url": "modules/004-Python-FlowControlStmts/002-while/Cumulative.md",
+					"title": " While",
+					"tooltip": " while"
+				},
+				{
+					"id": "75448be4-8ebe-4e11-ac94-3eed333dab94",
+					"url": "modules/004-Python-FlowControlStmts/003-for/Cumulative.md",
+					"title": " For",
+					"tooltip": " for"
+				}
+			]
+		},
+		{
+			"id": "2bff66cc-09dc-48a5-ba34-881ca324e89d",
+			"title": "Python-Functions-and-Arrays",
+			"url": "modules/Python-Functions-and-Arrays",
+			"description": " Python-Functions-and-Arrays",
+			"tooltip": " Python-Functions-and-Arrays",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "5efa01ed-defa-4635-861b-e1d873d16054",
+					"url": "modules/005-Python-Functions-and-Arrays/001-Function/Cumulative.md",
+					"title": " Function",
+					"tooltip": " Function"
+				},
+				{
+					"id": "69c8a899-d772-4f4c-800c-f027a3d7240c",
+					"url": "modules/005-Python-Functions-and-Arrays/002-Lambda/Cumulative.md",
+					"title": " Lambda",
+					"tooltip": " Lambda"
+				},
+				{
+					"id": "960c3ad0-5661-4fe0-a4c8-9a687f7dfa61",
+					"url": "modules/005-Python-Functions-and-Arrays/003-Arrays/Cumulative.md",
+					"title": " Arrays",
+					"tooltip": " Arrays"
+				}
+			]
+		},
+		{
+			"id": "01de542b-68f2-4eb8-bb5a-1ad16fa265b0",
+			"title": "Python-Classes-and-Inheritance",
+			"url": "modules/Python-Classes-and-Inheritance",
+			"description": " Python-Classes-and-Inheritance",
+			"tooltip": " Python-Classes-and-Inheritance",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "b98290db-27e8-4aa8-895b-554a60a88b27",
+					"url": "modules/006-Python-Classes-and-Inheritance/001-Classes-and-Objects/Cumulative.md",
+					"title": " Classes and Objects",
+					"tooltip": " Classes-and-Objects"
+				},
+				{
+					"id": "ea9d0100-df59-458f-80b7-28499f6726f9",
+					"url": "modules/006-Python-Classes-and-Inheritance/002-OOP-Concepts/Cumulative.md",
+					"title": " OOP Concepts",
+					"tooltip": " OOP-Concepts"
+				},
+				{
+					"id": "58531eef-7497-497a-91bb-9ff50d641206",
+					"url": "modules/006-Python-Classes-and-Inheritance/003-Inheritance/Cumulative.md",
+					"title": " Inheritance",
+					"tooltip": " Inheritance"
+				},
+				{
+					"id": "16aee952-a7ce-44d8-a596-3701f050d3fa",
+					"url": "modules/006-Python-Classes-and-Inheritance/004-Iterators/Cumulative.md",
+					"title": " Iterators",
+					"tooltip": " Iterators"
+				},
+				{
+					"id": "cf7f8c1b-4c1f-4d8b-86bf-90d4a7c3368e",
+					"url": "modules/006-Python-Classes-and-Inheritance/005-Scope/Cumulative.md",
+					"title": " Scope",
+					"tooltip": " Scope"
+				}
+			]
+		},
+		{
+			"id": "ade8bf4b-4497-42a2-ae63-7b99adbe2391",
+			"title": "Python-Modules",
+			"url": "modules/Python-Modules",
+			"description": " Python-Modules",
+			"tooltip": " Python-Modules",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "73cc5069-5aaf-45bd-9a37-2e4c9f828105",
+					"url": "modules/007-Python-Modules/001-Module/Cumulative.md",
+					"title": " Module",
+					"tooltip": " Module"
+				},
+				{
+					"id": "4b6ab6e4-c1cb-4eba-a677-37127c676665",
+					"url": "modules/007-Python-Modules/002-Math/Cumulative.md",
+					"title": " Math",
+					"tooltip": " Math"
+				},
+				{
+					"id": "27edb0b3-5da4-4b01-9f9b-94d08244b8bc",
+					"url": "modules/007-Python-Modules/003-Logging/Cumulative.md",
+					"title": " Logging",
+					"tooltip": " Logging"
+				},
+				{
+					"id": "bbd60073-8af3-42f1-b69e-64b16373668a",
+					"url": "modules/007-Python-Modules/004-JSON/Cumulative.md",
+					"title": " JSON",
+					"tooltip": " JSON"
+				},
+				{
+					"id": "89dcb2c2-9829-4fbf-b19b-b9306f14bbde",
+					"url": "modules/007-Python-Modules/005-Regex/Cumulative.md",
+					"title": " Regex",
+					"tooltip": " Regex"
+				},
+				{
+					"id": "9ae076a5-4451-44dc-9920-ddf6edbe0c9a",
+					"url": "modules/007-Python-Modules/006-pip-and-install-pip/Cumulative.md",
+					"title": " pip and install pip",
+					"tooltip": " pip-and-install-pip"
+				},
+				{
+					"id": "dc103662-e99e-4443-b439-6b2c9eaacbf4",
+					"url": "modules/007-Python-Modules/007-pylint/Cumulative.md",
+					"title": " pylint",
+					"tooltip": " pylint"
+				},
+				{
+					"id": "85994486-5cd8-431b-a04f-558ed4aa5472",
+					"url": "modules/007-Python-Modules/008-Connect-SQL/Cumulative.md",
+					"title": " Connect SQL",
+					"tooltip": " Connect-SQL"
+				}
+			]
+		},
+		{
+			"id": "03273566-0026-4d0c-b51a-a390e0f38c03",
+			"title": "Python-Exception-Handling",
+			"url": "modules/Python-Exception-Handling",
+			"description": " Python-Exception-Handling",
+			"tooltip": " Python-Exception-Handling",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "b542e923-79e2-4ba6-8e93-def277e82ff6",
+					"url": "modules/008-Python-Exception-Handling/001-Error/Cumulative.md",
+					"title": " Error",
+					"tooltip": " Error"
+				},
+				{
+					"id": "095ce92e-ee18-4f28-b68a-cdb9b2c308a6",
+					"url": "modules/008-Python-Exception-Handling/002-Exception-Handling/Cumulative.md",
+					"title": " Exception Handling",
+					"tooltip": " Exception-Handling"
+				},
+				{
+					"id": "b0fe94cd-c625-4073-81d7-da6847781aa4",
+					"url": "modules/008-Python-Exception-Handling/003-try-except/Cumulative.md",
+					"title": " try-except",
+					"tooltip": " try-except"
+				}
+			]
+		},
+		{
+			"id": "e74e4ca1-b5af-4b58-8f46-2f983c8635c7",
+			"title": "Python-File-Handling",
+			"url": "modules/Python-File-Handling",
+			"description": " Python-File-Handling",
+			"tooltip": " Python-File-Handling",
+			"Prerequisites": {
+				"url": "README",
+				"title": "Prerequisites and Learning Objectives",
+				"tooltip": "Prerequisites and Learning Objectives"
+			},
+			"topics": [
+				{
+					"id": "4a64ec08-e3f5-4092-a235-f336cf6e5fdc",
+					"url": "modules/009-Python-File-Handling/001-File-Handling/Cumulative.md",
+					"title": " File Handling",
+					"tooltip": " File-Handling"
+				},
+				{
+					"id": "b8c0dce0-8b50-4a08-8f28-803b48fa5ffb",
+					"url": "modules/009-Python-File-Handling/002-Read-Files/Cumulative.md",
+					"title": " Read Files",
+					"tooltip": " Read-Files"
+				},
+				{
+					"id": "2d698e53-ee7a-4190-a76c-020ad2a54a97",
+					"url": "modules/009-Python-File-Handling/003-Write-Create-Files/Cumulative.md",
+					"title": " Write Create Files",
+					"tooltip": " Write-Create-Files"
+				},
+				{
+					"id": "11e09ce7-c0e8-44e1-a625-dce8e9627b6c",
+					"url": "modules/009-Python-File-Handling/004-Delete-Files/Cumulative.md",
+					"title": " Delete Files",
+					"tooltip": " Delete-Files"
+				}
+			]
+		},
+		 {
+            "id": "588302bd-00f6-4924-878e-ae65149b1c8e",
+            "title": "python-data-visualization",
+            "url": "modules/python-data-visualization",
+            "description": " python-data-visualization",
+            "tooltip": " python-data-visualization",
+            "prerequisites": {
+                "url": "README",
+                "title": "Prerequisites and Learning Objectives",
+                "tooltip": "Prerequisites and Learning Objectives"
+            },
+            "topics": [
+                {
+                    "id": "74ce6de3-edc4-4f4c-9010-25891774a713",
+                    "url": "modules/010-python-data-visualization/001-numpy/Cumulative.md",
+                    "title": " Numpy",
+                    "tooltip": " numpy"
+                },
+                {
+                    "id": "cedc89bc-80b6-414f-a9ec-f1797b37c2b0",
+                    "url": "modules/010-python-data-visualization/002-matplotlib/Cumulative.md",
+                    "title": " Matplotlib",
+                    "tooltip": " matplotlib"
+                },
+                {
+                    "id": "e0f25c49-f3c1-4c00-b107-39640494bf5f",
+                    "url": "modules/010-python-data-visualization/003-pytest/Cumulative.md",
+                    "title": " Pytest",
+                    "tooltip": " pytest"
+                },
+                {
+                    "id": "340b2daf-901a-45d3-ac86-0ad15f87f181",
+                    "url": "modules/010-python-data-visualization/004-pandas/Cumulative.md",
+                    "title": " Pandas",
+                    "tooltip": " pandas"
+                }
+			]
+		}
+	]
+}

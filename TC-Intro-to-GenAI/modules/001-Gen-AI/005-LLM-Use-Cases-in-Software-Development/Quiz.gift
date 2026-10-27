@@ -1,0 +1,39 @@
+::Q1::Which is a common LLM use case in software development? 
+{
+=Code generation
+~Network cable installation
+~Database hardware manufacturing
+~Physical server assembly
+}
+
+::Q2::What can LLMs contribute to code review? 
+{
+~They permanently approve every change
+~They guarantee architectural decisions are correct
+=They can surface potential issues such as unused variables or inconsistent naming
+~They replace every human reviewer
+}
+
+::Q3::What should a developer do with generated code before relying on it? 
+{
+=Review and verify it against the actual requirements
+~Assume it is correct because it compiles
+~Execute it automatically without inspection
+~Publish it without testing
+}
+
+::Q4::What is one benefit of LLM assistance during code review? 
+{
+~It replaces version control
+=It can quickly surface some categories of issues consistently
+~It removes the need for design judgment
+~It guarantees the absence of security vulnerabilities
+}
+
+::Q5::Which workflow best reflects responsible LLM use? 
+{
+~Avoid testing generated code
+~Accept every suggestion automatically
+~Generate and execute without review
+=Generate assistance, review it, verify it, then use it where appropriate
+}

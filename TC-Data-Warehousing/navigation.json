@@ -1,0 +1,85 @@
+{
+  "id": "2c294d8a-48fb-4de6-bee2-3d658739eed1",
+  "title": "Data Warehousing",
+  "description": "Data Warehousing",
+  "prerequisites": {
+    "url": "README",
+    "title": "Prerequisites and Learning Objectives",
+    "tooltip": "Prerequisites and Learning Objectives"
+  },
+  "studyGuide": {
+    "url": "study-guide",
+    "title": "study-guide",
+    "tooltip": "study-guide"
+  },
+  "modules": [
+    {
+      "id": "aeb60d58-c246-4c90-9d7e-fd4aa5f1cd8f",
+      "title": "Data-Warehousing",
+      "url": "modules/Data-Warehousing",
+      "description": "Data-Warehousing",
+      "tooltip": "Data-Warehousing",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "20f295ea-1937-406c-a1ba-9967ba309316",
+          "url": "modules/001-Data-Warehousing/001-What-Is-a-Data-Warehouse/Cumulative.md",
+          "title": "What Is a Data Warehouse",
+          "tooltip": "001-What-Is-a-Data-Warehouse"
+        },
+        {
+          "id": "8251b67f-3671-4fe4-88b7-ac8c3a82dfaf",
+          "url": "modules/001-Data-Warehousing/002-Data-Warehouse-vs-Data-Lake/Cumulative.md",
+          "title": "Data Warehouse vs Data Lake",
+          "tooltip": "002-Data-Warehouse-vs-Data-Lake"
+        },
+        {
+          "id": "f8f3172e-b7c8-4ec7-bb03-4408c5ac4028",
+          "url": "modules/001-Data-Warehousing/003-Data-Warehouse-Architecture/Cumulative.md",
+          "title": "Data Warehouse Architecture",
+          "tooltip": "003-Data-Warehouse-Architecture"
+        },
+        {
+          "id": "fff288b2-2fe3-4935-b4e3-d79faa73f192",
+          "url": "modules/001-Data-Warehousing/004-Overview-of-Data-Warehouse-Vendors/Cumulative.md",
+          "title": "Overview of Data Warehouse Vendors",
+          "tooltip": "004-Overview-of-Data-Warehouse-Vendors"
+        },
+        {
+          "id": "6edaa0ab-dca2-457a-8990-9adb4b537a3f",
+          "url": "modules/001-Data-Warehousing/005-OLTP-vs-OLAP/Cumulative.md",
+          "title": "OLTP vs OLAP",
+          "tooltip": "005-OLTP-vs-OLAP"
+        },
+        {
+          "id": "7792148e-4b2c-4423-aaef-71ba6287f557",
+          "url": "modules/001-Data-Warehousing/006-ETL-vs-ELT/Cumulative.md",
+          "title": "ETL vs ELT",
+          "tooltip": "006-ETL-vs-ELT"
+        },
+        {
+          "id": "d2f5095a-2893-4bd7-b18f-274d951159e7",
+          "url": "modules/001-Data-Warehousing/007-Fact-and-Dimension-Tables/Cumulative.md",
+          "title": "Fact and Dimension Tables",
+          "tooltip": "007-Fact-and-Dimension-Tables"
+        },
+        {
+          "id": "d53beef3-c66f-41ee-b455-83785eff9300",
+          "url": "modules/001-Data-Warehousing/008-Star-Schema-and-Snowflake-Schema/Cumulative.md",
+          "title": "Star Schema and Snowflake Schema",
+          "tooltip": "008-Star-Schema-and-Snowflake-Schema"
+        },
+        {
+          "id": "984c1c42-2a35-4697-a03c-7174ce899e0c",
+          "url": "modules/001-Data-Warehousing/009-Data-Pipeline-Basics/Cumulative.md",
+          "title": "Data Pipeline Basics",
+          "tooltip": "009-Data-Pipeline-Basics"
+        }
+      ]
+    }
+  ]
+}

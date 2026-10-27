@@ -1,0 +1,24 @@
+::Pylint Purpose::  
+What is the main purpose of Pylint?  
+{  
+~ To run Python programs faster  
+~ To install and manage Python packages  
+= To perform static code analysis and detect code quality issues  
+~ To format code automatically  
+}
+
+::Static Code Analysis::  
+True or False: Static code analysis with Pylint executes the code to find errors.  
+{  
+~ T    
+= F
+}
+
+::Running Pylint::  
+Which command correctly runs Pylint on a file named `example.py`?  
+{  
+~ pip install pylint example.py  
+= pylint example.py  
+~ py -m pylint  
+~ python example.py --lint  
+}

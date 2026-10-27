@@ -1,0 +1,47 @@
+::MCQ::
+What does the metacharacter * (Asterisk) represent in regex?
+{
+~ Matches exactly one character
+= Matches zero or more occurrences of the preceding character or group
+~ Matches one or more occurrences of the preceding character or group
+~ Matches the start of a string
+}
+
+::MCQ::
+Which Python module is primarily used for working with regular expressions?
+{
+~ regex
+= re
+~ pattern
+~ string
+}
+
+::MCQ::
+What is the purpose of the re.sub() function?
+{
+~ To search for patterns
+~ To split text
+~ To validate input
+= To replace substrings matching a pattern
+}
+
+::MCQ::
+The re.split() function can only split text based on whitespace.
+{
+~ True
+= False 
+}
+
+::MCQ::
+Regular expressions can be used for input validation.
+{
+= True
+~ False 
+}
+
+::MCQ::
+The + metacharacter matches zero occurrences of a preceding character.
+{
+~ True
+= False 
+}

@@ -1,0 +1,40 @@
+::MCQ::
+Which math module function rounds a number up to the nearest integer?
+{
+~ round()
+~ floor()
+= ceil()
+~ sqrt()
+}
+
+::MCQ::
+What does math.pow(2, 3) calculate?
+{
+~ 2 multiplied by 3
+= 2 raised to the power of 3
+~ Square root of 2 and 3
+~ 2 divided by 3
+}
+
+::MCQ::
+What is a way to import only a specific function from the math module?
+{
+~ import math.sqrt
+= from math import sqrt
+~ use math.sqrt
+~ include sqrt from math
+}
+
+::MCQ::
+The math module is part of Python's standard library.
+{
+= True
+~ False
+}
+
+::MCQ::
+math.floor() always rounds a number up.
+{
+~ True
+= False
+}

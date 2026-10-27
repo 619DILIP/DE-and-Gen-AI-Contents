@@ -1,0 +1,5 @@
+-   Shared Variables solve distributed memory isolation challenges.
+-   Broadcast Variables share read-only data efficiently across executors.
+-   Accumulators aggregate updates from executors back to the driver.
+-   Proper use improves performance and scalability.
+-   Understanding Shared Variables is essential for production-grade Spark applications.

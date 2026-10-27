@@ -1,0 +1,28 @@
+// Quiz for Lambda
+::Lambda::
+What are lambda functions in Python?
+{
+=Functions defined using the lambda keyword for concise, one-line expressions
+~Functions that handle exceptions and errors in Python
+~Functions used for mathematical calculations only
+~Functions that have no return statement
+}
+
+::Lambda::
+Which of the following statements about lambda functions in Python is true?
+{
+=Lambda functions can have any number of arguments but only one expression.
+~Lambda functions can contain multiple expressions.
+~Lambda functions can include a return statement.
+~Lambda functions cannot be assigned to variables.
+}
+
+::Lambda::
+What is the advantage of using lambda functions in Python?
+{
+~They can handle complex mathematical operations
+~They are more memory-efficient than regular functions
+=They allow for concise and anonymous function definitions
+~They have better error handling capabilities
+}
+

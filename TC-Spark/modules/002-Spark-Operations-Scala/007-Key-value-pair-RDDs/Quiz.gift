@@ -1,0 +1,18 @@
+// MCQs
+
+::Spark-RDD::
+Which of the following operation output return type can be different from the input type?{
+    = aggregateByKey()
+    ~ reduceByKey()
+    ~ groupByKey()
+    ~ countByKey()
+}
+
+
+::Spark-RDD::
+Which function applies the map function on the values of the keys without changing the keys?{
+    ~ map()
+    ~ keys()
+    ~ values()
+    = mapValues()
+}

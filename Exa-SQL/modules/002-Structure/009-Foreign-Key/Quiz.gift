@@ -1,0 +1,17 @@
+::Foreignkey::
+What is a foreign key?{
+    ~ Used to define data types.
+    = A column referencing the primary key of another table.
+    ~ Used to define null status.
+    ~ All of the above are above correct.
+}
+
+::Foreignkey::
+How many Foreign keys can a table have?
+{
+= No limit
+~ Only one
+~ Two
+~ None
+}
+ 

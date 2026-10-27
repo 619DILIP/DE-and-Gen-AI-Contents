@@ -1,0 +1,6 @@
+-   PySpark is the Python API for Apache Spark
+-   It enables distributed and parallel data processing using Python
+-   It supports batch processing, real-time streaming, and machine learning
+-   SparkSession is the entry point for working with structured data
+-   Datasets can be loaded using spark.read methods
+-   PySpark is widely used in industries handling large-scale data

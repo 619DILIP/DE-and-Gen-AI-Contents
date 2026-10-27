@@ -1,0 +1,24 @@
+::Sets::
+Which method is used to find the intersection of two sets in Python?
+{
+~ intersect()
+= intersection()
+~ intersect_set()
+~ common()
+}
+
+::Sets::
+Which method is used to clear all elements from a set in Python?
+{    
+= clear()
+~ delete()
+~ remove_all()
+~ discard_all()
+}
+
+::Sets::
+True or False: Sets in Python do not allow duplicate elements.
+{
+= True
+~ False
+}

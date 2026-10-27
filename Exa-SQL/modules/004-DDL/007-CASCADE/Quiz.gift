@@ -1,0 +1,18 @@
+// Quiz for CASCADE topic
+
+::CASCADE::
+The client needs to adjust the primary key of a parent record on a frequent basis, how should I construct my child tables to prevent data inconsistencies? {
+~Use `ON DELETE CASCADE` with the foreign key reference to the parent record id.
+~There is no need, SQL will automatically do this for me.
+=Use `ON UPDATE CASCADE` with the foreign key reference to the parent record id.
+~This is not possible
+}
+
+::CASCADE::
+You want to remove a parent record that is referenced in several tables, but you're presented an error with the deletion "a foreign key constraint fails". 
+How could you fix this so your previous command will work for any additional attempts at deleting a parent record in the future? {
+~Update the child tables foreign key to be different than the one in the parent record
+=Alter the child table foreign key to allow for deletion on cascade, using `ON DELETE CASCADE`
+~Delete each record from the child tables
+~This is not possible
+}

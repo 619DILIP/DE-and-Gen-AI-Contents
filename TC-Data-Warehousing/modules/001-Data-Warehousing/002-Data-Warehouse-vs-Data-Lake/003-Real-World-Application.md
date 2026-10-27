@@ -1,0 +1,3 @@
+## Using Both Together
+
+A large organization commonly uses both a data lake and a data warehouse, not as competing choices but as complementary systems. Raw data from every source, including data that may never be used or whose future use is not yet known, is stored cheaply in a data lake. From there, the specific data needed for regular, structured business reporting is cleaned, transformed, and loaded into a data warehouse. Data scientists exploring new questions or building machine learning models often work directly with the raw data lake, since they need flexibility and access to unstructured or exploratory data that a warehouse would not typically store.

@@ -1,0 +1,40 @@
+::Hadoop Architecture::
+Which of the following is not a part of hadoop architecture?{
+    = Hive
+    ~ MasterNode
+    ~ MapReduce
+    ~ Yarn
+}
+
+::Hadoop Architecture::
+Which of the following is responsible for storing actual data?{
+    ~ NameNode
+    ~ MasterNode
+    ~ JournalNode
+    = DataNode
+}
+
+::Hadoop Architecture::
+Which type of architecture does Hadoop follow?{
+    ~ Publish-Subscribe
+    ~ Producer-Consumer
+    = Master-Slave
+    ~ Client-Server
+}
+
+::Hadoop Architecture::
+Which of the following is responsible for allocating resources to any MapReduce job?{
+    ~ MapReduce
+    = YARN 
+    ~ HDFS 
+    ~ None of the above
+}
+
+::Hadoop Architecture::
+Which framework is used by hadoop in big data processing?{
+    ~ YARN
+    = MapReduce
+    ~ HDFS
+    ~ MasterNode
+}
+

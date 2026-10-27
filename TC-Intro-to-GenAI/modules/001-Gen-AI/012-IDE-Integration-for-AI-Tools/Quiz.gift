@@ -1,0 +1,39 @@
+::Q1::How can an IDE-integrated AI tool assist with refactoring?
+{ 
+~It guarantees the refactoring preserves every behavior
+~It removes the need to understand the code
+=It can suggest structural changes such as extracting repeated logic
+~It physically rewires the computer
+}
+
+::Q2::What should be checked before allowing an AI tool to send code externally? 
+{
+=The organization's data-handling and confidentiality policies
+~Only the keyboard layout
+~Only the monitor resolution
+~Only the IDE theme
+}
+
+::Q3::How can an IDE AI tool help with an error or warning? 
+{
+~It replaces the compiler
+~It automatically changes production code safely
+=It can explain the message and suggest a possible fix using surrounding context
+~It guarantees the error has only one cause
+}
+
+::Q4::Why might a developer adjust how aggressively suggestions appear? 
+{
+~The setting controls AWS billing
+=Different workflows call for different levels of interruption
+~The setting encrypts all source code
+~The setting changes the model's training data
+}
+
+::Q5::What is a sensible adoption practice for AI tooling on an existing team? 
+{
+~Expose all confidential files by default
+~Enable every permission without review
+=Configure access and settings to fit the team's workflow and security requirements
+~Disable all developer testing
+}

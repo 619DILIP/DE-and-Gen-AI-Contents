@@ -1,0 +1,4 @@
+# Real World Application for JSON
+There are a myriad of programming languages in the world, and you can never be too certain of what particular language a service you work with uses. Because of this, JSON has become the standard format for transferring data between services, since it is easy to work with strings. This means any time your application needs to send data to another location it would be reasonable to transform that data into JSON format before sending it, letting the receiving service decode the data. 
+
+Likewise, setting up your application to receive data in JSON format sets you up for maximum compatibility with other services you may want to interface with in the future.

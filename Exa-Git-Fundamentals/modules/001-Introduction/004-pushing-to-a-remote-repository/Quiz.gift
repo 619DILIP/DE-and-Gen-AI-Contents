@@ -1,0 +1,26 @@
+::Using git::
+What is the git command for uploading files into a remote repository?
+{
+=git push
+~git place
+~git create
+~git new
+}
+
+::Using git::
+What is the git command for downloading files from a remote repository?
+{
+~git get
+=git pull
+~git retrieve
+~git pop
+}
+
+::Using git::
+What is the git command for integrating changes?
+{
+=git merge
+~git combine
+~git blend
+~git mix
+}

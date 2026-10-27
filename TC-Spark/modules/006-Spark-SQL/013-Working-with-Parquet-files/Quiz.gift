@@ -1,0 +1,43 @@
+// MCQ
+
+::SparkSQL Parquet-files::
+State True/False - We can convert the RDD data into parquet file using commands.
+{
+= True
+~ False
+}
+
+::SparkSQL Parquet-files::
+Which of the following command is used to create an RDD DataFrame by reading a data from the parquet file?
+{
+~parquet.read()
+~parquet("file_name")
+=sqlContext.read.parquet("file_name")
+~None of the above
+}
+
+::SparkSQL Parquet-files::
+If the following read command was used to read data and it was executed successfully. What should be the file format here?
+spark.read.load("filename.fileformat")
+{
+~CSV
+~JSON
+~orc
+=Parquet
+}
+
+::SparkSQL Parquet-files::
+Which command is used to see the result data of allrecords DataFrame?
+{
+=allrecords.show()
+~allrecords()
+~show()
+~None of the above
+}
+
+::SparkSQL Parquet-files::
+State True/False - Parquet file is a text based file format.
+{
+~ True
+= False
+}

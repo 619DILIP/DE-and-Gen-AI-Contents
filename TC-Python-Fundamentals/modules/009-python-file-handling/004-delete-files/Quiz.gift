@@ -1,0 +1,34 @@
+::Q01::Which Python module is used to delete files and directories?{
+~shutil
+=os
+~file
+~delete
+}
+
+::Q02::Which function should be used to delete a file in Python?{
+=os.remove()
+~os.rmdir()
+~os.unlink_directory()
+~os.delete()
+}
+
+::Q03::Which function should be used to delete an empty directory in Python?{
+~os.remove()
+~os.delete()
+~os.clear()
+=os.rmdir()
+}
+
+::Q04::[markdown] What is the purpose of `os.path.exists()` in the file-deletion example?{
+~It permanently deletes the specified file
+~It changes a file into a directory
+~It checks whether a directory contains files
+=It checks whether the specified file or directory exists before attempting deletion
+}
+
+::Q05::[markdown] What happens if `os.rmdir()` is used on a directory that contains files?{
+~A PermissionError is raised
+=An OSError is raised
+~A FileNotFoundError is raised
+~The directory and all its files are automatically deleted
+}

@@ -1,0 +1,11 @@
+// MCQ
+//Question 1 
+::Bucketing::
+Bucketing is a technique in Spark which used to ______ the performance?
+{
+    = Optimize
+    ~ high level 
+    ~ accurate 
+    ~ Complete
+}
+

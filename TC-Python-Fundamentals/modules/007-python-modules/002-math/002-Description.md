@@ -1,0 +1,2 @@
+# Math Module Introduction 
+The math module in Python is part of the standard library; it provides programmers with a collection of mathematical functions and constants that facilitate various calculations. These functions cover a wide range of mathematical operations, ranging from computing square roots to performing combinatorial calculations. Additionally, the module provides essential constants like π (pi) and e (Euler's number). When working on mathematical tasks within Python, developers can import the math module to access these features.

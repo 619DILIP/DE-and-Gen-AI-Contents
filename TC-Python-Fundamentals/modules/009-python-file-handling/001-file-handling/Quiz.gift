@@ -1,0 +1,34 @@
+::Q01::Which Python file mode should you use when you need to add new data to an existing file while preserving its current contents?{
+~w
+=a
+~r+
+~w+
+}
+
+::Q02::What is the main advantage of using `with open(...)` when working with a file?{
+~It creates a new file if the file does not exist
+~It automatically changes the file mode after reading
+~It automatically appends new data to the file
+=It automatically closes the file when the code block is finished
+}
+
+::Q03::What happens when an existing file containing data is opened using mode `w`?{
+~The existing data is preserved and new data is added to the end
+~The file is opened only for reading
+~An error is always raised
+=The existing data is overwritten (truncated)
+}
+
+::Q04::Which statement correctly describes Python file mode `r+`?{
+~It only appends data and cannot read the file
+~It allows reading and writing but always creates a new file
+~It only reads the file and creates it if it does not exist
+=It allows both reading and writing, starts at the beginning, and requires the file to exist
+}
+
+::Q05::In the filename "myproject.docx", what does ".docx" represent?{
+=The file extension
+~The file path
+~The file mode
+~The directory name
+}

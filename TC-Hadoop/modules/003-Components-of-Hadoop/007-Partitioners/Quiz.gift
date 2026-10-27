@@ -1,0 +1,22 @@
+//MCQ
+
+::Partitioner::
+If we have 4 reducers in our MapReduce job, then what should be the number of partitioners?{
+    ~1
+    ~2
+    ~3
+    =4
+}
+
+::Partitioner::
+Which of the following statement is wrong regarding partitioners?{
+    ~ It is used to partition the mapper output. 
+    ~ It is of same number as of reducer.
+    = It reduces the processing work of reducer.
+    ~ A user defined partitioner is also possible to create. 
+} 
+
+::Partitioner::
+State True and False," Partitioner can be created only when there are more than one reducer in the program."
+{T}
+

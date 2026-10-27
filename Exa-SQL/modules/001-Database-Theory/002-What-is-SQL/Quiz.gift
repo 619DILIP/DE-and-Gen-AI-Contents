@@ -1,0 +1,18 @@
+::SQL::
+What is the main purpose for SQL?
+{
+    ~Creating data backed applications
+    =Administering RDBMS
+    ~Defining programmatic interfaces for applications
+    ~None of these
+}
+
+::SQL::
+Which of the following is not an SQL sublanguage?
+{
+    ~DDL
+    =Pl/SQL
+    ~DML
+    ~TCL
+}
+

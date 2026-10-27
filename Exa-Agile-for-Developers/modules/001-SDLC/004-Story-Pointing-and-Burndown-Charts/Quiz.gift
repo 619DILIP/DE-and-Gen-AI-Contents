@@ -1,0 +1,25 @@
+// Quiz for the Story Pointing topic
+
+::Agile story points::
+Which is NOT a consideration when assigning story points?
+{
+~complexity
+~amount
+~uncertainty
+=hardware
+}
+
+::Agile story points::
+Only one team member should determine the story points. {
+    ~ True
+    = False
+}
+
+::Agile story points::
+A number in the Fibonacci sequence is generally ____ percent larger than the previous number in the sequence.
+{
+~80
+=60
+~40
+~20
+}

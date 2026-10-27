@@ -1,0 +1,47 @@
+::Q1::What problem does a pytest fixture primarily solve?
+{
+~It replaces the need for assertions
+=It moves repeated test setup into a reusable function
+~It causes the same test to run automatically
+~It converts test data into production data
+}
+
+::Q2::How does a test request a fixture named sample_orders?
+{
+~By calling pytest.sample_orders()
+=By declaring sample_orders as a parameter of the test
+~By importing sample_orders from pytest
+~By passing sample_orders to assert
+}
+
+::Q3::What is the default scope of a pytest fixture?
+{
+~class
+~module
+~session
+=function
+}
+
+::Q4::In a fixture that uses yield, what normally happens after the yield statement?
+{
+~The fixture is created again
+~The test is skipped
+=Teardown or cleanup code is executed
+~The fixture scope is changed
+}
+
+::Q5::Where should fixtures that are shared across multiple test files normally be defined?
+{
+~requirements.txt
+~pytest.ini
+=conftest.py
+~test_data.py
+}
+
+::Q6::What is a key advantage of pytest parameterization over placing many inputs in a loop inside one test?
+{
+~It prevents invalid inputs from being tested
+=Each input case is reported separately when a failure occurs
+~It automatically converts inputs into fixtures
+~It eliminates the need for expected values
+}

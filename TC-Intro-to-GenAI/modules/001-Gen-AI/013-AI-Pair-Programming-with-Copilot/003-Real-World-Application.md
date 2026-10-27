@@ -1,0 +1,3 @@
+## Copilot in a Real Coding Session
+
+A developer implementing a data validation function might write a clear comment describing exactly what should be validated, then let Copilot suggest an initial implementation. Rather than accepting it immediately, the developer checks the suggestion against a mental list of edge cases, such as empty input or unexpected data types, adjusts anything missing, and then writes or reviews the accompanying test cases before considering the function complete. This workflow treats Copilot as a fast way to produce a first draft, while keeping the review and verification responsibility firmly with the developer.

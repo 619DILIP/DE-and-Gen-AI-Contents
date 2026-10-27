@@ -1,0 +1,39 @@
+::Q1::What is the role of a source system in a data warehouse architecture?
+{ 
+~It is the final reporting dashboard shown to users
+~It is the schema used only for dimension tables
+~It is the storage engine that always performs every transformation
+=It is a system from which data is collected for analytical use
+}
+
+::Q2::What is the purpose of an ingestion or staging layer? 
+{
+~To provide end-user authentication only
+~To replace all analytical queries with manual reports
+=To receive and prepare incoming data before it is processed into the warehouse
+~To permanently delete source records after extraction
+}
+
+::Q3::What does a semantic or reporting layer generally provide? 
+{
+~Raw network packets for application debugging
+~A replacement for data ingestion
+=Business-friendly access to analytical data for reports and analysis
+~Physical hardware for source databases
+}
+
+::Q4::Why might a staging area retain data temporarily?
+{ 
+~It permanently replaces the warehouse
+~It prevents any data validation from occurring
+=It provides a controlled place to receive and prepare data before loading or transforming it
+~It is intended to be the final user-facing report
+}
+
+::Q5::Which architectural goal helps protect operational systems from heavy analytical workloads? 
+{
+~Preventing analytical queries from using stored data
+~Deleting historical data after each report
+=Separating analytical processing from systems that handle day-to-day transactions
+~Running every analytical query directly against every transaction record
+}

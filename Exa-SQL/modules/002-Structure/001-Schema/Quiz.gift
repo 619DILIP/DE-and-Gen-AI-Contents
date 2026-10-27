@@ -1,0 +1,23 @@
+::RDBMS Schema::
+The term schema is Greek for. {
+    =Form
+    ~Plot
+    ~Request
+    ~None of these
+}
+
+::RDBMS Schema::
+In popular RDBMS, {~DSL =SQL ~JpaQL ~HQL} is used to define schema.
+
+::RDBMS Schema::
+Schema defines a set of. {=integrity constraints ~templates ~normalization rules ~none of these}
+
+::RDBMS Schema::
+In general which command is used to add a new schema.
+{
+    ~Alter table <table_name> add schema <schema_name>
+    ~Alter database <database_name> add schema <schema_name>
+    =Create schema <schema_name> 
+    ~None of these
+}
+

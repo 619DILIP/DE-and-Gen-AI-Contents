@@ -1,0 +1,7 @@
+-   RDD is the foundational distributed data abstraction in Apache Spark
+-   It is immutable, distributed, fault tolerant, and lazily evaluated
+-   Fault tolerance is achieved using lineage instead of data replication
+-   RDDs support in-memory processing for improved performance
+-   Partitioning enables parallel execution
+-   RDDs can be created from collections, files, existing RDDs, or DataFrames
+-   Understanding RDDs is essential for mastering Spark's distributed execution model

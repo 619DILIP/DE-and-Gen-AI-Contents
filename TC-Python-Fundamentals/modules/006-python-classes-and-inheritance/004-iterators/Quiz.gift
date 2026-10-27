@@ -1,0 +1,24 @@
+// Quiz for Iterators
+::Iterators::
+What is an iterator in Python?{
+~A data structure used to store a collection of items
+~A function that calls itself within its definition
+=An object that allows traversal through elements of a collection
+~A built-in Python module for handling file input/output
+}
+
+::Iterators::
+Which of the following statements about iterators in Python is true?{
+~Iterators can only move forward through a collection of elements
+~Iterators are limited to operating on numeric data types
+=The iter() function is used to create an iterator from an iterable object
+~Iterators can access elements in a collection randomly without following a sequence
+}
+
+::Iterators::
+How do you retrieve the next element from an iterator in Python?{
+~Using the prev() method
+~Using the get_next() method
+=Using the next() function
+~Using the retrieve() method
+}

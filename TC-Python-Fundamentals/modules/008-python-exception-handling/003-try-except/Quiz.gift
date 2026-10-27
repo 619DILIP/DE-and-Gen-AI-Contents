@@ -1,0 +1,27 @@
+::Question 1::
+The try block must always be followed by at least one except block?
+{ 
+= True
+~ False
+}
+
+::Question 2::
+The else block is executed only if an exception occurs in the try block. 
+{
+~ True
+= False
+}
+
+::Question 3::
+If an exception occurs in the try block and is not caught by any of the except blocks, the program will terminate with an unhandled exception. 
+{ 
+= True
+~ False
+}
+
+::Question 4::
+Multiple except blocks can be used to handle different types of exceptions.
+{ 
+= True
+~ False
+}

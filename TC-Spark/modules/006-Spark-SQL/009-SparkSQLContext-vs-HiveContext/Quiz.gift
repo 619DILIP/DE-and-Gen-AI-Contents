@@ -1,0 +1,14 @@
+// MCQ
+
+::SparkSQLContext vs HiveContext::
+Which of the following is the entry point used in Spark 2.0?
+{
+~SparkContext
+~SqlContext
+=SparkSession
+~HiveContext
+}
+
+::SparkSQLContext vs HiveContext::
+State Tru/False - The entry point into Hive is HiveContext.
+{T}

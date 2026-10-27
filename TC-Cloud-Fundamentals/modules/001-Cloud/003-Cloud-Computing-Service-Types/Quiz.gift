@@ -1,0 +1,20 @@
+::Q1::Which cloud service model provides virtualized computing resources while allowing the customer to manage the operating system and applications? {
+~PaaS
+~SaaS
+=IaaS
+~Hybrid Cloud
+}
+
+::Q2::Which cloud service model allows developers to build, test, and deploy applications without managing the underlying infrastructure? {
+~IaaS
+=PaaS
+~SaaS
+~Private Cloud
+}
+
+::Q3::Which cloud service model provides fully functional software applications over the internet with minimal IT management required from the customer? {
+~IaaS
+~PaaS
+=SaaS
+~Public Cloud
+}

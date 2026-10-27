@@ -1,0 +1,3 @@
+## Designing a Schema for a New Reporting Need
+
+When a business team requests a new report, a data engineer typically starts by identifying the grain of the fact table needed to answer that report's questions, then works backward to determine which dimensions provide the necessary context. For most standard business reporting, such as sales, orders, or website traffic, a star schema is the default starting point, since it keeps the resulting queries simple enough for business intelligence tools and analysts to work with directly, without requiring deep SQL expertise to write multi table joins.

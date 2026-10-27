@@ -1,0 +1,19 @@
+::SQL Equi-and-Theta Join::
+Which is a join condition that contains an equality operator
+{
+    ~Cartesian
+    =Equi join
+    ~Both Equi join and Cartesian
+    ~None of the above
+}
+
+::SQL Equi-and-Theta Join::
+What is a theta join in SQL?
+{
+    ~A join that uses a comparison operator to match rows from two tables based on a specified condition
+    ~A join that uses the LIKE operator to match rows from two tables based on a specified condition
+    ~A join that uses the BETWEEN operator to match rows from two tables based on a specified condition
+    ~None of the above
+}
+
+

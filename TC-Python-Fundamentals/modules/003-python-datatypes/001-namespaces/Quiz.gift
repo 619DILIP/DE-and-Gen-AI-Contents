@@ -1,0 +1,40 @@
+::MCQ::
+In which namespace are variables typically defined inside a function?
+{
+~ Global Namespace
+~ Built-In Namespace
+~ Enclosing Namespace
+= Local Namespace
+}
+
+::MCQ::
+What occurs when a function is defined inside another function?
+{
+~ Global Namespace is created
+= Enclosing Namespace is created
+~ Local Namespace is eliminated
+~ Built-In Namespace is modified
+}
+
+::MCQ::
+Which namespace allows variables to be imported into other modules?
+{
+~ Local Namespace
+~ Enclosing Namespace
+= Global Namespace
+~ Built-In Namespace
+}
+
+::MCQ::
+Variables in the Built-In Namespace can be modified by the user.
+{
+~ True
+= False
+}
+
+::MCQ::
+An inner function can access variables from its outer function's namespace.
+{
+= True
+~ False
+}

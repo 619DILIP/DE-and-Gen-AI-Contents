@@ -1,0 +1,12 @@
+# Summary
+- The logging module contains functions and properties to configure logging in your application
+- there are five basic logging levels
+    - debug
+    - info
+    - warning
+    - error
+    - critical
+- The root logger can easily be configured with the ```logging.basicConfig``` method
+- Custom loggers can be created when you need unique logging configurations for your modules
+- Handlers can be used to specify where logs should be sent
+- Formatters can be used to specify how the logs should look when created

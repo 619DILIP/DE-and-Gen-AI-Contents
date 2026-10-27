@@ -1,0 +1,3 @@
+## Responsible Usage in a Team Setting
+
+A development team that adopts AI assisted coding tools typically pairs that adoption with clear expectations: generated code is still reviewed the same way any other code would be, sensitive credentials or proprietary algorithms are not pasted into external tools without approval, and developers remain accountable for the correctness of code they submit, regardless of whether an AI tool helped write it. This framing treats AI tools as a productive addition to an existing, disciplined development process, rather than a replacement for the judgment and review that process already depends on.

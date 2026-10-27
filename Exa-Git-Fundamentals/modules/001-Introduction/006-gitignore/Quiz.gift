@@ -1,0 +1,17 @@
+::Using Git::
+How does the .gitignore file help in managing a Git repository?
+{
+~ It increases the repository size.
+= It prevents accidental tracking of unnecessary files like logs and build artifacts.
+~ It commits sensitive files like passwords.
+~ It fetches untracked files automatically.
+}
+
+::Using Git::
+What happens if a file that was previously tracked by Git is added to the .gitignore file?
+{
+~ Git will stop tracking the file immediately.
+~ The file will be deleted from the repository.
+~ Git will ignore both the file and its previous versions.
+= The file will still be tracked, but new changes won't be.
+}

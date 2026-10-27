@@ -1,0 +1,42 @@
+::Q1::What is the main reason a local cloud emulator is used instead of a real cloud account for practice and automated testing? 
+{
+=It responds to the same commands without creating billable cloud resources
+~It runs the same code significantly faster than real AWS
+~It provides a graphical console that is easier to learn than the AWS one
+~It automatically corrects mistakes in AWS commands
+}
+
+::Q2::Why do the AWS CLI commands written in the earlier modules run against Floci without being rewritten? 
+{
+=Floci speaks the same protocol as AWS, so only the endpoint the commands are sent to changes
+~The AWS CLI detects that Floci is running and converts commands automatically
+~Floci ships a modified version of the AWS CLI that understands both
+~The commands are rewritten by Docker before reaching Floci
+}
+
+::Q3::When configuring the AWS CLI to talk to Floci, why can the access key and secret key be any placeholder text such as "test"? 
+{
+=Nothing is authenticating against real AWS, so the credential values are not checked against a real account
+~The AWS CLI ignores credentials whenever an endpoint URL is set
+~Floci generates real temporary AWS credentials in the background
+~Placeholder credentials grant read only access as a safety measure
+}
+
+::Q4::A learner sets the four environment variables, runs some commands successfully, then opens a new terminal window where the same commands begin failing. What is the most likely cause? 
+{
+=The variables apply only to the terminal session where they were set, and must be set again in the new one
+~Floci stopped running when the first terminal lost focus
+~The emulator only permits one terminal to connect at a time
+~The bucket created earlier expired automatically
+}
+
+::Q5::A learner creates several buckets, stops the emulator with docker compose down, then starts it again and finds the buckets are gone. How should this be interpreted? 
+{
+=Expected behavior, since everything created inside Floci is discarded by default when the container stops
+~A defect that should be reported, since resources should always persist
+~Evidence that the buckets were created in real AWS instead
+~A sign that Docker is misconfigured
+}
+
+::Q6::Because a local emulator supports the core operations of each service, experience with it fully replaces the need for any exposure to real AWS. 
+{FALSE}

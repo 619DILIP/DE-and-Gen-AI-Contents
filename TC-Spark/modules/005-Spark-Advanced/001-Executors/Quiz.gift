@@ -1,0 +1,18 @@
+//MCQs
+
+::Spark-Memory-Management::
+Which of the following is not the role of Executors in Spark?{
+    = It executes the main() method of the program
+    ~ It is responsible for running the task inside worker node 
+    ~ It sends the result back to driver.
+    ~ t can cache or persist the data in the worker node.
+}
+
+::Spark-Memory-Management::
+Which of the following parameter in Spark is related with "Number of concurrent tasks that an executor can run"?{
+    ~ spark.executor.instances
+    = spark.executor.cores
+    ~ spark.executor.memory
+    ~ None of the above
+}
+

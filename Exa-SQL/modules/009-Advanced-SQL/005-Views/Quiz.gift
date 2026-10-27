@@ -1,0 +1,48 @@
+
+::View Objectives::
+What can be done on a view?
+{
+    ~ filter records
+    ~ add new records
+    ~ delete records 
+    = all of the above 
+}
+
+::Views::
+A view can be deleted using which of the following command?
+{
+    = DROP
+    ~ DELETE
+    ~ CLEAR
+    ~ REMOVE
+}
+
+::Views::
+A view can refer to multiple tables using which of the following keyword?
+{
+    ~UNION
+    ~GROUP
+    =JOIN
+    ~CONCAT
+}
+
+::Views::
+A View can be used to select a subset of the table columns.{T}
+
+::Views::
+Views are not updatable. {
+    ~ True
+    = False
+}
+
+::Views::
+What is 'xyz' in the following statement?\n
+
+CREATE VIEW xyz AS SELECT a, b FROM t;
+
+{
+    ~table
+    ~database
+    ~column name
+    =view name
+}

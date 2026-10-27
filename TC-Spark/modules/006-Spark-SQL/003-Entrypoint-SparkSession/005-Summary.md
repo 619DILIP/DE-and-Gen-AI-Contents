@@ -1,0 +1,7 @@
+-   SparkSession is the unified entry point to Apache Spark (introduced in Spark 2.0).
+-   It replaces SQLContext and HiveContext.
+-   It provides access to SparkContext.
+-   It enables SQL, DataFrame, Hive, and Structured Streaming operations.
+-   Multiple SparkSessions can exist but share the same SparkContext.
+-   In PySpark, DataFrame is the primary abstraction.
+-   SparkSession is required for all Spark-based data processing tasks.

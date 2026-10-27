@@ -1,0 +1,5 @@
+## Pandas in a Data Pipeline
+
+In the transform stage of a pipeline, Pandas is often the tool doing the work. A typical sequence reads raw data from a source, inspects and validates it, cleans column names and types, handles missing values according to an agreed rule, joins in reference data, aggregates to the required grain, and writes the result to a destination.
+
+That sequence maps directly onto the extract, transform, load structure covered in the data warehousing material. Where the pipeline module described the stages conceptually, Pandas is frequently what the transform stage actually consists of, particularly for datasets that fit comfortably in memory on one machine. For volumes beyond that, the same logical operations are expressed in a distributed framework instead, which is why the concepts transfer even when the tool changes.

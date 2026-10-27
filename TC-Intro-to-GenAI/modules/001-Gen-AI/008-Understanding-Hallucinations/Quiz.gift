@@ -1,0 +1,39 @@
+::Q1::When are hallucinations more likely?
+{ 
+=When questions involve obscure, highly specific, or recent information
+~Only when a prompt contains no text
+~When the user asks a simple formatting question
+~Only when the model is offline
+}
+
+::Q2::Why can asking for a citation still produce a hallucination? 
+{
+~Citations are always verified automatically
+=A model may generate a plausible-looking citation even when a real source does not support it
+~A citation request disables generation
+~Models can only cite real sources
+}
+
+::Q3::What responsibility remains with the user? 
+{
+~Maintaining the model's servers
+~Training the model from scratch
+=Verifying important generated information before relying on it
+~Ensuring the model never generates text
+}
+
+::Q4::Which prompt practice can reduce fabrication risk? 
+{
+=Grounding the model's response in material or facts that are actually provided
+~Requesting invented citations
+~Asking for increasingly confident wording
+~Removing all context
+}
+
+::Q5::What should a developer do with an AI-generated technical claim that matters to production? 
+{
+~Publish it immediately
+~Skip testing because the wording is confident
+=Check the claim before using it
+~Treat it as automatically verified
+}

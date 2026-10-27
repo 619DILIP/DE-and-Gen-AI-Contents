@@ -1,0 +1,3 @@
+- Scope is the portion of code that a variable or named Python object is accessible from.
+- There are four scopes: local, enclosing, global, and built-in.
+- By understanding scope, you can avoid naming conflicts, prevent bugs, and write code that is easier to understand and maintain.

@@ -1,0 +1,11 @@
+// Quiz for INSERT topic
+
+::INSERT::
+Which command or commands will execute without error? {
+~INSERT products VALUES ("yes");  
+~INSERT products INTO (p_id, name, quantity) VALUES (1, "Cool top hat", 72);  
+=INSERT INTO products (p_id, name, quantity) VALUES (1, "Cool top hat", 72);  
+~INSERT INTO products VALUES ("Cool top hat", 72);  
+}  
+
+

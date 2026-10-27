@@ -1,0 +1,8 @@
+::Transactions::
+What are transactions?
+{
+    ~Only when you add information from a table
+    ~When you make changes to tables
+    =When you make DML statements to information in a table
+    ~When you create or delete tables
+}

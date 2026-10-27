@@ -1,0 +1,31 @@
+// Quiz for the Software Development Lifecycle topic
+
+::Software Development Life Cycle::
+All steps of the Software Development Life Cycle must be followed; no steps can be omitted. {
+    ~ True
+    = False
+}
+
+::Software Development Life Cycle::
+In this stage of the Software Development Life Cycle, project leaders evaluate the terms of the project{
+~Software Development
+~Testing
+=Planning
+~Deployment
+}
+
+::Software Development Life Cycle::
+Which is NOT a benefit of prototyping?{
+~Demonstrates a basic idea of how the final product works.
+=Does not need any additional time or resources.
+~Provides a "hands-on" design to be shown to stakeholders.
+~Less expensive to change design/code with a prototype than the final product.
+}
+
+::Software Development Life Cycle::
+which is NOT a way that the Software Development Life Cycle adds value to software development?{
+~It helps in effectively planning before starting the actual development.
+~It helps in reducing unnecessary costs during development.
+~It enables developers to design and build high-quality software products. 
+=It is a rigid framework that does not allow for deviation from any steps.
+}

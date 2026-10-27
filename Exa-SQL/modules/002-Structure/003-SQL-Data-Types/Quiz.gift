@@ -1,0 +1,25 @@
+::SQL Data Types::
+The purpose of SQL data types is to constraint a columns expected value.
+{
+    T
+}
+
+::Numeric Types::
+Which numeric type is best for storing data like age or quantity?
+{
+    =integer
+    ~decimal
+    ~floating point
+    ~None of these
+}
+
+::Numeric Types::
+Which numeric type is best for storing data like salary or stock values?
+{
+    ~integer
+    =decimal
+    ~floating point
+    ~None of these
+}
+
+

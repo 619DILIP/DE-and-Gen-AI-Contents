@@ -1,0 +1,3 @@
+## Fine Tuning for a Specialized Support Assistant
+
+A company handling a very high volume of highly specific technical support questions might fine tune a model on thousands of its own past support conversations and internal documentation. This can produce a model that responds using the company's exact terminology and support conventions more consistently than prompting a general model with instructions and a handful of examples each time. The company would still write careful prompts when using this fine tuned model, but it would need less repeated context and fewer examples in each individual prompt, since much of that specific knowledge has already been incorporated into the model itself through the fine tuning process.

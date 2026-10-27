@@ -1,0 +1,47 @@
+::Q1::What is the key difference between a Pandas Series and a DataFrame?
+{
+~A Series is two-dimensional while a DataFrame is one-dimensional
+=A Series is a one-dimensional labeled array, while a DataFrame is a two-dimensional table of Series
+~A Series can contain multiple columns while a DataFrame can contain only one
+~A Series is used only for numerical data while a DataFrame is used only for text
+}
+
+::Q2::What is the difference between loc and iloc when selecting rows from a Pandas DataFrame?
+{
+~loc selects by integer position and iloc selects by label
+=loc selects by label and iloc selects by integer position
+~Both select only columns by name
+~Both always select rows by integer position
+}
+
+::Q3::When filtering a DataFrame on two conditions at once, such as price greater than 10 and quantity less than 50, what is the correct way to combine the conditions?
+{
+~Use the Python keyword "and" to join the two conditions directly
+=Wrap each condition in parentheses and join them with the "&" operator
+~Use the Python keyword "and" without wrapping either condition in parentheses
+~Use the "|" operator instead of "&" to join the two conditions
+}
+
+::Q4::What does calling isna() followed by sum() on a DataFrame provide?
+{
+~The total number of rows in the DataFrame
+=The number of missing values in each column
+~A DataFrame containing only rows with missing values
+~The average value of each column
+}
+
+::Q5::Which Pandas operation most directly corresponds to SQL's GROUP BY?
+{
+~merge()
+~loc[]
+=groupby()
+~dropna()
+}
+
+::Q6::When merging two DataFrames called orders and customers on the customer_id column using a left join, with orders as the left DataFrame, what is the result?
+{
+~Only rows with matching customer IDs are retained
+=Every row from orders is retained, with matching customer information added when available
+~Every row from customers is retained and unmatched orders are removed
+~Both DataFrames are combined without using customer_id
+}

@@ -1,0 +1,10 @@
+// Quiz for DELETE topic
+
+::DELETE::
+How does DELETE differ from TRUNCATE? {
+~DELETE removes the entire table from the database, TRUNCATE maintains the table structure.
+=DELETE removes each record one at a time logging every deletion, making it slower than TRUNCATE.
+~DELETE removes by deallocating the data pages used to store the records, making it faster that TRUNCATE
+~DELETE and TRUNCATE do the same exact thing, TRUNCATE is just more efficient.
+}
+

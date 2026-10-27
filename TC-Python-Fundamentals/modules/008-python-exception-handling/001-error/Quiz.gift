@@ -1,0 +1,44 @@
+::Question 1::
+What type of error is raised when you try to divide a number by zero in Python? 
+{ 
+~ IndexError
+~ ValueError 
+= ZeroDivisionError 
+~ TypeError
+}
+
+::Question 2::
+Which of the following errors occurs when you try to access an index that is out of range for a sequence (e.g., a list or a string)? 
+{ 
+~ KeyError
+= IndexError
+~ SyntaxError
+~ AttributeError
+}
+
+::Question 3::
+If you try to access a dictionary key that does not exist, which error will be raised? 
+{ 
+~ ValueError
+~ TypeError
+~ AttributeError
+= KeyError
+}
+
+::Question 4::
+What type of error is raised when the Python interpreter encounters code that does not conform to the language's syntax rules? 
+{ 
+= SyntaxError
+~ NameError
+~ IndentationError 
+~ TypeError
+}
+
+::Question 5::
+Which of the following errors is raised when you try to perform an operation on an object that is not supported or appropriate for its data type? 
+{ 
+~ ValueError
+~ AttributeError
+~ IndexError
+= TypeError
+}

@@ -1,0 +1,30 @@
+::Intro to RDBMS::
+RDBMS is a DBMS that revolves around a relational model {T}
+
+::RDBMS Objects::
+Choose the core object for storing data.
+{
+    ~Entity
+    =Table
+    ~Object
+    ~None of these
+}
+
+::RDBMS Objects::
+The core object for storing data is composed of...?
+{
+    ~Rows
+    ~Columns
+    ~Constraints
+    =All of these
+}
+
+::Choosing an RDBMS::
+What are some features one should consider when choosing an RDBMS provider?
+{
+    =Distribution Type, License, Security, Support
+    ~Scalability, Cluster Modes, Election Processes
+    ~Data structure, Search Algorithms, Composite Index Support
+    ~None of these
+}
+

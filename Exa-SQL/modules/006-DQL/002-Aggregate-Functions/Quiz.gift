@@ -1,0 +1,28 @@
+
+::Aggregate functions::
+The clause that apply the aggregate functions to get a single result record for each group, is known to be
+{
+    ~Distinct clause
+    ~From clause
+    =Select clause
+    ~Where clause
+}
+
+::Aggregate functions::
+Aggregate functions are functions that take a ___________ as input and return a single value.
+{
+    ~Single value
+    =Collection of values
+    ~Aggregate value
+    ~Both B and C
+}
+
+::Aggregate functions::
+All aggregate functions except _____ ignore null values in their input collection.
+{
+    =COUNT(*)
+    ~AVG
+    ~SUM
+    ~MIN
+}
+

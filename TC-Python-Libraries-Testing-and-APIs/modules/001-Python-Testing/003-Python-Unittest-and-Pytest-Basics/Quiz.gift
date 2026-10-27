@@ -1,0 +1,54 @@
+::Q1::What does a testing framework provide beyond manually writing assert statements and calling test functions? 
+{
+=Automated test discovery, execution, and reporting
+~Automatic correction of bugs in the application
+~A replacement for all application code
+~Only a faster Python interpreter
+}
+
+::Q2::Which statement about unittest is correct? 
+{
+=It is included with Python's standard library
+~It must always be installed with pip
+~It only supports plain test functions
+~It cannot report failed assertions
+}
+
+::Q3::How are tests commonly organized in unittest? 
+{
+=As methods inside a class that inherits from unittest.TestCase
+~As database records inside a test server
+~As functions inside a class that does not inherit from anything
+~As shell commands with no Python code
+}
+
+::Q4::Which unittest assertion method checks that two values are equal? 
+{
+=assertEqual(a, b)
+~assertSame(a, b)
+~assertMatch(a, b)
+~assertEqualsOnly(a, b)
+}
+
+::Q5::What naming convention allows unittest to recognize a method as a test? 
+{
+=The method name starts with test_
+~The method name ends with _testcase
+~The method name contains unittest
+~The method name must be named test only
+}
+
+::Q6::How is pytest commonly installed? {
+=pip install pytest
+~python install unittest
+~pip install unittest
+~pytest install python
+}
+
+::Q7::Which file pattern is automatically discovered by pytest? {
+=test_*.py
+~only_tests.py
+~pytest_only.py
+~run_tests.txt
+}
+

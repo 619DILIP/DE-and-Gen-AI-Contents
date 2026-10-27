@@ -1,0 +1,13 @@
+::Indexes Objectives::
+When should you use an index?
+{
+    ~ when you have a small table
+    ~ when most of the records of a table are relevant to your query
+    = when a column is commonly used in many of your queries
+    ~ none of the above
+}
+
+::Indexes::
+Using indexes optimizes query performance.{T}
+
+

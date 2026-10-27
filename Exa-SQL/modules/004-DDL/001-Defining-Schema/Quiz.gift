@@ -1,0 +1,10 @@
+// Quiz for Defining Defining Schema topic
+
+::SCHEMA::
+Which command will create a schema for us? {
+~NEW SCHEMA employment
+~DEFINE SCHEMA employment
+=CREATE SCHEMA employment
+~None of the above
+}
+

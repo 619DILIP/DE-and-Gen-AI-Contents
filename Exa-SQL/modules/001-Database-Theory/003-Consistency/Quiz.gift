@@ -1,0 +1,11 @@
+// Quiz for Database Consistency topic
+
+::Database Consistency::
+What does database consistency account for? 
+{
+~Data representation
+~Database stability
+~Data Format
+=Rules established by developers
+}
+

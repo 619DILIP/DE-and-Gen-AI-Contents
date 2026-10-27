@@ -1,0 +1,20 @@
+::Version Control Management::
+Version Control Management (VCM) is for source code only; documentation should be maintained in a separate system. 
+{
+    ~ True
+    = False
+}
+
+::Version Control Management::
+In CVCS, the master repository is on one server and users push/pull from that one server. 
+{
+    = True
+    ~ False
+}
+
+::Version Control Management::
+In DVCS, every user has a local copy of the complete repository.
+{
+    = True
+    ~ False
+}

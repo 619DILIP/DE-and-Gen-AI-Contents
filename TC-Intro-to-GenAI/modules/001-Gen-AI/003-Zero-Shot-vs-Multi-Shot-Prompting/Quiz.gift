@@ -1,0 +1,39 @@
+::Q1::What is zero shot prompting? 
+{
+=Asking the model to perform a task without providing worked examples
+~Providing several worked examples before the task
+~Training a model from scratch
+~Fine tuning a model for the task
+}
+
+::Q2::What is few shot or multi shot prompting? 
+{
+=Including one or more worked examples in the prompt
+~Using no examples at all
+~Changing the model's training weights automatically
+~Removing the task instruction
+}
+
+::Q3::What is one advantage of multi shot prompting? 
+{
+~It guarantees factual accuracy
+=Examples can demonstrate the expected pattern and improve consistency
+~It eliminates the need for task instructions
+~It always makes prompts shorter
+}
+
+::Q4::What is a good starting strategy for many prompting tasks? 
+{
+~Fine tune before writing a prompt
+~Always begin with dozens of examples
+=Start with zero shot prompting and add examples if more consistency is needed
+~Never use examples under any circumstance
+}
+
+::Q5::Why should prompt examples be chosen carefully? 
+{
+=Poor or inconsistent examples can teach the model an unclear pattern
+~Examples are never considered by the model
+~Examples eliminate all ambiguity regardless of their content
+~Examples automatically become permanent model weights
+}

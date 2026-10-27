@@ -1,0 +1,39 @@
+::Q1::Which data warehouse is Amazon Web Services' offering? 
+{
+~Google BigQuery
+~Snowflake
+~Google Cloud SQL
+=Amazon Redshift
+}
+
+::Q2::Which platform is notable for its serverless design? 
+{
+=Google BigQuery
+~Amazon Redshift
+~Amazon EC2
+~Snowflake
+}
+
+::Q3::Why might an AWS-heavy organization choose Redshift? 
+{
+~It is designed only for Google Cloud
+~It automatically converts every workload into a data lake
+~It is the only warehouse that can run outside the cloud
+=It integrates closely with the organization's existing AWS ecosystem
+}
+
+::Q4::What does cloud-agnostic mean in the context of a warehouse platform such as Snowflake? 
+{
+~The platform requires an organization to own physical servers
+~The platform can run only on AWS
+~The platform cannot use cloud infrastructure
+=The platform can run across multiple major cloud providers rather than being tied to one
+}
+
+::Q5::Why can limiting columns and rows in a query affect cost on scan-based platforms? 
+{
+=Scanning less data can reduce the amount of data processed by the query
+~The number of selected columns has no possible relationship to scanned data
+~Filtering rows prevents a query from executing
+~Selecting fewer columns always increases the amount of data scanned
+}

@@ -1,0 +1,10 @@
+// MCQ
+
+::Shared Variable::
+which is the following is used for shared variable in pyspark?
+{
+    ~ Broadcast 
+    ~ Accumulators
+    ~ Client site
+    = Broadcast and Accumulators
+}

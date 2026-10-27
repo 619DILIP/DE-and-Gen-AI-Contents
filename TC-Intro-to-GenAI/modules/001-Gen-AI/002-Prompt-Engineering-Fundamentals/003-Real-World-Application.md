@@ -1,0 +1,3 @@
+## Prompting in a Development Workflow
+
+A developer asking an AI tool to help refactor a function benefits significantly from including relevant context directly in the prompt: the function's current code, what it is supposed to do, and any specific constraint, such as maintaining backward compatibility with existing calls to that function. A vague request like "make this code better" leaves the model guessing at priorities that the developer already knows but has not communicated. Learning to communicate that context clearly and concisely is a practical skill that directly affects how useful these tools are in day to day development work.

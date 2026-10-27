@@ -1,0 +1,45 @@
+::Properties of a Transaction::
+Which of the following are the properties of a transaction?
+{
+    ~Atomicity, Consistency, Insulation, Durability
+    ~Agency, Consistency, Isolation, Durability
+    =Atomicity, Consistency, Isolation, Durability
+    ~Atomicity, Constitution, Isolation, Durability
+    ~Atomicity, Consistency, Isolation, Database
+}
+
+::Atomicity::
+What is Atomicity?
+{
+    ~all statements in a transaction are independent and a partial transaction can occur
+    ~a transaction should have a single statement.
+    ~a transaction can have multiple statements.
+    =the concept that ensures either all statements in a transaction are executed or none are executed.
+}
+
+::Consistency::
+What is Consistency?
+{
+    ~the database may or may not be consistent after a transaction.
+    =the database is consistent before and after the transaction
+    ~the database is consistent before the transaction but becomes inconsistent after the transaction.
+    ~none of the above 
+}
+
+::Isolation::
+What is Isolation?
+{
+    ~Isolation ensures that all the transactions are interrelated.
+    =Isolation ensures that all the transactions occur concurrently without leading to any inconsistency in the database.
+    ~Isolation ensures that all statements in a single transaction are concurrent
+    ~none of the above 
+}
+
+::Durability::
+What is Durability?
+{
+    =Durability ensures that the changes made by a successful transaction are permanent even if an unexpected system failure occurs.
+    ~Durability means the changes made by a successful transaction can be temporary
+    ~Durability ensures that the changes made by a successful transaction are permanent, but if a system failure occurs the data is lost.
+    ~none of the above 
+}

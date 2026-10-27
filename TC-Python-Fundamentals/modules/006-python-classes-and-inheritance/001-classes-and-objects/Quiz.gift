@@ -1,0 +1,42 @@
+::Class & Object ::
+What is used to create an object?
+{
+~ Class
+~ User-defined function
+= constructor
+~ In-built function 
+}
+
+::class & object::
+What is the primary purpose of using classes and objects? 
+{
+~ To implement procedural programming 
+= To create reusable code through encapsulation 
+~ To directly manipulate variables 
+~ For low-level memory management
+}
+
+::class & object::
+What is the difference between a class and an instance of a class? 
+{
+~ An instance is a member function of a class 
+~ They are the same thing 
+= A class is a blueprint, an instance is an object created from that class 
+~ An instance is the memory allocation for a class
+}
+
+::class & object ::
+You can define instance attributes outside of the __init__ constructor method.
+{
+= True
+~ False
+}
+
+::class & object ::
+What is the purpose of the self parameter in Python class methods? 
+{
+~ It is a keyword to define a class method 
+~ It is used for inheritance 
+~ It has no specific purpose
+= It refers to the current instance of the class
+}

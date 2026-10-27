@@ -1,0 +1,28 @@
+//MCQ
+
+::Dataset Definition::
+What is a Dataset in Spark?
+{
+    ~ A file format used to store data
+    = A strongly typed distributed collection of domain-specific objects
+    ~ A replacement for SparkSession
+    ~ A local collection stored on the driver
+}
+
+::Dataset vs DataFrame::
+Which statement correctly describes a Dataset?
+{
+    ~ It is only available in Python
+    = It combines the benefits of RDDs (type safety) and DataFrame optimization
+    ~ It does not support functional transformations
+    ~ It cannot be converted to a DataFrame
+}
+
+::Dataset Operations::
+Which of the following operations can be applied to a Dataset?
+{
+    = map(), filter(), flatMap()
+    ~ Only SQL queries
+    ~ Only shuffle operations
+    ~ Only aggregation functions
+}

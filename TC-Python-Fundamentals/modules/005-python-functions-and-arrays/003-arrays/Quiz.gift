@@ -1,0 +1,35 @@
+::Arrays::
+Which of the following libraries is commonly used for working with arrays in Python?
+{
+=NumPy
+~Pandas
+~Matplotlib
+~Scikit-learn
+}
+
+::Arrays::
+What is the correct way to create an array in Python?
+{
+=Using the array() function from the numpy library
+~Using square brackets [ ] and separating elements with commas
+~Using the list() function from the built-in Python library
+~Using the create_array() function from the array module
+}
+
+::Arrays::
+What is the index of the first element in a Python array?
+{
+=0
+~1
+~-1
+~None of the above
+}
+
+::Arrays::
+How do you access an element at a specific index in a Python array?
+{
+=Using square brackets [ ] and the index value
+~Using the index() method
+~Using the at() method
+~Using the element() function
+}

@@ -1,0 +1,35 @@
+::Question 1::
+If we enter the try: block, it implies that _____
+{
+~ The block will be omitted
+~ All of the instructions from this block will be executed
+= Some of the instructions from this block may not be executed
+~ None of the instructions from this block will be executed
+}
+
+::Question 2::
+Which statement is used to raise an exception in Python? 
+{ 
+~ except Exception()
+~ throw Exception()
+= raise Exception()
+~ catch Exception()
+}
+
+::Question 3::
+What is the correct syntax to catch an exception in Python?
+{
+= except Exception
+~ catch Exception
+~ try Exception
+~ handle Exception 
+}
+
+::Question 4::
+What is the purpose of an else block in a try-except-else statement?
+{
+= To execute code if an exception is not thrown  
+~ To execute code if an exception is thrown  
+~ To execute code regardless of whether an exception is thrown  
+~ To execute code after the try and except blocks are executed
+}

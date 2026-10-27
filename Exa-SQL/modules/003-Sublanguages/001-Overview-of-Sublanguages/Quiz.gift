@@ -1,0 +1,26 @@
+::SQL::
+What sublanguage are the keywords ALTER and DROP associated with?
+{
+    ~DQL
+    =DDL
+    ~DML
+    ~None of these
+}
+
+::SQL::
+DQL is used to do all of the following except...
+{
+    ~search data
+    ~filter records
+    ~group values
+    =update data
+}
+
+::Sublanguages::
+What sublanguage are the keywords COMMIT and ROLLBACK associated with?
+{
+    ~DQL
+    ~DDL
+    ~DCL
+    =None of these
+}

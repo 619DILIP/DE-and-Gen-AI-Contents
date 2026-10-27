@@ -1,0 +1,47 @@
+::Q1::Which command is used to add FastAPI with its standard dependencies to a project managed by uv?
+{
+~pip install fastapi uvicorn
+=uv add "fastapi[standard]"
+~uv install fastapi
+~uv add fastapi-cli-only
+}
+
+::Q2::Which command starts a FastAPI application in development mode when using uv?
+{
+~uv run fastapi production
+=uv run fastapi dev
+~uv run fastapi start --production
+~uv run pytest fastapi
+}
+
+::Q3::In a FastAPI route defined with a path like "/products/\{product_id\}", where the function argument product_id is typed as an integer and is not read from the query string or the request body, what type of parameter is product_id?
+{
+~A query parameter
+=A path parameter
+~A request-body parameter
+~An HTTP header
+}
+
+::Q4::In a Pydantic model, a numeric field is declared as a float with a validation rule requiring the value to be strictly greater than zero. What does this constraint enforce?
+{
+~The value must be zero or greater
+=The value must be greater than zero
+~The value must be an integer
+~The value must be less than zero
+}
+
+::Q5::In a FastAPI route, a parameter is set to specify the Pydantic model that describes the shape of the response data. What is the purpose of this parameter?
+{
+~It determines which HTTP method the route accepts
+=It controls the declared shape of the response and helps prevent unintended fields from being returned
+~It starts the Uvicorn server
+~It determines which database table is queried
+}
+
+::Q6::What role does Uvicorn play in a FastAPI application?
+{
+~It is the Pydantic validation library
+~It is the OpenAPI documentation format
+=It is an ASGI server that can run the FastAPI application
+~It is the database layer used by FastAPI
+}

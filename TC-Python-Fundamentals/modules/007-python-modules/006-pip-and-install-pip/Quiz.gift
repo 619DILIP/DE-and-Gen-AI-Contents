@@ -1,0 +1,24 @@
+::Pip Purpose::  
+What is the primary purpose of pip in Python?  
+{  
+~ To compile Python code  
+= To install and manage third-party Python packages  
+~ To run Python scripts directly  
+~ To create Python virtual environments  
+}
+
+::Installing a Specific Version::  
+Which command correctly installs version 1.2.0 of a package called "example"?  
+{  
+~ pip install example>=1.2.0  
+= pip install example==1.2.0  
+~ pip install example~=1.2.0  
+~ pip install example-1.2.0  
+}
+
+::Requirements File::  
+True or False: The command `pip install -r requirements.txt` installs all the packages listed in the requirements.txt file.  
+{  
+= T  
+~ F  
+}

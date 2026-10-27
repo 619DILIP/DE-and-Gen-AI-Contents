@@ -1,0 +1,40 @@
+::MCQ::
+How should module names typically be formatted?
+{
+~ PascalCase
+~ camelCase
+~ UPPERCASE
+= snake_case
+}
+
+::MCQ::
+Which of the following is a valid way to import a specific function from a module?
+{
+~ import module.function
+= from module import function
+~ use module.function
+~ include module function
+}
+
+::MCQ::
+What is the purpose of using an alias when importing?
+{
+~ To rename the module permanently
+~ To reduce import time
+= To simplify long module or function names
+~ To hide the module's contents
+}
+
+::MCQ::
+The __name__ attribute is always set to the module's filename.
+{
+~ True
+= False
+}
+
+::MCQ::
+Modules can only contain functions.
+{
+~ True
+= False
+}

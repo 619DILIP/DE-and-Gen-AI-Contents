@@ -1,0 +1,3 @@
+- Import the "os" module if you want to remove files or directories
+- Use the remove function to delete files
+- Use the rmdir function to delete empty directories

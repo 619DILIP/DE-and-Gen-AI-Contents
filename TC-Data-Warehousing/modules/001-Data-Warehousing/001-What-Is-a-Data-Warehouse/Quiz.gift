@@ -1,0 +1,39 @@
+::Q1::Which characteristic is most associated with a data warehouse? 
+{
+~Temporary data that is deleted after each transaction
+=Data from multiple sources organized for analysis
+~Only one application's current transaction records
+~Only unstructured files with no defined purpose
+}
+
+::Q2::Why might an organization separate its analytical system from its operational systems? 
+{
+~Operational systems cannot store any data
+=Analytical queries can be large and should not interfere with day-to-day transactions
+~A warehouse is required for every database update
+~Analytical queries never need historical data
+}
+
+::Q3::What does integrating data from multiple sources mean in a data warehouse context? 
+{
+=Combining data from different systems into a form suitable for analysis
+~Deleting data whenever two systems contain similar values
+~Converting every source into the same application
+~Allowing only one source system to write data
+}
+
+::Q4::Why can a data warehouse contain data that is no longer current in the source system? 
+{
+=Historical information is retained so it can be analyzed over time
+~Warehouses cannot receive new information
+~Old data is always considered invalid
+~Warehouses only store failed transactions
+}
+
+::Q5::Which statement best distinguishes a data warehouse from an operational database? 
+{
+~A warehouse cannot contain structured data, while an operational database can
+=A warehouse is optimized for analysis, while an operational database supports day-to-day transactions
+~A warehouse stores only passwords, while an operational database stores only sales
+~A warehouse is always smaller than an operational database
+}

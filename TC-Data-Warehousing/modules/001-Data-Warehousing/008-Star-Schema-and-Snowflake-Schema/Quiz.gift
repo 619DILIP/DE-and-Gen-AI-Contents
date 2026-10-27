@@ -1,0 +1,38 @@
+::Q1::What is the central table in a typical star schema?
+{ 
+=The fact table
+~The category table
+~The staging log
+~The report table
+}
+
+::Q2::What does denormalized mean in the context of a star-schema dimension? 
+{
+~The fact table contains no foreign keys
+=Descriptive attributes are kept together in a flat dimension table rather than split into multiple related tables
+~All dimensions are removed from the schema
+~Every attribute is stored in a separate database
+}
+
+::Q3::Why might category information be placed in a separate table in a snowflake schema? 
+{
+=The dimension is normalized so related descriptive data is split into separate tables
+~Star schemas prohibit product categories
+~Snowflake schemas cannot contain dimensions
+~The fact table cannot contain foreign keys
+}
+
+::Q4::Which schema generally introduces more joins between dimensions and their descriptive subcomponents? 
+{
+~Fact-only schema
+=Snowflake schema
+~Star schema
+~Neither, because both prohibit relationships
+}
+
+::Q5::When might a simpler star schema be attractive? 
+{
+~When every dimension must be split into many normalized tables
+=When straightforward analytical queries and fewer joins are priorities~When no analytical queries will be run
+~When a warehouse cannot contain fact tables
+}

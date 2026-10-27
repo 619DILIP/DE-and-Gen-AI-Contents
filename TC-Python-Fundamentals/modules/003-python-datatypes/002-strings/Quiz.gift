@@ -1,0 +1,26 @@
+::String::
+Which method is used to replace substrings in a string in Python?
+{
+~ change()
+= replace()
+~ switch()
+~ modify()
+}
+
+::String::
+Which method is used to check if a string starts with a specific substring in Python?
+{
+~ starts_with()
+= startswith()
+~ begin_with()
+~ start_with()
+}
+
+::String::
+Which method is used to find the length of a string in Python?
+{
+= len()
+~ length()
+~ size()
+~ count()
+}

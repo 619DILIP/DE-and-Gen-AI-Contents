@@ -1,0 +1,10 @@
+::SQL Self Join::
+Which of the following is one of the common approaches for joining tables.
+{
+    ~Subqueries
+    ~Union join
+    =Natural Join
+    ~All of the above
+}
+
+

@@ -1,0 +1,17 @@
+//MCQs
+
+::Spark-Memory-Management::
+Which of the following is the correct statement regarding Spark-Driver?{
+    ~ It creates logical and physical plan.
+    ~ It is responsible for the conversion of application code into tasks. 
+    ~ Driver schedules and distributes the task on the worker nodes
+    = All of the above.
+}
+
+::Spark-Memory-Management::
+Which parameters controls the Amount of memory to use for the driver?{
+    ~ spark.driver.cores
+    ~ spark.executor.cores
+    = spark.driver.memory
+    ~ spark.executor.memory
+}

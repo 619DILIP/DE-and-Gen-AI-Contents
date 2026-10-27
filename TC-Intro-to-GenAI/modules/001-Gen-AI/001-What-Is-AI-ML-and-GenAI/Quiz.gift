@@ -1,0 +1,39 @@
+::Q1::What is the relationship among AI, ML, and GenAI described in the module?
+{ 
+=ML is a subset of AI, and GenAI is a more specific category within ML
+~The three terms describe unrelated technologies
+~AI is a subset of GenAI, which is a subset of ML
+~GenAI contains AI but not ML
+}
+
+::Q2::How does a typical machine learning model learn? 
+{
+~It stores only the final prediction
+~It never uses data
+=It learns patterns from examples in training data
+~It manually receives every possible rule from a user
+}
+
+::Q3::Which task is an example of generative AI?
+{ 
+~Counting rows with a SQL query only
+~Selecting a fixed spam/not-spam label only
+~Checking whether a password matches a policy
+=Generating a natural-language explanation of code
+}
+
+::Q4::Which example best represents traditional machine learning rather than generative AI?
+{
+=Classifying an email as spam or not spam
+~Creating an image from a description
+~Generating source code
+~Writing a new paragraph of text
+}
+
+::Q5::What does the nested relationship imply?
+{
+~Every AI system must be generative
+~Generative AI is unrelated to machine learning
+~Every ML system generates content
+=Every generative AI system described here is within the broader machine-learning and AI categories
+}

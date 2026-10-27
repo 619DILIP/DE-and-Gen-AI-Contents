@@ -1,0 +1,5 @@
+## Where NumPy Appears in Data Work
+
+In a data pipeline, NumPy rarely appears as the top level tool. It appears underneath. When a Pandas column is summed, filtered, or multiplied, the work is happening on a NumPy array beneath the surface. Understanding that layer explains behavior that would otherwise seem arbitrary, such as why a column has a single dtype, why mixing types silently converts everything to strings, and why operations on whole columns are so much faster than looping over rows.
+
+It also appears directly when working with numerical data that is naturally array shaped rather than table shaped: sensor readings, image data, or the numerical features fed into a machine learning model. A data engineer preparing features for a model is frequently working with NumPy arrays whether or not the code mentions NumPy explicitly.

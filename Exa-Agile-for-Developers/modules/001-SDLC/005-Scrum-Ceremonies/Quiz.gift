@@ -1,0 +1,19 @@
+// Quiz for the Scrum Ceremonies topic
+
+::Scrum Ceremonies::
+Scrum Masters have direct authority over other team members. {
+~True
+=False
+}
+
+::Scrum Ceremonies::
+Traditionally, Scrum Masters keep the Daily Stand-Up at less than 15 minutes. {TRUE}
+
+::Scrum Ceremonies::
+Which is not a Scrum Ceremony?
+{
+=Impromptu standup
+~Sprint planning
+~Daily standup
+~Sprint retrospective
+}

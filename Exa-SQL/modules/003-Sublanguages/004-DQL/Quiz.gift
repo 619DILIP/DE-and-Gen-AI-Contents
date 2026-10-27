@@ -1,0 +1,102 @@
+::DQL Sublanguage::
+The DQL sublanguage is used to {~manipulate data ~define data structure =query for data ~none of these} in a database.
+
+::DQL Sublanguage::
+Match the different parts of a statement
+{
+    =Projection -> defines the columns and aliases that will be selected
+    =Filter -> defines the conditions under which a record is selected
+    =Grouping -> defines how columns with similar values are aggregated
+    =Offset -> restricts the number of records selected
+}
+
+::DQL Commands::
+Which is the sole base command of DQL
+{
+    ~Choose
+    =Select
+    ~Read
+    ~None of these
+}
+
+::DQL Commands::
+Which clause is associated with data projection?
+{
+    =Select col1 [, col2] ...
+    ~Having having_condition
+    ~From table_ref
+    ~None of these
+}
+
+::DQL Commands::
+Which clause is associated with restricting record count?
+{
+    ~From table_ref
+    ~Where where_condition
+    =Limit count Offset count
+    ~None of these
+}
+
+::DQL Commands::
+Which clause is associated with filtering records before grouping?
+{
+    ~Having having_condition
+    =Where where_condition
+    ~Limit limit_condition
+    ~None of these
+}
+
+::DQL Commands::
+Which clause is associated with filtering records after grouping?
+{
+    =Having having_condition
+    ~Where where_condition
+    ~Limit limit_condition
+    ~None of these
+}
+
+
+
+::DQL Logic::
+Complete the AND logic table.
+{
+    =TRUE AND TRUE -> TRUE
+    =TRUE AND FALSE -> FALSE
+    =FALSE AND TRUE -> FALSE
+    =FALSE AND TRUE -> FALSE
+    =(TRUE AND FALSE) AND (TRUE AND TRUE) -> FALSE
+    =(TRUE AND TRUE) AND (TRUE AND TRUE) -> TRUE
+}
+
+::DQL Execution::
+Given a data set data \= [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, 2, -10, 3]\n
+With a result set [1,2,3,4,5]\n
+Choose the select statement that best represents the query.
+{
+    ~Select * from data;
+    =Select * from data where x>0 and x<6;
+    ~Select * from data where x between 0 and 10;
+    ~None of these
+}
+
+::DQL Execution::
+Given a data set data \= [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]\n
+With a result set [-10, -9, -8, -6, -4, -3, -2]\n
+Choose the select statement that best represents the query.
+{
+    ~Select * from data;
+    ~Select * from data where x>-10 and x<0;
+    =Select * from data where x between -10 and -1 order by x;
+    ~None of these
+}
+
+::DQL Execution::
+Given the data set data \= ['Domino', 'Thomas', 'Crystal', 'John', 'Allison']
+With a statement select name from data where name like '%om%';
+Choose the best result set.
+{
+    =['Domino', 'Thomas']
+    ~['Thomas', 'John', 'Allison']
+    ~['Domino', 'Thomas', 'John', 'Allison']
+    ~None of these
+}

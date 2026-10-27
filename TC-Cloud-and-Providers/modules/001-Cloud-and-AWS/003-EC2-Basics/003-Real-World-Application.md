@@ -1,0 +1,3 @@
+## Right Sizing a Workload
+
+A data engineering team running a nightly pipeline that processes a moderate volume of data does not need the largest, most expensive instance type available. Instead, the team typically tests the pipeline against a few instance types, measures how long each takes to complete the job, and selects the smallest instance type that finishes the work within an acceptable time window. This practice, often called right sizing, is a common and effective way to control cloud costs without sacrificing the reliability of scheduled jobs.

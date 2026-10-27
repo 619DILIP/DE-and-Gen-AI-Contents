@@ -1,0 +1,28 @@
+::Basic queries::
+Which is the subset of SQL commands used to manipulate Oracle Database structures, including tables?
+{
+    =Data Definition Language
+    ~Data Manipulation Language
+    ~Data Control Language
+    ~None of the above
+}
+
+::Basic queries::
+Which operator performs pattern matching?
+{
+    ~MATCH operator
+    ~EXISTS operator
+    ~BETWEEN operator
+    =LIKE operator
+}
+
+::Basic queries::
+To remove duplicate rows from the result of a SELECT, we use which of the following keyword?
+{
+    ~NO DUPLICATE
+    ~UNIQUE
+    =DISTINCT
+    ~NONE OF THE ABOVE
+}
+
+

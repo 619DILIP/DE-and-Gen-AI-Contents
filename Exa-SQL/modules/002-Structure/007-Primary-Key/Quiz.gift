@@ -1,0 +1,24 @@
+::Primarykey::
+How many Primary keys can a table have?
+{
+~ No limit
+= Only one
+~ Two
+~ None
+}
+
+::Primarykey::
+The primary key and Unique key are similar and indifferentiable.{
+~True
+=False
+}
+
+
+::Primarykey::
+The primary key can have one null value.{
+~True
+=False
+}
+
+
+

@@ -1,0 +1,22 @@
+::Normal Form::
+Which normal form ensures that every non-key attribute is completely dependent only on the primary key? {
+~ BCNF
+= 2NF
+~ 3NF
+~ None of the above
+}
+
+::Normalization::
+Which of the following is not an objective of normalization? {
+~ eliminate redundant data
+= reducing the amount of tables
+~ to ensure data dependencies make sense
+~ None of the above
+}
+
+::Normalization::
+For a table to be in 3NF, the relationship between any two non-key attributes should not be a 1:1 relation. {FALSE}
+
+
+
+

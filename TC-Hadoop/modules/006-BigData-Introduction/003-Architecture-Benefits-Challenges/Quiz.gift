@@ -1,0 +1,61 @@
+//MCQ
+
+//Question 1
+::Bigdata::
+ Facebook Tackles Big Data With Project Prism based on Hadoop.{
+     =TRUE
+     ~FALSE
+ }
+
+
+//Question 2
+::Bigdata::
+____ size data is known as Big Data.{
+   ~Tera
+   ~Giga
+   =Peta
+   ~Meta   
+}
+
+//Question 3
+::Bigdata::
+How many V's we used in Big Data?{
+  ~2
+  ~3
+  ~4
+  =5   
+}
+
+//Question 4
+::BigData::
+________ was Hadoop named after?{
+    ~Creator Doug Cutting’s favorite circus act
+    ~Cuttings high school rock band
+    =The toy elephant of Cutting’s son
+    ~A sound Cutting’s laptop made during Hadoop development    
+}
+
+//Question 5
+::BigData::
+What are the components of BigData?{
+    ~MapReduce
+    ~HDFS
+    ~YARN 
+    =All of the above 
+}
+
+//Question 6
+::BigData::
+Big data is data that contains greater variety, arriving in increasing volumes and with more velocity?{
+    =TRUE 
+    ~False 
+}
+
+//Question 7
+::Bigdata ::
+Suppose traditional IT systems provide a foundation when they're integrated with big data technologies like Hadoop?{
+    =Big data management and data mining
+    ~Data warehousing and business intelligence
+    ~ Management of Hadoop clusters
+    ~Collecting and storing unstructured data
+}

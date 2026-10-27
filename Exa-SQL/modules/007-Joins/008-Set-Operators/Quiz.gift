@@ -1,0 +1,26 @@
+::SQL Set Operators::
+The INTERSECT operator is used to get the _______ tuples.
+{
+    =Common
+    ~Different
+    ~All
+    ~Repetitive
+}
+
+::SQL Set Operators::
+The UNION operation automatically ______ unlike the select clause.
+{
+    ~Adds common tuples
+    =Eliminates duplicate
+    ~Eliminates unique tuples
+    ~Adds tuples
+}
+
+::SQL Set Operators::
+If we retain all duplicates, we must makes use of _______ instead of UNION.
+{
+    ~INTERSECT ALL
+    =UNION ALL
+    ~UNION INTERSECT
+    ~INTERSECT UNION
+}

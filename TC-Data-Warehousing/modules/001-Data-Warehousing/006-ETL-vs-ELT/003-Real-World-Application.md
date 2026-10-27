@@ -1,0 +1,3 @@
+## Modern Cloud Pipelines
+
+Many organizations building new data pipelines today default to ELT specifically because their chosen warehouse platform, whether Snowflake, Redshift, or BigQuery, is powerful enough to handle transformation directly, and because keeping raw data on hand supports future analysis that was not anticipated when the pipeline was originally built. A common modern pattern loads raw data into the warehouse first, then uses SQL based transformation tools running inside the warehouse to progressively clean and reshape that data into the fact and dimension tables analysts ultimately query.

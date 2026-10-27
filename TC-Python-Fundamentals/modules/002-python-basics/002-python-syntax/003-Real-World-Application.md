@@ -1,0 +1,3 @@
+* Following Python's standard naming conventions is not required, but it provides significant benefits. When developers use the same conventions, it becomes much easier to read, understand, and maintain each other's code. In many cases, you can identify the purpose of a variable, class, or constant simply by how it is named.
+
+* Syntax rules are different. If your code does not follow Python's syntax, the interpreter will raise an error and your program will not execute.

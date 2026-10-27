@@ -1,0 +1,43 @@
+// MCQ
+
+::SparkSQL-JSON Datasets::
+State True/False - Using spark.read.json() command we can't read a JSON file into a Spark DataFrame.
+{
+~ True
+= False
+}
+
+::SparkSQL-JSON Datasets::
+Which of the following command is used to read JSON document names employee.json?
+{
+~spark.read("path")
+=spark.read.json("path")
+~spark.json()
+~read.json("path")
+}
+
+::SparkSQL-JSON Datasets::
+State True/False - The data can be read and written in a variety of structured formats.
+{
+= True
+~ False
+}
+
+::SparkSQL-JSON Datasets::
+State True/False - Using dfs.printSchema() we can see the Structure of the DataFrame.
+{
+= True
+~ False
+}
+
+::SparkSQL-JSON Datasets::
+Which command is used to see the data present in the DataFrame?
+{
+=dfs.show()
+~dfs.show("path")
+~show("path")
+~None of the above
+}
+
+
+

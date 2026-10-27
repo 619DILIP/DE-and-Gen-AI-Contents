@@ -1,0 +1,15 @@
+// MCQs
+
+::Spark-RDD::
+State True or False, "union() is an example of wide transformation".
+{f}
+
+::Spark-RDD::
+Which of the following Statement is incorrect about transformations in Spark?{
+    ~ They are used for manipulating the parent RDD.
+    ~ They are lazy in nature.
+    ~ Each transformation is connected logically with its parent RDD through lineage graph.
+    = None of the above
+}
+
+

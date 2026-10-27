@@ -1,0 +1,26 @@
+::Python Flow Control Statements::
+Which is the correct syntax for an if-else statement in Python?
+{
+~if-else():
+~if-else{}
+=if-else:
+~if-else[]
+}
+
+::Python Flow Control Statements::
+What is the purpose of an if-elif-else statement?
+{
+~To execute specific code if a condition is true or false.
+=To check multiple conditions and execute different code blocks based on the first true condition.
+~To define loops in a program.
+~None of the above.
+}
+
+::Python Flow Control Statements::
+What is the purpose of the elif keyword in Python?
+{
+~It is used to execute a block of code regardless of the condition.
+~It is used to terminate the program.
+=It stands for "else if" and is used to check another condition if the previous one is false.
+~It is used to define a nested if statement.
+}

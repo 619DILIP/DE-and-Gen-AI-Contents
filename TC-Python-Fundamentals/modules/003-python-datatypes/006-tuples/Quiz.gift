@@ -1,0 +1,26 @@
+::Tuple::
+What will be the output of the following snippet?
+\nx \= "hello", 5, 3.14
+\ny \= tuple(x)
+\nprint(y)
+{
+~ \{'hello', 5, 3.14\}
+~ ['hello', 5, 3.14]
+= ('hello', 5, 3.14)
+~ Error
+}
+
+::Tuple::
+Unpacking is where you can assign variables the values within a tuple.
+{
+ T
+}
+
+::Tuple::
+Which of the following is NOT true about a tuple?
+{
+= they have an append() method
+~ they are enclosed in parentheses
+~ they can store values of different datatypes
+~ they are immutable
+}

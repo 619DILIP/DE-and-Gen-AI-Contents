@@ -1,0 +1,3 @@
+## Assigning a Role to a Pipeline
+
+Rather than hardcoding an AWS access key and secret directly into a data pipeline's code, a data engineering team assigns an IAM role to the EC2 instance running the pipeline. That role is configured with a narrowly scoped policy, granting only the specific S3 and RDS permissions the pipeline actually needs. If the pipeline code is ever accidentally exposed, for example checked into a shared code repository by mistake, there are no embedded credentials to be misused, since the permissions are tied to the role assigned to the instance rather than to a secret stored in the code.

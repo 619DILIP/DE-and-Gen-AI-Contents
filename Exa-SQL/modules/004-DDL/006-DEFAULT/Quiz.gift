@@ -1,0 +1,15 @@
+::SQL DEFAULT::
+Which of the following is not accurate?
+{
+    ~The DEFAULT constraint is used to set a default value for a column.
+    ~The DEFAULT value will be added to all new records if no other value is specified.
+    =The DEFAULT value must be unique for every column of every record.
+    ~DEFAULT values are typically literal constants, although many database systems allow timestamp or datetime columns to use functions such as CURRENT_TIMESTAMP.
+}
+
+::SQL DEFAULT::
+You can use the DEFAULT constraint to pre-fill a timestamp for a record that is being inserted.
+{
+    =True
+    ~False
+}

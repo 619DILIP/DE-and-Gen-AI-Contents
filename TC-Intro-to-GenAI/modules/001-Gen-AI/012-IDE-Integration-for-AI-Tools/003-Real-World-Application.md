@@ -1,0 +1,3 @@
+## Adopting AI Tooling on an Existing Team
+
+A development team introducing an IDE integrated AI tool typically starts by configuring it conservatively, restricting its access to sensitive files and reviewing its data handling settings, before rolling it out broadly. Developers are encouraged to use its inline chat and explanation features when working with unfamiliar code, and to use its inline refactoring suggestions as a starting point, reviewing each proposed change rather than accepting it directly. Over time, teams often refine their configuration and usage habits based on where the tool has proven genuinely useful versus where it required more correction than it saved, treating adoption as an ongoing, evaluated process rather than a one time setup.

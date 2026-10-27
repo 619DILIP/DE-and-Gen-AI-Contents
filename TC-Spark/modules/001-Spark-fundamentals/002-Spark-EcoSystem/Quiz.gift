@@ -1,0 +1,42 @@
+::Spark::
+Which is a distributed graph processing framework on top of Spark?
+{
+~ MLlib
+~ Spark Streaming
+= GraphX
+~ None of the above
+}
+
+::Spark::
+Which is a component on top of Spark Core?
+{
+~ Spark Streaming
+= Spark SQL
+~ RDDs
+~ None of the above
+}
+
+::Spark::
+Which can be used to launch Spark jobs inside MapReduce?
+{
+~ SIM    
+= SIMR
+~ SIR
+~ RIS
+}
+
+::Spark::
+True or False - Spark is a popular data warehouse solution running on top of Hadoop.
+{
+~ True
+= False
+}
+
+::Spark::
+True or False - Spark enables Apache Hive users to run their unmodified queries much faster.
+{
+= True
+~ False
+}
+
+

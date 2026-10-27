@@ -1,0 +1,14 @@
+// MCQs
+
+::Spark-AWS::
+Where is data stored in AWS?{
+    ~ HDFS
+    ~ HBase
+    ~ Hive
+    = S3
+}
+
+
+::Spark-AWS::
+State True or False, "S3 bucket in AWS is used for storing object data."
+{T}

@@ -1,0 +1,3 @@
+## Where Engineers Actually Work in This Architecture
+
+A data engineer's day to day work is usually concentrated in the movement between layers, building and maintaining the process that pulls data from source systems into staging, then transforms and loads it into the warehouse. This process is commonly referred to as a data pipeline, and it is the practical implementation of the arrows in the architecture diagram above. Business analysts and report builders, by contrast, mostly interact with the presentation layer and rarely need to know the details of how data got there.

@@ -1,0 +1,2 @@
+# Summary 
+Conditional statements are essential for making decisions and controlling the flow of a program based on different conditions. The **`if`**, **`if-else`**, **`if-elif-else`**, and nested **`if`** statements allow you to execute specific blocks of code based on the evaluation of conditions. By using these conditional statements effectively, you can create more complex and dynamic programs.

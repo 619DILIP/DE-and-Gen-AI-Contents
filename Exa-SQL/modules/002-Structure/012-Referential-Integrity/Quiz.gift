@@ -1,0 +1,35 @@
+:: Referential Integrity::
+Which constraint enforces referential integrity between two tables in a relational database?
+{
+    ~ UNIQUE constraint
+    ~ CHECK constraint
+    = FOREIGN KEY constraint
+    ~ PRIMARY KEY constraint
+}
+
+:: Referential Integrity::
+Which database principle states that table relationships must be consistent? (Hint: In other words, any foreign key field must agree with the primary key that is referenced.){
+    ~ Foreign Key
+    ~ Primary Key
+    ~ Entity integrity
+    = Referential Integrity
+}
+
+
+:: Referential Integrity::
+Which referential action is used to automatically update the referencing column to a default value if the referenced row in the parent table is deleted?
+{
+    ~ ON DELETE CASCADE
+    = ON DELETE SET DEFAULT
+    ~ ON DELETE RESTRICT
+    ~ ON DELETE SET NULL
+}
+
+:: Referential Integrity::
+What does the ON DELETE CASCADE referential action do in a foreign key constraint?
+{
+    = Deletes the referencing row in the child table if the referenced row in the parent table is deleted
+    ~ Sets the referencing column to NULL if the referenced row in the parent table is deleted
+    ~ Updates the referencing column to a default value if the referenced row in the parent table is deleted
+    ~ Prevents the deletion of the referencing row in the child table if the referenced row in the parent table is deleted
+}

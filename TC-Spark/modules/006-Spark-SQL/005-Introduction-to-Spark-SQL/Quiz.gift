@@ -1,0 +1,28 @@
+//MCQ
+
+::Spark SQL Purpose::
+What is the primary purpose of Spark SQL?
+{
+    ~ To replace Spark Core completely
+    = To process structured and semi-structured data using SQL and DataFrame APIs
+    ~ To manage Hadoop clusters
+    ~ To store data in HDFS
+}
+
+::Catalyst Optimizer::
+What is the role of the Catalyst Optimizer in Spark SQL?
+{
+    ~ To store cached data in memory
+    = To optimize logical and physical query execution plans
+    ~ To convert RDDs into DataFrames
+    ~ To manage Spark cluster resources
+}
+
+::SparkSession::
+Which object is required to run SQL queries in Spark?
+{
+    ~ SparkContext
+    = SparkSession
+    ~ SQLContext (mandatory in Spark 3.x)
+    ~ Executor
+}

@@ -1,0 +1,43 @@
+//MCQ
+
+::Hadoop Introduction::
+Companies that start moving to the experimental phase with Hadoop, may cite the need for additional capabilities, including _______________ .?
+{
+    ~Improved data storage and information retrieval
+    ~Improved extract, transform and load features for data integration
+    ~Improved data warehousing functionality
+    =Improved security, workload management, and SQL support  
+}
+
+::Hadoop Introduction::
+All of the following accurately describe Hadoop, EXCEPT ____________
+{
+    ~Open-source
+    =Real-time
+    ~Java-based
+    ~Distributed computing approach
+}
+
+::Hadoop Introduction::
+Which can best be described as a programming model used to develop Hadoop-based applications that can process massive amounts of data.?
+{
+    =MapReduce
+    ~Mahout
+    ~oozie
+    ~All of the mentioned
+}
+
+::Hadoop Introduction::
+Which of the following has the world’s largest Hadoop cluster?
+{
+    ~Apple
+    ~Datamatics
+    =Facebook   
+    ~None of the mentioned
+}
+
+::Hadoop Introduction::
+Facebook has the world's largest Hadoop cluster?{
+    =TRUE
+    ~FALSE
+}

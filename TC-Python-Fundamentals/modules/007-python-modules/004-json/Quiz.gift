@@ -1,0 +1,42 @@
+::MCQ::
+Which function converts a JSON string to a Python dictionary?
+{
+~ json.convert()
+= json.loads()
+~ json.decode()
+~ json.parse()
+}
+
+::MCQ::
+What types of data can json.loads() directly convert?
+{
+~ Only strings
+~ Dictionaries
+= str, bytes, bytearray
+~ Lists and tuples
+}
+
+::MCQ::
+How do you create a custom JSON encoder in Python?
+{
+~ By creating a function
+~ By using a lambda function
+~ By modifying the json module
+= By subclassing json.JSONEncoder
+}
+
+::MCQ::
+Which JSON data types are supported?
+{
+= string, number, boolean, nested json, arrays, null
+~ integers, floats, tuples, sets
+~ classes, functions, modules
+~ datetime objects, complex numbers
+}
+
+::MCQ::
+json.dumps() converts a Python dictionary to a JSON string.
+{
+= True
+~ False
+}

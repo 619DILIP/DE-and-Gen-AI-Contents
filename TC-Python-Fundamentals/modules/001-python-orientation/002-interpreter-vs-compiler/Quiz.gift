@@ -1,0 +1,33 @@
+::MCQ::
+What does a compiler do with source code?
+{
+~ Execute it line by line
+= Convert it entirely into a binary/executable
+~ Ignore optimization possibilities
+~ Create platform-independent code
+}
+
+::MCQ::
+Which characteristic best describes interpreted languages?
+{
+~ High execution speed
+~ Platform-specific deployment
+~ Complex bug detection
+= Line-by-line compilation/execution
+}
+
+::MCQ::
+What is a primary drawback of compiled languages?
+{
+~ Slow execution speed
+~ Difficult debugging
+= Need to compile for each target system
+~ Limited optimization
+}
+
+::MCQ::
+Both interpreted and compiled languages can create functional applications.
+{
+= True
+~ False
+}

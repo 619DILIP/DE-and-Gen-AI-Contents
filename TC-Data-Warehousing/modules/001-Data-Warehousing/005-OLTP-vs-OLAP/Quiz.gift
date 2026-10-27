@@ -1,0 +1,39 @@
+::Q1::What does OLTP stand for? 
+{
+~Operational Logic and Table Processing
+~Organized Long-Term Processing
+=Online Transaction Processing
+~Online Table Processing
+}
+
+::Q2::What workload is OLAP optimized for? 
+{
+=Large-scale queries that aggregate and analyze many records
+~Small real-time updates to individual records
+~Single-row transaction processing
+~Password entry by application users
+}
+
+::Q3::Why do OLAP systems favor read-heavy access patterns? 
+{
+=They are queried frequently for analysis and reporting and are updated less often
+~They are designed primarily for changing one row at a time
+~They exist only to validate passwords
+~They cannot store historical information
+}
+
+::Q4::Why are OLTP databases commonly structured to reduce duplicate data? 
+{
+~OLTP systems are designed to maximize duplicated records
+~Normalization is used only for analytical dashboards
+=Normalization supports accurate, precise updates and reduces unnecessary duplication
+~Duplicate data is required for every transaction
+}
+
+::Q5::Why is a data warehouse considered an OLAP system? 
+{
+=It is designed to support analytical queries over large amounts of data
+~It stores only temporary application sessions
+~It is designed primarily to update one transaction at a time
+~It cannot perform aggregations
+}

@@ -1,0 +1,10 @@
+// MCQs
+
+::Spark-AWS::
+Which of the following is not a step to select Auto-terminate while creating cluster?{
+    ~ Choose Create cluster.
+    ~ Choose Go to advanced options.
+    = Choose create bucket.
+    ~ Under Add steps, select Auto-terminate cluster after the last step is completed.
+}
+

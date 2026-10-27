@@ -1,0 +1,5 @@
+<br>
+
+Imagine students enrolled in courses at a college, but some students drop out mid-way through the semester and the school is not required to keep the records of students who drop out. In this example, we would want to structure our tables such that the foreign keys have an `ON DELETE CASCADE` to maintain referential integrity when removing that students records from the gradebooks of all courses they attended.
+
+Keeping with the student examples, imagine the students in the database need their primary key id reset to adjust for the students that dropped out and make room for the freshman. Through this we need to update all the current records for each of these individuals to match accordingly in both the parent and child tables. When the foreign key is applied with `ON UPDATE CASCADE` it will make sure that every record's primary key association in the child tables is updated accordingly.

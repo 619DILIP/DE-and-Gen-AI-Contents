@@ -1,0 +1,27 @@
+::Scalar funtion Objectives::
+This function is used to convert a string column values to Uppercase.
+{
+    ~UPCASE()
+    ~UPPERCASE()
+    =UCASE()
+    ~UpperCase()
+}
+
+::Scalar funtions::
+This function extracts substrings in SQL from column values having String datatype.
+{
+    =MID()
+    ~LEN()
+    ~MIDDLE()
+    ~NOW()
+}
+
+::Scalar funtions::
+What will be returned by the given query?
+SELECT round(47.669, 2);
+{
+    ~47.6
+    =47.67
+    ~47.66
+    ~47.7
+}

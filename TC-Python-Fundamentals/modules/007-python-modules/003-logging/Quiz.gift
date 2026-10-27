@@ -1,0 +1,44 @@
+::MCQ::
+What are the five logging levels in Python's logging module?
+{
+~ major, minor, critical, warning, info
+= debug, info, warning, error, critical
+~ high, medium, low, error, fatal
+~ trace, debug, info, warn, error
+}
+
+::MCQ::
+What method is used to configure the root logger?
+{
+~ logging.configure()
+~ logging.setup()
+~ logging.init()
+= logging.basicConfig()
+}
+
+::MCQ::
+How do you create a custom logger in Python?
+{
+~ logging.create_logger()
+~ logging.Logger()
+= logging.getLogger(name)
+~ logging.new_logger()
+}
+
+::MCQ::
+What is the purpose of a Handler in logging?
+{
+~ To create log messages
+= To send logs to specific destinations
+~ To delete log files
+~ To encrypt log data
+}
+
+::MCQ::
+What does the 'filemode' parameter in basicConfig() do?
+{
+= Determines how logs are saved to a file
+~ Deletes existing log files
+~ Compresses log files
+~ Creates a new file
+}

@@ -1,0 +1,26 @@
+::Binary-Type::
+Which function can be used to convert a binary string to an integer in Python?
+{
+~ binary_to_int()
+~ to_integer()
+= int()
+~ int_from_binary()
+}
+
+::Binary-Type::
+What will be the binary representation of the integer 10 in Python?
+{
+~ 1100
+= 1010
+~ 1110
+~ 1001
+}
+
+::Binary-Type::
+Which operator is used for bitwise XOR in Python?
+{
+~ &
+~ |
+= ^
+~ *
+}

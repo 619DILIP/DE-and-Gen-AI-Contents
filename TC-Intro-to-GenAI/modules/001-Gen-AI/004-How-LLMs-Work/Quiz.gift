@@ -1,0 +1,39 @@
+::Q1::At a high level, what is the core task used to generate text in an LLM?
+{
+~Executing a fixed decision tree for every response
+~Looking up every sentence in a database
+=Predicting what token is likely to come next
+~Selecting only from a predefined list of complete answers
+} 
+
+
+::Q2::Why does training-data scale matter?
+{
+~It prevents models from using tokens
+=Large and varied data can provide more patterns for the model to learn
+~It eliminates the need for computation~It guarantees every generated statement is true
+} 
+
+
+::Q3::Which statement best describes how LLMs generate responses?
+{
+=They generate text from learned patterns rather than possessing human-like understanding~They retrieve every answer from a verified database
+~They reason exactly like a human
+~They always verify facts before responding
+}
+
+
+::Q4::What happens as an LLM generates a sequence of text? 
+{
+~It stops after predicting the first token
+~It chooses one complete answer before processing the prompt
+~It converts every token into an IAM policy=It repeatedly predicts subsequent tokens based on the context available to it
+}
+
+
+::Q5::What is a token limit relevant to?
+{
+~The number of S3 buckets in an account
+~The CPU count of an EC2 instance
+~The number of AWS users allowed=How much tokenized context and output a model can handle within its limit
+}

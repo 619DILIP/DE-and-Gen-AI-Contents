@@ -1,0 +1,24 @@
+::Question::
+The Python interpreter resolves a named object by looking at the current (local) scope, then enclosing scopes, the global scope, and finally the built-in scope.
+{ 
+    = TRUE
+    ~ FALSE
+}
+
+::Question::
+Which of the following is the correct order in which Python will look for a named object?
+{ 
+    ~ built-in, global, local, enclosing
+    ~ local, enclosing, built-in, global
+    = local, enclosing, global, built-in
+    ~ built-in, enclosing, global, local
+}
+
+::Question::
+What is scope?
+{ 
+    ~ the same thing as a namespace
+    = the portion of code that a variable or named Python object is accessible from
+    ~ a suite or code block
+    ~ a module
+}

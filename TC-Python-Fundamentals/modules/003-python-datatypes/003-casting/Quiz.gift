@@ -1,0 +1,27 @@
+// Quiz for Casting
+::Casting::
+Which function can be used to convert a boolean to an integer in Python?
+{
+= int()
+~ str()
+~ float()
+~ bool()
+}
+
+::Casting::
+Which function is used for type casting in Python?
+{
+~ cast()
+~ type_cast()
+~ convert()
+= int(), float(), str(), etc.
+}
+
+::Casting::
+Which function can be used to convert an integer to a boolean in Python?
+{
+~ int()
+= bool()
+~ str()
+~ bool(), int(), and str() all can be used
+}

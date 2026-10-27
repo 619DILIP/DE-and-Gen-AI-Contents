@@ -1,0 +1,46 @@
+//MCQ
+
+::HDFS Commands::
+Which of the following command will create a directory?
+{
+~hdfs -ds mk /directory-name
+=hdfs dfs -mkdir /directory-name
+~hdfs -dfs mkdir /directory-name
+~hdfs dfs dir /directory-name
+}
+
+::HDFS Commands::
+Which of the following commands can be used to copy a file from the local machine to HDFS? 
+{
+=hdfs dfs -copyFromLocal source target-on-HDFS
+~hdfs dfs  source target-on-HDFS
+~hdfs dfs -cp source target-on-HDFS
+~hdfs dfs -mv source target-on-HDFS
+}
+
+::HDFS Commands::
+Which is the correct way of changing the default replication factor in hdfs.
+{
+=hadoop fs –setrep –w 3 -R /directory_location
+~haDoop Fs -setreps -w 3 -R /directory_location
+~hadoop fs –setrep –w 
+~None of the above
+}
+
+::HDFS Commands::
+Which command is used to copy a file existing in HDFS to your local file system?
+{
+~hdfs dfs -copyFromLocal localLocation remoteLocation
+~hdfs dfs -copyToLocal localLocation remoteLocation
+=hdfs dfs -copyFromLocal remoteLocation localLocation
+~hdfs dfs -copyToLocal remoteLocation localLocation
+}
+
+::HDFS Commands::
+Which command is used to format the NameNode?
+{
+~hdfs namenodes -format
+~hdfs node -remove
+=hdfs namenode -format
+~None of the above
+}

@@ -1,0 +1,39 @@
+::Q1::What is a "unit" in the context of Python unit testing?
+{ 
+~A complete application that can be tested only as a whole
+~A collection of several programs that share a database
+=The smallest piece of code that can be tested on its own, usually a function or method
+~A manual checklist used during software development
+}
+
+::Q2::Which type of testing checks that multiple units work correctly together? 
+{
+=Integration testing
+~Unit testing
+~Syntax testing
+~Manual testing
+}
+
+::Q3::A function produces the same result every time it receives the same input. Which testing characteristic does this demonstrate? 
+{
+~Randomized behavior
+~Manual execution
+~Integration dependence
+=Predictable behavior
+}
+
+::Q4::What happens when a Python assert condition evaluates to false? 
+{
+~Python automatically fixes the tested function
+~The assertion is silently ignored
+~Python raises a SyntaxError
+=Python raises an AssertionError
+}
+
+::Q5::Why are automated tests useful as a codebase grows? 
+{
+~They guarantee that every program is free of bugs
+~They eliminate the need to write expected behavior
+~They make integration testing unnecessary
+=They provide repeatable checks that can be run quickly after changes
+}

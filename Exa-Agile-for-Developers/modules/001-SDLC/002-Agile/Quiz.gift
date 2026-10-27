@@ -1,0 +1,37 @@
+// Quiz for the Agile topic
+
+::Agile model::
+Which is NOT an advantage of the Agile development model
+{
+~It provides a realistic approach to the development of software.
+=It requires many resources.
+~It provides greater flexibility to software developers.
+~It requires little planning.
+}
+
+::Agile model::
+____ are short iterations, usually between one to three weeks to complete, where teams work on tasks.
+{
+~Milestones
+~Efforts
+=Sprints
+~Backlogs
+}
+
+::Agile model::
+A ____ is a high-level definition of a work request.
+{
+~Milestone
+=User story
+~Sprint
+~Backlog
+}
+
+::Agile model::
+As project requests are added through your intake system, they become outstanding stories in the ______.
+{
+=Backlog
+~Repository
+~Cloud
+~Queue
+}

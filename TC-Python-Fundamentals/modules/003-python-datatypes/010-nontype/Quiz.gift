@@ -1,0 +1,47 @@
+::Practice Questions::
+What is the data type of None in Python? 
+{
+= NoneType 
+~ NullType 
+~ NullValue 
+~ Void
+}
+
+::Practice Questions::
+What does a function return if it doesn't have an explicit return statement? 
+{
+~ An error 
+~ 0 
+= None
+~ The last expression evaluated
+}
+
+::Practice Questions::
+Which of the following is a valid use case for None in Python?  
+{
+~ Placeholder for uninitialized variables 
+~ Default return value for functions 
+~ Handling nullable database fields 
+= All of the above
+}
+
+::Practice Questions::
+You can use None as a default value for function arguments in Python. 
+{
+= True 
+~ False
+}
+
+::Practice Questions::
+None is considered a "falsy" value in Python, meaning it evaluates to False in boolean contexts. 
+{
+= True 
+~ False
+}
+
+::Practice Questions::
+You can assign a value other than None to the NoneType data type.
+{
+~ True
+= False
+}

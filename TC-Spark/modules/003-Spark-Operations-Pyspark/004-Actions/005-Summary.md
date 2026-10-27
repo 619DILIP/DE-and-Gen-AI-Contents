@@ -1,0 +1,6 @@
+-   Actions trigger execution in Spark.
+-   They return non-RDD values to the driver.
+-   Transformations remain lazy until an Action is applied.
+-   Common actions include `collect()`, `count()`, `reduce()`, `first()`, and `take()`.
+-   Care must be taken when using `collect()` on large datasets.
+-   Actions are essential for producing results in Spark applications.

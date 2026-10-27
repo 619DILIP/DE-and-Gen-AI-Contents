@@ -1,0 +1,115 @@
+{
+  "id": "04172e48-d8b0-4639-954c-847765b5c823",
+  "title": "Intro to GenAI",
+  "description": " Intro to GenAI",
+  "prerequisites": {
+    "url": "README",
+    "title": "Prerequisites and Learning Objectives",
+    "tooltip": "Prerequisites and Learning Objectives"
+  },
+  "studyGuide": {
+    "url": "study-guide",
+    "title": "study-guide",
+    "tooltip": "study-guide"
+  },
+  "modules": [
+    {
+      "id": "d8f95363-2fc0-4eb4-b316-a9da11ffcfd4",
+      "title": "Gen-AI",
+      "url": "modules/001-Gen-AI",
+      "description": " Gen-AI",
+      "tooltip": " Gen-AI",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "541c2849-827a-4489-959f-9bc42ff39988",
+          "url": "modules/001-Gen-AI/001-What-Is-AI-ML-and-GenAI/Cumulative.md",
+          "title": "What Is AI ML and GenAI",
+          "tooltip": "What Is AI ML and GenAI"
+        },
+        {
+          "id": "9bf7c22d-e292-429d-8f2b-3877f5313233",
+          "url": "modules/001-Gen-AI/002-Prompt-Engineering-Fundamentals/Cumulative.md",
+          "title": "Prompt Engineering Fundamentals",
+          "tooltip": "Prompt Engineering Fundamentals"
+        },
+        {
+          "id": "ed90dd76-a901-4f70-aec6-9e2f162f3144",
+          "url": "modules/001-Gen-AI/003-Zero-Shot-vs-Multi-Shot-Prompting/Cumulative.md",
+          "title": "Zero Shot vs Multi Shot Prompting",
+          "tooltip": "Zero Shot vs Multi Shot Prompting"
+        },
+        {
+          "id": "8975a68e-566d-4101-ac60-e3d21861828e",
+          "url": "modules/001-Gen-AI/004-How-LLMs-Work/Cumulative.md",
+          "title": "How LLMs Work",
+          "tooltip": "How LLMs Work"
+        },
+        {
+          "id": "2c8f8c37-613b-46b9-bd7e-41e5010e6344",
+          "url": "modules/001-Gen-AI/005-LLM-Use-Cases-in-Software-Development/Cumulative.md",
+          "title": "LLM Use Cases in Software Development",
+          "tooltip": "LLM Use Cases in Software Development"
+        },
+        {
+          "id": "000db0fa-4d75-402f-9c9d-a4a79e09c1af",
+          "url": "modules/001-Gen-AI/006-Fine-Tuning-Basics/Cumulative.md",
+          "title": "Fine Tuning Basics",
+          "tooltip": "Fine Tuning Basics"
+        },
+        {
+          "id": "85c49b33-b678-4a07-95c3-85af4d7bb365",
+          "url": "modules/001-Gen-AI/007-RAG-CAG-and-PEFT-Compared/Cumulative.md",
+          "title": "RAG CAG and PEFT Compared",
+          "tooltip": "RAG CAG and PEFT Compared"
+        },
+        {
+          "id": "23454d26-e3e0-4880-9e9e-0f01753fd817",
+          "url": "modules/001-Gen-AI/008-Understanding-Hallucinations/Cumulative.md",
+          "title": "Understanding Hallucinations",
+          "tooltip": "Understanding Hallucinations"
+        },
+        {
+          "id": "5578649e-c185-4b12-b160-576497eb8e65",
+          "url": "modules/001-Gen-AI/009-Responsible-AI-Usage/Cumulative.md",
+          "title": "Responsible AI Usage",
+          "tooltip": "Responsible AI Usage"
+        },
+        {
+          "id": "38a8c564-2c96-4a4b-b623-aa7a798f3ee2",
+          "url": "modules/001-Gen-AI/010-LLM-Security-Best-Practices/Cumulative.md",
+          "title": "LLM Security Best Practices",
+          "tooltip": "LLM Security Best Practices"
+        },
+        {
+          "id": "3b76571c-0a9b-4de8-9574-6d5e32d982bd",
+          "url": "modules/001-Gen-AI/011-AI-Security-Considerations/Cumulative.md",
+          "title": "AI Security Considerations",
+          "tooltip": "AI Security Considerations"
+        },
+        {
+          "id": "cc1e9459-9890-463a-8089-33b413572443",
+          "url": "modules/001-Gen-AI/012-IDE-Integration-for-AI-Tools/Cumulative.md",
+          "title": "IDE Integration for AI Tools",
+          "tooltip": "IDE Integration for AI Tools"
+        },
+        {
+          "id": "5841482a-4c6e-456b-b4e2-f820715e4b73",
+          "url": "modules/001-Gen-AI/013-AI-Pair-Programming-with-Copilot/Cumulative.md",
+          "title": "AI Pair Programming with Copilot",
+          "tooltip": "AI Pair Programming with Copilot"
+        },
+        {
+          "id": "07f4f755-7a8c-4cf1-95be-73523120387b",
+          "url": "modules/001-Gen-AI/014-Code-Optimization-and-Analysis-Using-AI-Tools/Cumulative.md",
+          "title": "Code Optimization and Analysis Using AI Tools",
+          "tooltip": "Code Optimization and Analysis Using AI Tools"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Summary
+
+The **`try`** statement is used to enclose the code that might raise an exception, while the **`except`** statement is used to handle the specific exceptions that might occur. If an exception occurs within the **`try`** block, Python looks for the corresponding **`except`** block and executes the code within that block. You can have multiple **`except`** blocks to handle different types of exceptions. The **`else`** clause is executed if no exceptions occur in the **`try`** block, and the **`finally`** clause is always executed, regardless of whether an exception occurred or not, allowing you to perform cleanup or finalization tasks.

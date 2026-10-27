@@ -1,0 +1,39 @@
+::Q1::What is prompt engineering?
+{
+~Training a model from scratch~Installing an operating system
+~Managing cloud storage
+=Writing model input so it reliably produces useful output
+}
+
+
+::Q2::Why is context useful in a prompt?
+{
+~It replaces all constraints
+~It automatically verifies every answer~It prevents the model from reading the instruction
+=It provides relevant background information needed for a useful response
+} 
+
+
+::Q3::What is iterative prompting?
+{
+=Refining a prompt based on the quality of the response
+~Sending one prompt and never reviewing the output
+~Training a new model after every response
+~Deleting the prompt after it is sent
+} 
+
+
+::Q4::Why does providing examples often improve a prompt?
+{
+~Examples automatically increase the model's training data
+~Examples guarantee the model will never hallucinate
+~Examples eliminate the need for an instruction=Examples can demonstrate the desired pattern or format
+} 
+
+
+::Q5::What is a common prompting mistake?
+{
+~Providing relevant background
+~Iterating after reviewing the response~Clearly specifying the desired format
+=Giving a vague request without enough context or constraints
+}

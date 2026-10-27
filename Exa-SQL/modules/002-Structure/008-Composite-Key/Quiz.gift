@@ -1,0 +1,12 @@
+::Composite Key::
+What is composite key?
+{
+~ Any unique key in the table
+= combination of columns to uniquely identify the record
+~ a foreign key
+~ none of the above
+}
+
+
+
+

@@ -1,0 +1,10 @@
+// MCQs
+
+::Spark-AWS::
+Which of the follwoing is the incorrect statement regarding creating EMR cluster in AWS?{
+    ~ To create a cluster open Amazon EMR cluster after login.
+    ~ Choose Create cluster option to quickly create a cluster.
+    = No need to do the signup on Amazon AWS.
+    ~ None of the above
+}
+

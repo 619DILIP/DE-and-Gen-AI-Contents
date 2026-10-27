@@ -1,0 +1,191 @@
+{
+  "id": "12a1055d-9a8b-4805-91ba-af94b5b8af41",
+  "title": "Next-Gen Foundation Hadoop-Fundamentals",
+  "description": " Hadoop-Fundamentals",
+  "prerequisites": {
+    "url": "README",
+    "title": "Prerequisites and Learning Objectives",
+    "tooltip": "Prerequisites and Learning Objectives"
+  },
+  "studyGuide": {
+    "url": "study-guide",
+    "title": "study-guide",
+    "tooltip": "study-guide"
+  },
+  "modules": [
+    {
+      "id": "d7d8b193-fe98-4825-ba9b-0c4b573cf41a",
+      "title": "Hadoop-Introduction",
+      "url": "modules/Hadoop-Introduction",
+      "description": " Hadoop-Introduction",
+      "tooltip": " Hadoop-Introduction",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "0a0bbef7-1b0a-4d36-b32b-2189f0c96d77",
+          "url": "modules/001-Hadoop-Introduction/001-Big-Data-Fresher/Cumulative.md",
+          "title": " Big Data Fresher",
+          "tooltip": " Big-Data-Fresher"
+        }
+      ]
+    },
+    {
+      "id": "24d1cb16-7097-4c41-be1e-873a779830e8",
+      "title": "Hadoop-Architecture",
+      "url": "modules/Hadoop-Architecture",
+      "description": " Hadoop-Architecture",
+      "tooltip": " Hadoop-Architecture",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "6b6f3f28-a8bc-4d90-aeff-a74045a41139",
+          "url": "modules/002-Hadoop-Architecture/001-Hadoop Ecosystem/Cumulative.md",
+          "title": " Hadoop ecosystem",
+          "tooltip": " Hadoop Ecosystem"
+        }
+      ]
+    },
+    {
+      "id": "95ef4248-4726-452e-9949-305c50c7743b",
+      "title": "Components-of-Hadoop",
+      "url": "modules/Components-of-Hadoop",
+      "description": " Components-of-Hadoop",
+      "tooltip": " Components-of-Hadoop",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "bb325792-7ac5-4d10-b43b-79f16e21110a",
+          "url": "modules/003-Components-of-Hadoop/001-Introduction-HDFS/Cumulative.md",
+          "title": " Introduction Hdfs",
+          "tooltip": " Introduction-HDFS"
+        },
+        {
+          "id": "5bb3ec4c-e60e-4835-a1c9-6388d779dcae",
+          "url": "modules/003-Components-of-Hadoop/002-Evolution-of-Hadoop/Cumulative.md",
+          "title": " Evolution Of Hadoop",
+          "tooltip": " Evolution-of-Hadoop"
+        },
+        {
+          "id": "7b603d60-0abc-4deb-b2c3-04ea70a02a5f",
+          "url": "modules/003-Components-of-Hadoop/003-HDFS-commands/Cumulative.md",
+          "title": " Hdfs Commands",
+          "tooltip": " HDFS-commands"
+        },
+        {
+          "id": "44a6f923-ec17-4dcb-b462-d5a7c6e02506",
+          "url": "modules/003-Components-of-Hadoop/004-Yarn-Overview/Cumulative.md",
+          "title": " Yarn Overview",
+          "tooltip": " Yarn-Overview"
+        },
+        {
+          "id": "d9eb3be5-755f-464c-86c0-e15e797b6f25",
+          "url": "modules/003-Components-of-Hadoop/005-Introduction-to-Mapreduce/Cumulative.md",
+          "title": " Introduction To Mapreduce",
+          "tooltip": " Introduction-to-Mapreduce"
+        },
+        {
+          "id": "f08833e2-ed5e-484c-9874-26ed8096513e",
+          "url": "modules/003-Components-of-Hadoop/006-Mapper-Intermediate-Reducer/Cumulative.md",
+          "title": " Mapper Intermediate Reducer",
+          "tooltip": " Mapper-Intermediate-Reducer"
+        },
+        {
+          "id": "be8d33ae-edc8-4109-86ff-091dcf5484d7",
+          "url": "modules/003-Components-of-Hadoop/007-Partitioners/Cumulative.md",
+          "title": " Partitioners",
+          "tooltip": " Partitioners"
+        },
+        {
+          "id": "39a57ed9-0886-4af8-9ca5-29b4ba3deaa7",
+          "url": "modules/003-Components-of-Hadoop/008-Combiners/Cumulative.md",
+          "title": " Combiners",
+          "tooltip": " Combiners"
+        }
+      ]
+    },
+    {
+      "id": "7bc2352f-bc02-43b4-8e91-c5df28d4a918",
+      "title": "Hadoop-Data-Formats",
+      "url": "modules/Hadoop-Data-Formats",
+      "description": " Hadoop-Data-Formats",
+      "tooltip": " Hadoop-Data-Formats",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "135f1b06-d277-46b9-8815-30cc2ecfc5e9",
+          "url": "modules/004-Hadoop-Data-Formats/001-InputFormats/Cumulative.md",
+          "title": " Inputformats",
+          "tooltip": " InputFormats"
+        }
+      ]
+    },
+    {
+      "id": "771c6233-080b-4650-a67a-1ee2b81dd59a",
+      "title": "Hadoop-Advanced",
+      "url": "modules/Hadoop-Advanced",
+      "description": " Hadoop-Advanced",
+      "tooltip": " Hadoop-Advanced",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "f530aef9-ed85-4777-99a0-06e5ae934872",
+          "url": "modules/005-Hadoop-Advanced/001-Hadoop-Vs-Mapreduce-Vs-Spark/Cumulative.md",
+          "title": " Hadoop Vs Mapreduce Vs Spark",
+          "tooltip": " Hadoop-Vs-Mapreduce-Vs-Spark"
+        }
+      ]
+    },
+    {
+      "id": "b0d8a944-3eee-4b61-9597-852b9358cc17",
+      "title": "BigData-Introduction",
+      "url": "modules/BigData-Introduction",
+      "description": " BigData-Introduction",
+      "tooltip": " BigData-Introduction",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "df7bfecc-598e-4c97-9671-5f1e53581053",
+          "url": "modules/006-BigData-Introduction/001-Big-data-Fundamentals/Cumulative.md",
+          "title": " Big Data Fundamentals",
+          "tooltip": " Big-data-Fundamentals"
+        },
+        {
+          "id": "d7d49d5a-47da-42e6-9f21-852045d22432",
+          "url": "modules/006-BigData-Introduction/002-Components-of-Big-data/Cumulative.md",
+          "title": " Components Of Big Data",
+          "tooltip": " Components-of-Big-data"
+        },
+        {
+          "id": "dd9274a2-a259-4b83-a131-8bbfa8c0cd76",
+          "url": "modules/006-BigData-Introduction/003-Architecture-Benefits-Challenges/Cumulative.md",
+          "title": " Architecture Benefits Challenges",
+          "tooltip": " Architecture-Benefits-Challenges"
+        }
+      ]
+    }
+  ]
+}

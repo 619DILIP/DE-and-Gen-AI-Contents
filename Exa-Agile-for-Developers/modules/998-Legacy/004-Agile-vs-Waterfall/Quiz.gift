@@ -1,0 +1,13 @@
+// Quiz for the Agile vs. Waterfall topic
+
+::Agile vs. Waterfall::
+An advantage of Agile is faster feedback cycles. {TRUE}
+
+::Agile vs. Waterfall::
+A disadvantage of Waterfall is the risk of time waste due to delays and setbacks during phase transitions. {TRUE}
+
+::Agile vs. Waterfall::
+An advantage of Waterfall is flexible prioritization focused on value delivery. {
+    ~ True
+    = False
+}

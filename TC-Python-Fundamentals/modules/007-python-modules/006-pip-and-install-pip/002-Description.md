@@ -1,0 +1,5 @@
+# Introduction
+Python comes with a package management system called "Pip Installs Packages", called pip for short. By default, pip tries to download third party packages from PyPi, the main repository for third party Python packages. The code stored in this repository ranges from people's experiments they wanted to share to high end, enterprise grade, production ready software. 
+
+When you download packages with pip they will be saved with your Python library, but common practice is to create a "virtual environment" for any project that requires using third party libraries. This virtual environment has a copy of the interpreter and Python library used to create it, and any pip installs are redirected to the virtual environment instead of the global Python install when the environment is "activated". The command ```py -m venv {environment-name}``` will create your virtual environment. When it is made you can execute whatever "activate" script is appropriate for your OS, and your pip install will be redirected to the virtual environment.
+

@@ -1,0 +1,38 @@
+::DDL::
+The DDL sublanguage is used to {~manipulate data =define data structure ~control data access ~none of these} in a database.
+
+::Commands::
+Choose the DDL Commands
+{
+    ~Insert, Update, Delete
+    ~Grant, Revoke
+    ~Commit, Rollback, Savepoint
+    =Create, Drop, Alter, Truncate, Comment, Rename
+    ~None of these
+}
+
+
+::DDL::
+The Drop command maintains the structure of the database while removing all data from a table.{
+    ~ True
+    = False
+}
+
+::DDL::
+The Truncate command removes a table from the database schema.  {
+    ~ True
+    = False
+}
+
+
+::DDL::
+Comments are used to help improve the readability of the SQL code {T}
+
+::DDL::
+When using the Create command choose the correct syntax for defining a column.
+{
+    =col_name data_type constraints
+    ~col_name ref_table_name ref_table_col
+    ~col_name data_type, contraint
+    ~none of these
+}

@@ -1,0 +1,25 @@
+::DML::
+The DML sublanguage is used to { ~define data structure ~control data access =manipulate data ~none of these} in a database.
+
+::DML Commands::
+Choose the DML commands
+{
+    ~Grant, Revoke
+    ~Commit, Rollback, Savepoint
+    =Insert, Update, Delete
+    ~Create, Drop, Alter, Truncate, Comment, Rename
+    ~None of these
+}
+
+
+::DML Commands::
+The result of the insert command is the number of rows affected by the statement. {T}
+
+::DML Commands::
+A delete statement without a WHERE clause will delete records indiscriminately. {T}
+
+::DML Commands::
+An update statement without a WHERE clause will only update records where the specified columns are not null. {
+    ~ True
+    = False
+}

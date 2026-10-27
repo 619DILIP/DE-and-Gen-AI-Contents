@@ -1,0 +1,33 @@
+
+::DQL Clauses::
+What is the meaning of "ORDER BY" clause in Mysql?
+{
+    ~Aggregation of fields
+    ~Sorting your result set using row data
+    =Sorting your result set using column data
+    ~None of the mentioned
+}
+
+::DQL Clauses::
+Which keyword is used for sorting the data in ascending order in Mysql?
+{
+    ~DESC
+    =ASC
+    ~ASCENDING
+    ~DESCENDING
+}
+
+::DQL Clauses::
+Check if there is any error in the follwing query?
+SELECT emp_id, title, start_date, fname, fed_id
+FROM person
+ORDER BY 2, 5;
+
+{
+    ~Maybe
+    ~Yes
+    =No
+    ~Can't decide
+}
+
+

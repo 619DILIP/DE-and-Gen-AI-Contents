@@ -1,0 +1,26 @@
+::Python For Loop::
+Which of the following is not a valid iterable object for a for loop in Python?
+{
+~List
+~Tuple
+=Integer
+~String
+}
+
+::Python While Loop::
+Which of the following statements is true regarding the body of the loop?
+{
+~It is a block of one or more statements.
+~Statements in the block have the similarly increased indent.
+~It is executed for each iteration.
+=All of the above.
+}
+
+::Python While Loop::
+What is the purpose of the range() function when used with a for loop?
+{
+~It iterates over a list or tuple.
+=It generates a sequence of numbers to iterate over.
+~It prints a message for each iteration.
+~It skips the current iteration and moves to the next one.
+}

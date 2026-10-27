@@ -1,0 +1,41 @@
+::Spark Language::
+Spark written in which language?
+{
+~python
+~.Net
+~java
+=Scala
+}
+
+::Spark Speed::
+State True/False - Spark is 100x times slower than MapReduce.
+{
+~ True
+= False
+}
+
+::Map Reduce::
+Which of the following statement is true about Hadoop MapReduce?
+{
+~MapReduce is a low latency computing framework
+=MapReduce is a basic data processing engine
+~MapReduce is developed in Scala
+~All the above
+}
+
+::Spark Language Support::
+Which of the following programming languages support to Apache Spark?
+{
+~Java
+~Python
+~R
+=All the above
+}
+
+::Map Reduce Cost::
+State True/False - MapReduce is a cheaper option in terms of cost.
+{
+= True
+~ False
+}
+

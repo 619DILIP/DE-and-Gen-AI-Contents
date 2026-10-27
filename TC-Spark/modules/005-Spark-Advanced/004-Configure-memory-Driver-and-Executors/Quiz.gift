@@ -1,0 +1,15 @@
+::Spark-Memory-Management::
+Which of the following is the correct formula to calculate the number of executors?{
+    = Number of executors \= total number of cores/ spark.executor.cores 
+    ~ Number of executors \= spark.executor.cores/ total number of cores
+    ~ Number of executors \= spark.executor.cores * total number of cores
+    ~ None of the above
+}
+
+::Spark-Memory-Management::
+State True or False, "It is recommended to not exceed the core-per-executor above 5."
+{
+= True
+~ False
+}
+

@@ -1,0 +1,16 @@
+::SQL Outer Join::
+An outer join displays records that match as well as records that do not match. {T}
+
+
+::SQL Outer Join::
+What type of join is needed when you wish to include rows that do not have matching values.
+{
+    ~Natural Join
+    =Outer Join
+    ~Theta Join
+    ~All of the above
+}
+
+
+
+

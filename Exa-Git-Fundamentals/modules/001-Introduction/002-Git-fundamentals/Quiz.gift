@@ -1,0 +1,35 @@
+::GitBash::
+This GitBash command places a file in the staging area.
+{
+=git add
+~git commit
+~git push
+~git place
+}
+
+::GitBash::
+This GitBash command snapshots a file permanently in the version history.
+{
+~git add
+=git commit
+~git push
+~git version
+}
+
+::GitBash::
+This GitBash command sends the committed changes of the main branch to your remote repository. 
+{
+~git add
+~git commit
+=git push
+~git place
+}
+
+::GitBash::
+This GitBash command fetches and merges changes on the remote server to your working directory.
+{
+=git pull
+~git commit
+~git push
+~git add
+}

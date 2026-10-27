@@ -1,0 +1,19 @@
+//MCQs
+
+::Spark-RDD::
+Which method to use to get the first element of the RDD?{
+    ~ takes()
+    ~ head()
+    ~ tail()
+    = first()
+}
+
+
+::Spark-RDD::
+Which of the following operation is not a transformation?{
+    = countByKey()
+    ~ groupByKey()
+    ~ sortByKey()
+    ~ reduceByKey()
+}
+

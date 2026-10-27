@@ -1,0 +1,5 @@
+<br>
+
+A stored procedure is similar to functions in other programming languages, in which a set of statements are named and stored to be executed at a future point in time as a batch. These stored procedures are stored inside a database schema and which can be invoked from within an SQL command call. A stored procedure can provide additional layers of security between the user interface and the database by abstracting data access because end users may manipulate data through procedure calls without exposing embedded queries in a graphical user interface. Additionally, stored procedures can be used to provide easier interface for complex or batch operations to be executed on database records.
+
+Unlike user defined functions, stored procedures typically do not return data (although some SQL dialects may support this operation). Rather, procedures are used to perform many and/or complex operations or manipulate data in a batch. Additionally, stored procedures are not called through Queries (such as `SELECT`) and are instead called using a specific keyword, such as `CALL`, `EXEC`, or `EXECUTE PROCEDURE` the exact keyword(s) to use depend on the SQL dialect.

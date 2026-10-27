@@ -1,0 +1,39 @@
+::Q1::Which approach is generally most appropriate when a knowledge set is large or changes frequently?
+{
+=Retrieval Augmented Generation (RAG)
+~Cache Augmented Generation (CAG)
+~Parameter Efficient Fine Tuning (PEFT)
+~Putting all the context directly in the prompt
+}
+
+::Q2::What does an embedding represent in a RAG system?
+{
+~A copy of the original document stored in a database
+~The complete model weights used for fine tuning
+=A numeric representation of text that places similar meanings close together
+~A prompt template that tells the model how to answer
+}
+
+::Q3::What is the key limitation of Cache Augmented Generation (CAG) compared with RAG?
+{
+~CAG requires a vector store for every question
+~CAG cannot use a model's context window
+~CAG requires retraining whenever a question is asked
+=The entire knowledge set must fit within the model's context window
+}
+
+::Q4::What is Parameter Efficient Fine Tuning (PEFT) primarily intended to change?
+{
+~The set of documents retrieved for each question
+=The model's behavior, such as its tone, format, or domain conventions
+~The size of the model's context window
+~The source documents stored in a vector store
+}
+
+::Q5::When diagnosing a poor answer from a RAG system, what should be checked first according to the module?
+{
+~Whether the model needs to be fully fine tuned
+~Whether the context window should be made smaller
+~Whether the prompt contains more instructions
+=Whether the correct material was retrieved
+}

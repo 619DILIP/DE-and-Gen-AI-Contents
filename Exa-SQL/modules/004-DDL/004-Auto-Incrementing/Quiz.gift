@@ -1,0 +1,19 @@
+::SQL Auto Increment::
+Which of the following is TRUE about SQL Auto Increment?
+{
+    ~It keeps the unique number constant
+    ~It decrements the unique number automatically
+    =It increments the unique number automatically
+    ~None of the above
+}
+
+::SQL Auto Increment::
+Which of the following is the feature(s) of SQL Auto Increment?
+{
+    ~Explicitly initializing and modifying the auto-increment value is possible at any time
+    ~Record identifiers can easily be created that are unique to each records
+    ~In some cases, we may not have unique identifying characteristics in data, thus, it makes sense to create a Primary key
+    =All of the above
+}
+
+

@@ -1,0 +1,28 @@
+//MCQ
+
+::DataFrame Definition::
+What is a DataFrame in Spark?
+{
+    ~ A single-node in-memory collection
+    = A distributed collection of data organized into named columns
+    ~ A replacement for SparkSession
+    ~ A file format like Parquet
+}
+
+::Creating DataFrame::
+Which of the following is a valid way to create a DataFrame in PySpark?
+{
+    ~ spark.createRDD(data)
+    = spark.createDataFrame(data, columns)
+    ~ sc.createDataFrame(data)
+    ~ DataFrame(data)
+}
+
+::DataFrame Transformation::
+Which operation is considered a transformation on a DataFrame?
+{
+    = filter()
+    ~ show()
+    ~ collect()
+    ~ count()
+}

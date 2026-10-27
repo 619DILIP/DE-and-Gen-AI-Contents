@@ -1,0 +1,26 @@
+::Question 1::
+What is the purpose of using functions in Python?
+{
+~To store and manipulate data
+=To create reusable blocks of code
+~To perform mathematical calculations
+~To define variables and constants
+}
+
+::Question 2::
+What is a parameter in a Python function?
+{
+~The value returned by the function
+~A variable used to store data within the function
+~A condition that stops the function's execution
+=An input variable defined in the function's signature
+}
+
+::Question 3::
+What is a recursive function in Python?
+{
+=A function that calls itself within its definition
+~A function that returns multiple values at once
+~A function that uses loops instead of recursion
+~A function that has no return statement
+}

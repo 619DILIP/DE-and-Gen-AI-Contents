@@ -1,0 +1,23 @@
+::Full Stack Developer Definition::
+A full stack developer is someone who:
+{
+~ Specializes only in front-end development
+~ Specializes only in back-end development
+= Is knowledgeable in both front-end and back-end development
+~ Works only with databases and servers
+}
+
+::Front End vs Back End (T/F)::
+The front end of an application refers to everything that the user can see and interact with. 
+{
+T
+}
+
+::Real World Analogy::
+In the restaurant analogy used to describe full stack development, the kitchen and pantry represent which part of the system?
+{
+~ Front end
+= Back end
+~ User interface
+~ Decor and seating areas
+}

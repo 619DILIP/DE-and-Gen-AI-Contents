@@ -1,0 +1,29 @@
+Spark was initially started by ____________ at UC Berkeley AMPLab in 2009.
+{
+~Mahek Zaharia
+=Matei Zaharia
+~Doug Cutting
+~Stonebraker
+}
+
+State True/False - SIMR can be used to launch Spark jobs inside MapReduce.
+{T}
+
+State True/False - Hadoop and Spark are not data processing platforms.
+{F}
+
+Which one is provide the Spark Core’s fast scheduling capability to perform streaming analytics?
+{
+~RDD 
+~Graphx 
+=Spark Streaming 
+~Spark R 
+}
+
+What are the features of Spark RDD?
+{
+~In - memory computation 
+~Lazy evaluations 
+~Fault Tolerance 
+=All of the above 
+}

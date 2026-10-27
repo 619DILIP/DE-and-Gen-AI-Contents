@@ -1,0 +1,42 @@
+//MCQ
+
+::Data Frame::
+Which of the following file formats stores the data in key-value pairs?{
+    ~ Text files and CSV files
+    = JSON files and Avro files
+    ~ Parquet files
+    ~ ORC files
+} 
+
+::Data Frame::
+Which of the following file gives the best read performance?{
+    ~ CSV
+    ~ Avro
+    = Parquet
+    ~ RC
+}
+
+::Data Frame::
+Which of the following file gives the best write performance?{
+    ~ CSV
+    = Avro
+    ~ Parquet
+    ~ RC
+}
+
+::Data Frame::
+Which files are best suited to store the intermediate data of mapper in hadoop?{
+    ~ CSV file
+    ~ Avro file
+    ~ JSON file
+    = Sequence file
+}
+
+::Data Frame::
+Which file format is best if the schema of the data is going to change over time?{
+    ~ RC files
+    ~ ORC files
+    ~ Sequence files
+    = Avro files
+}
+

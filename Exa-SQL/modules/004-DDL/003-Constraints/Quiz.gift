@@ -1,0 +1,36 @@
+::SQL Data Constraints::
+SQL data constraints are used to restrict the values of data which are inserted into a table.
+{
+    =True
+    ~False
+}
+
+
+
+::SQL Data Constraints::
+Given a table with a column named 'id', which is meant to provide a unique identifier for rows, choose the best constraint to apply to the column.
+{
+    =Unique
+    ~Foreign Key
+    ~Create Index
+    ~None of these
+}
+
+::SQL Data Constraints::
+Given a table with a column named 'created_at', which is meant to provide a timestamp for insertion time, choose the best constraint to apply to the column.
+{
+    =Default now()
+    ~Not Null
+    ~Check
+    ~None of these
+}
+
+::SQL Data Constraints::
+Given a table with a column named 'product_type', which is meant to link this table with data in another table, choose the best constraint to apply to the column.
+{
+    ~Primary Key
+    =Foreign Key
+    ~Default
+    ~None of these
+}
+

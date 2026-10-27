@@ -1,0 +1,3 @@
+## Why This Matters for Using These Tools Well
+
+Understanding that an LLM works by predicting likely text, rather than by reasoning or verifying facts, directly explains why these tools are useful for some tasks and require caution for others. They are strong at tasks like drafting, summarizing, rephrasing, and generating code following common patterns, since these tasks align closely with producing fluent, pattern consistent text. They require more caution for tasks that depend on precise factual accuracy or novel reasoning that may not be well represented in their training data, which is exactly why the responsible use and verification practices covered later in this section matter.

@@ -1,0 +1,12 @@
+//MCQ
+
+//Question 1 
+::Spark Cache::
+Spark caching is an Apache Spark transformation that can be used on a ________ ?
+{
+    ~ DataSet
+    ~ DataFrame
+    ~ RDD
+    = All the above
+}
+

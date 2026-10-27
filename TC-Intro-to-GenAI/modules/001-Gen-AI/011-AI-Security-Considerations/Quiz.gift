@@ -1,0 +1,39 @@
+::Q1::What is a risk of putting sensitive information into an AI prompt? 
+{
+~Prompts cannot contain sensitive information
+=The information may be exposed to an external service or handled outside intended controls
+~Sensitive data becomes public only after one second
+~The model automatically encrypts it for every user
+}
+
+::Q2::What is prompt injection? 
+{
+~An EC2 scaling policy
+~A database indexing technique
+=An attempt to manipulate an AI system through instructions embedded in input or untrusted content
+~A method for increasing disk space
+}
+
+::Q3::Why should AI tool permissions be reviewed? 
+{
+~More permissions always make systems safer
+~Permissions only control screen brightness
+~Permissions never affect security
+=Excessive access can increase the impact of mistakes or compromised behavior
+}
+
+::Q4::What is a basic precaution when integrating AI into a development environment? 
+{
+~Give the tool unrestricted access by default
+=Limit access to necessary files and data
+~Disable all review
+~Send all secrets in every prompt
+}
+
+::Q5::Why does data handling policy matter for an AI development tool? 
+{
+~Policies determine the Python syntax
+=The tool may process source code or other data outside the local development environment
+~Policies remove the need for authentication
+~Policies change CPU frequency
+}

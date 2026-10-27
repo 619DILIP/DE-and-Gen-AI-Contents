@@ -1,0 +1,39 @@
+::Q1::What is a key difference between static analysis and AI assisted code analysis?
+{
+~AI assisted analysis always produces the same findings for the same code
+=Static analysis uses fixed rules, while AI assisted analysis reasons over learned patterns and context
+~Static analysis can understand developer intent better than AI assisted analysis
+~AI assisted analysis guarantees that every reported finding is correct
+}
+
+::Q2::Why should a developer profile code before asking an AI tool to optimize it?
+{
+~Profiling automatically refactors the code before the AI tool sees it
+~AI tools cannot analyze code unless a profiler has been used
+~Profiling removes the need to run tests after an optimization
+=It identifies where runtime is actually being spent, allowing optimization effort to target the real bottleneck
+}
+
+::Q3::What is the correct workflow for AI-assisted refactoring?
+{
+~Request the refactoring, update failing tests, then apply the change
+~Apply several changes at once and measure the final result
+=Confirm tests pass, request and review the refactoring, apply it, then run the tests again
+~Replace the existing implementation first and write tests only if problems occur
+}
+
+::Q4::Which limitation applies to AI tools when analyzing code for performance?
+{
+~They cannot identify algorithmic complexity problems
+=They do not know realistic data sizes and cannot measure which functions actually consume runtime
+~They can only analyze code that contains syntax errors
+~They always require access to the production environment
+}
+
+::Q5::What does a clean result from an AI-assisted security review mean?
+{
+~The code has passed a complete security audit
+~The code contains no vulnerabilities
+~The AI has verified that all security practices are correctly implemented
+=Nothing was recognized by the tool; further security review is still necessary
+}

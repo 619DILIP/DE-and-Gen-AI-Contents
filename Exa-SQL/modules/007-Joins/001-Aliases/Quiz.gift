@@ -1,0 +1,21 @@
+::SQL Alias::
+What is the output of the following SQL statement?
+SELECT Emp.Emp_ID, First_name, Last_name
+FROM Emp e1, Emp2  e2
+WHERE e1.Emp_ID = e2.Emp_ID
+{
+    ~A list of all employee IDs and their First_name and Last_name
+    =Error - If Aliasing is used, it must be used throughout
+    ~A list of matching employee IDs and their First_name and Last_name
+    ~None of the above
+}
+
+::Question::What is the purpose of the SQL AS clause?
+{
+   ~The AS clause defines a search condition
+   ~The AS clause is used with JOIN clause only
+   =The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column
+   ~All of the above
+}
+
+

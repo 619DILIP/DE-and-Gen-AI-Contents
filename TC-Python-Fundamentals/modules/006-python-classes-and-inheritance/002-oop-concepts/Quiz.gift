@@ -1,0 +1,32 @@
+// Practice Questions
+::Question 1::
+Which OOP pillar deals with hiding implementation details?
+{
+    =Abstraction
+    ~Encapsulation
+    ~Inheritance
+    ~Polymorphism
+}
+
+::Question 2::
+Which OOP pillar deals with the concept of 'is-a' relationships?
+{
+    ~Abstraction
+    ~Encapsulation
+    =Inheritance
+    ~Polymorphism
+}
+
+::Question 4::
+Polymorphism allows objects of the same class to respond to methods differently. 
+{
+    ~True
+    =False
+}
+
+::Question 5::
+Abstraction promotes the idea of focusing on the 'what' rather than the 'how'.
+{
+    =True
+    ~False
+}

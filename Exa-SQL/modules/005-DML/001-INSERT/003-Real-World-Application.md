@@ -1,0 +1,3 @@
+<br>
+
+Every company requires the persistence of information, whenever new products are added to an e-commerce website the business will require the ability to add all of the details for the product into their database. They must maintain data consistency when applying their products to their database to capture the appropriate metrics for a successful business. These `INSERT` commands into their products table will follow the rules of the established table to prevent any data inconsistency.

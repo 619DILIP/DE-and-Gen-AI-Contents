@@ -1,0 +1,3 @@
+## A Nightly Sales Pipeline
+
+A retail company might run a pipeline every night that pulls the day's transaction data from its point of sale systems, cleans and standardizes it, and loads it into the fact and dimension tables of its data warehouse. By the time analysts arrive the next morning, dashboards reflect the previous day's complete sales activity. If the pipeline fails partway through, for example because one store's data file was corrupted, a well built pipeline logs that specific failure and still successfully loads data from every other store, rather than leaving the entire warehouse without any updated data for that day.

@@ -1,0 +1,28 @@
+//MCQ
+
+::Dataset Definition::
+What is a Dataset in Spark?
+{
+    ~ A single machine collection of objects
+    = A strongly typed distributed collection of domain-specific objects
+    ~ A storage format like Parquet
+    ~ A replacement for SparkSession
+}
+
+::Dataset vs DataFrame::
+Which statement correctly describes the relationship between Dataset and DataFrame?
+{
+    ~ A DataFrame is strongly typed while a Dataset is not.
+    = A DataFrame is an untyped view of a Dataset of Rows.
+    ~ Dataset and DataFrame are completely unrelated APIs.
+    ~ Dataset can only be created from RDD.
+}
+
+::Dataset Operations::
+Which of the following operations can be applied to a Dataset?
+{
+    = map(), filter(), flatMap()
+    ~ Only SQL queries
+    ~ Only join operations
+    ~ Only aggregation functions
+}

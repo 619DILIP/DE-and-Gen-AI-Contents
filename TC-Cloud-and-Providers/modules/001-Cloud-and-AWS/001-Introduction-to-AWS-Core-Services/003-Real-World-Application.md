@@ -1,0 +1,3 @@
+## Why Companies Choose AWS
+
+A startup building a new application does not need to purchase, configure, and maintain physical servers before writing a single line of code. Instead, it can provision the compute and storage it needs on AWS within minutes, pay only for what it uses, and scale that infrastructure up automatically if the application grows in popularity. This ability to start small and scale on demand, without large upfront infrastructure investment, is one of the primary reasons cloud platforms like AWS have become the default choice for most new software projects.

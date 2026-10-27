@@ -1,0 +1,39 @@
+::Q1::What is a streaming pipeline?
+{ 
+~A pipeline that cannot process incoming data
+=A pipeline that processes data continuously as it is generated
+~A pipeline that runs only once per year
+~A pipeline that always waits for a complete daily batch
+}
+
+::Q2::Which use case is well suited to streaming? 
+{
+~A one-time historical data import
+=Near-real-time fraud detection
+~A daily business report that can wait for a scheduled batch
+~A monthly archival process
+}
+
+::Q3::What should a pipeline do when a source row is missing a required field, according to the example implementation? 
+{
+~Delete the entire source file
+~Automatically invent a value for the missing field
+=Skip the row during the transformation step
+~Stop all future pipeline runs permanently
+}
+
+::Q4::Why is scheduling important for many data pipelines? 
+{
+~It means a pipeline can run only once
+=It allows pipelines to run automatically at the required frequency
+~It prevents pipelines from processing data
+~It removes the need for a destination
+}
+
+::Q5::How does a data pipeline relate to ETL and ELT? 
+{
+~It replaces extraction with manual reporting
+~It means data no longer needs a destination
+~It is unrelated to moving or transforming data
+=It puts extraction, transformation, and loading concepts into an automated running process
+}

@@ -1,0 +1,40 @@
+::Q1::What does "raw data" mean in the context of a data lake?
+{
+~Data that has been deleted from the source system
+~Data that has already been aggregated into final reports
+=Data that has been collected but may not yet have been cleaned or transformed for a specific analytical use
+~Data that can only be stored after being converted to relational tables
+}
+
+
+::Q2::What does schema-on-write generally imply? 
+{
+=Data is structured according to a defined schema before or as it is written to the analytical store
+~Data is never given any structure
+~A schema is created only after every query finishes
+~Only unstructured files can be loaded
+}
+
+::Q3::What does schema-on-read generally imply? 
+{
+~Every source must match a warehouse table before storage
+=Structure is applied when the data is read or analyzed rather than requiring one fixed structure at ingestion
+~All data must be transformed into a single relational schema immediately
+~No structure can ever be applied to the data
+}
+
+::Q4::Why might an organization use both a data lake and a data warehouse? 
+{
+~The two systems perform exactly the same role
+=The lake can retain raw varied data while the warehouse provides structured data for reliable analysis
+~A warehouse is needed only to store operating-system files
+~Using both guarantees that no transformation is ever required
+}
+
+::Q5::Which statement best captures the relationship between a lake and a warehouse? 
+{
+=They serve different but complementary data-management and analytical purposes
+~They are identical systems with different file extensions
+~A data lake is simply another name for an operational database
+~A data warehouse is only a backup copy of a data lake
+}

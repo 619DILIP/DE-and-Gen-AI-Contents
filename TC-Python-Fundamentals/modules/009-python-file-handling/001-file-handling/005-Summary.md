@@ -1,0 +1,3 @@
+- Each line of a file includes a sequence of characters that form the file. 
+- Each line of a file is terminated with an EOL character.
+- You can manually open and close a file in your code, or use the "with" keyword to close the file when you are done with it automatically.

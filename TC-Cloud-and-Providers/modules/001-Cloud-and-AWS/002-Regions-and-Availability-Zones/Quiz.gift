@@ -1,0 +1,41 @@
+// Quiz: Regions and Availability Zones
+
+::Q1::What is an AWS region?
+{
+    ~A single data center containing multiple availability zones
+    =A separate geographic area containing its own AWS infrastructure
+    ~A small site used primarily to cache content near end users
+    ~A logical grouping of resources that can span all AWS locations
+}
+
+::Q2::A company serves customers primarily in Europe, and regulations require its personal data to remain within a specific European jurisdiction. Which factor should primarily determine the AWS region it chooses?
+{
+    =Compliance and data residency
+    ~Cost
+    ~Latency
+    ~Number of edge locations
+}
+
+::Q3::Why are AWS availability zones physically separated within a region?
+{
+    ~To make every zone operate as a separate AWS region
+    ~To ensure that resources in different zones have different pricing
+    ~To cache frequently requested content closer to end users
+    =To reduce the chance that a localized failure affects multiple zones
+}
+
+::Q4::What is the primary purpose of an AWS edge location?
+{
+    ~To run the primary application infrastructure for a region
+    =To cache content close to end users for faster delivery
+    ~To provide an independent set of availability zones for a region
+    ~To store every resource created in an AWS account
+}
+
+::Q5::An AWS resource was created successfully, but it does not appear when the user runs a command. What should the user check first?
+{
+    ~The number of availability zones in the region
+    ~The nearest edge location
+    =The configured AWS region
+    ~The physical data center where the resource is stored
+}

@@ -1,0 +1,37 @@
+// Quiz for the Waterfall topic
+
+::Development models::
+_____ is the development model where as each phase completes, the project spills to the next step
+{
+~Agile
+=Waterfall
+~Iterative
+~V-model
+}
+
+::Waterfall model::
+Which is NOT an advantage of the waterfall model of development?
+{
+~It is a simple model that can be followed by developers in developing software.
+~All the phases are clearly defined.
+~It works well in short projects.
+=It does not consume time to implement.
+}
+
+::Waterfall model::
+In which of these real-world situations would implementing the Waterfall development model NOT be appropriate?
+{
+=Projects where time is a major factor.
+~A human life is at stake and a system failure could result in fatalities.
+~Military and aircraft programs where requirements are declared early on and remain constant.
+~Projects with an extremely high degree of oversight and/or accountability.
+}
+
+::Waterfall model::
+The ______ stage of the Waterfall model is where the actual code is written.
+{
+~Logical Design
+~Physical Design
+=Implementation
+~Maintenance
+}

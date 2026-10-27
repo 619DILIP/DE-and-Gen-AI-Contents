@@ -1,0 +1,33 @@
+// MCQ 
+
+::Data Frame::
+Which of the following is not true for DataFrame?{
+   ~ We can build DataFrame from different data sources. structured data file, tables in Hive
+   ~ The Application Programming Interface (APIs) of DataFrame is available in various languages
+   ~ Both in Scala and Java, we represent DataFrame as Dataset of rows.
+   = DataFrame in Apache Spark is behind RDD
+}
+
+::Data Frame::
+Which of the following the data is organised into named coloumn?{
+   = Dataframe
+   ~ RDD
+   ~ RDD and DataFrame
+   ~ Dataset
+}
+
+::Data Frame::
+Which of the following DataFrame commands is a wide transform?{
+   ~ df.drop()
+   ~ df.contains()
+   ~ df.filter()
+   = df.repartition()
+}   
+
+::Data Frame::
+How to display the content of the DataFrame {
+   ~ df.view()
+   ~ df.list()
+   ~ None of the options
+   = df.show()
+}

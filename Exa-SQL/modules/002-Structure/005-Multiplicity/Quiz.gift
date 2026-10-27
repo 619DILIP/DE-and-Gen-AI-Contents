@@ -1,0 +1,28 @@
+::SQL Mulitplicity::
+What type of relationship would the tables 'Professors' and 'Students' have?
+{
+    ~one-to-one
+    ~one-to-many
+    ~many-to-one
+    =many-to-many
+}
+
+::SQL Mulitplicity::
+What type of relationship would the tables 'Backpacks' and 'Students' have?
+{
+    =one-to-one
+    ~one-to-many
+    ~many-to-one
+    ~many-to-many
+}
+
+::SQL Mulitplicity::
+What type of relationship would the tables 'Schools' and 'Students' have?
+{
+    ~one-to-one
+    =one-to-many
+    ~many-to-one
+    ~many-to-many
+}
+
+

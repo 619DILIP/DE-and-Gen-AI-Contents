@@ -1,0 +1,31 @@
+::MapReduce::
+In a MapReduce job with 500 map tasks, how many map task attempts will there be?
+{
+    ~ It depends on the number of reducer jobs
+    ~ Between 400 and 500
+    ~ At most 500
+    = At least 500
+}
+
+//Question 2
+::MapReduce::
+What is the output of the Reducer?
+{
+~ A relational table
+~ An update to the input file
+~ A single,combined list
+= A set of key and value pairs
+}
+
+
+//Question 3
+::MapReduce::
+When is the earliest point at which the reduce method of a given Reducer can be called?
+{
+~ As soon as at least one mapper has finished processing its input split.
+~ As soon as a mapper has emitted at least one record.
+= Not until all mappers have finished processing all records.
+~ It depends on the inputformat used for the job.
+}
+
+

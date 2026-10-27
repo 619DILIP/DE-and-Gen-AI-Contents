@@ -1,0 +1,20 @@
+::Q1:: Why is PySpark particularly useful when processing very large datasets? {
+=It can distribute data and computation across multiple machines in a cluster
+~It converts all large datasets into Pandas DataFrames before processing
+~It stores the entire dataset permanently in the SparkSession
+~It eliminates the need for any data partitioning during processing
+}
+
+::Q2:: What is one of the main benefits of Spark's in-memory processing capability? {
+=It can reduce disk I/O by keeping frequently used data in memory
+~It eliminates the need to distribute data across worker nodes
+~It automatically converts all Spark DataFrames into Pandas DataFrames
+~It allows Spark to process data without using any computing resources
+}
+
+::Q3:: Which statement best explains the relationship between Apache Spark and PySpark? {
+=Apache Spark provides the distributed processing engine, while PySpark provides a Python interface for using Spark
+~PySpark is a separate distributed processing engine that replaces Apache Spark
+~Apache Spark is a Python library built on top of PySpark
+~PySpark is only used to convert Spark applications written in Scala into Python
+}

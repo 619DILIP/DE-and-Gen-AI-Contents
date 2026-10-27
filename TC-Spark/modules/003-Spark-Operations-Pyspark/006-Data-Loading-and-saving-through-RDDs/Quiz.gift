@@ -1,0 +1,26 @@
+//MCQs
+
+::Spark-RDD::
+Which method of RDD can be used to load the data from the filesystem?{
+    ~ text()
+    ~ textfiles()
+    = textFile()
+    ~ All of the above
+} 
+
+::Spark-RDD::
+Which of the following method is used to store the RDD result to the filesystem?{
+    ~ save()
+    = saveAsTextFile()
+    ~ SaveAsTextFile()
+    ~ saveastextFile()
+}
+
+::Spark-RDD::
+Which of the following option returns a tuple consisting of filename and content of the file?{
+    ~ whole()
+    ~ wholeText()
+    ~ wholeTextFile()
+    = wholeTextFiles()
+}
+

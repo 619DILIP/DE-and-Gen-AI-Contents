@@ -1,0 +1,4 @@
+# Introduction 
+When writing code it can be easy to forget or miss small things such as naming conventions, language best-practices, or even poorly written code. Static code analysis is a process of having software look for these "code smells", non-programmatic problems with our code, and reporting them to us. Pylint is a third party package you can download to your project that can perform this analysis for you.
+
+Keep in mind, most IDEs will have some dedicated linter, or provide the option for installing one to analyze your code as you write it. Pylint is a tool that can be used alongside these other linters. With that being said, Pylint does support implementing plugins to customize the way it analyzes your code, which can turn it into a powerful tool for maintaining high quality coding standards.

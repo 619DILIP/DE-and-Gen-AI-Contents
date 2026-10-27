@@ -1,0 +1,40 @@
+::Q1::What is Amazon Web Services (AWS)?
+{
+~A single database engine installed on a local computer
+~A version control system for storing source code
+=A cloud platform providing a broad set of computing services
+~A programming language for building cloud applications
+} 
+
+
+::Q2::Which AWS service category is primarily associated with storing files and objects?
+{
+~Identity and access management
+~Developer tools
+~Compute
+=Storage
+}
+
+::Q3::What is a key characteristic of cloud computing pricing described in the module? 
+{
+~Every AWS service has one fixed lifetime price
+~Pricing is unrelated to resource usage
+~Customers must purchase all hardware before using a service
+=Customers generally pay for the resources and services they use
+}
+
+::Q4::What does the shared responsibility model primarily clarify?
+{
+~Which operating system every AWS service runs
+=Which security responsibilities belong to AWS and which belong to the customer
+~Which programming language must be used with AWS
+~Which database schema customers must use
+}
+
+::Q5::What is the customer's responsibility under the shared responsibility model? 
+{
+~Maintaining AWS's global network hardware
+~Manufacturing AWS servers
+~All physical security of AWS data centers
+=Security tasks that depend on how the customer configures and uses AWS services
+}

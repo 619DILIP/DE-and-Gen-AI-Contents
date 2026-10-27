@@ -1,0 +1,34 @@
+::Q01::Which statement best describes SQLite?{
+~It is a database server that always requires a separate server process
+=It is a lightweight, self-contained SQL database engine that can operate from a single file
+~It is a Python-only data structure used to store variables
+~It is a NoSQL database that cannot use SQL
+}
+
+::Q02::Which Python module provides built-in support for working with SQLite databases?{
+~sql
+~database
+~sqlite
+=sqlite3
+}
+
+::Q03::What is the role of a cursor object in Python's SQLite3 module?{
+~It stores the database permanently in memory
+~It creates the SQLite database file automatically
+~It replaces the database connection
+=It is used to execute SQL queries against the database
+}
+
+::Q04::Which method is used to create a connection to an SQLite database in Python?{
+~sqlite3.cursor()
+~sqlite3.execute()
+=sqlite3.connect()
+~sqlite3.open()
+}
+
+::Q05::[markdown]Which statement correctly describes `commit()` and `rollback()` in SQLite3?{
+= `commit()` persists transaction changes, while `rollback()` reverts changes to the previous commit
+~Both methods create a new database connection
+~`commit()` retrieves query results, while `rollback()` retrieves only one result
+~`commit()` closes the connection, while `rollback()` closes the cursor
+}

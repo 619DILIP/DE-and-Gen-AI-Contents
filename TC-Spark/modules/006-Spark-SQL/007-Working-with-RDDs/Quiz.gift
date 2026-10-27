@@ -1,0 +1,31 @@
+// MCQ
+
+::RDD::
+Which of the following method used to create an RDD?
+{
+~sparkContext(sparkContext)
+=sparkContext.parallelize()
+~parallelize.sparkcontext()
+~None of the above
+}
+
+::RDD::
+State True/False - Using `textfile()` method we can read a text file into RDD.
+{T}
+
+::RDD::
+State True/False - We can operate Spark RDDs in parallel with a low-level API.
+{T}
+
+::RDD::
+Which of the following is true for RDD?
+{
+~RDD is a programming paradigm
+=RDD in Apache Spark is an immutable collection of objects
+~It is a database
+~None of the above
+}
+
+::RDD::
+State True/False - Using `getNumPartitions()` we can get the current length/size of partitions.
+{T}

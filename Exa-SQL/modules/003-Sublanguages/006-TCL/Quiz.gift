@@ -1,0 +1,17 @@
+::TCL::
+What statement marks and saves the current transaction points?
+{
+    ~Save as
+    =SAVEPOINT
+    ~SAVE
+    ~COMMIT
+}
+
+::TCL::
+Which of the following TCL commands makes all changes made by a transaction permanent?
+{
+    ~ROLLBACK
+    ~SAVEPOINT
+    ~SAVE
+    =COMMIT
+}

@@ -1,0 +1,38 @@
+::Q1::What does managed mean in the context of RDS? 
+{
+~The database requires no configuration at all
+~The customer never needs database credentials
+~The database automatically writes application code=AWS handles many operational tasks for the database infrastructure
+}
+
+::Q2::Which is a database engine supported by RDS? 
+{
+=PostgreSQL
+~EC2
+~Amazon S3
+~IAM
+}
+
+::Q3::Which feature helps RDS protect database data through scheduled copies? 
+{
+=Automated backups
+~EC2 instance types
+~S3 object keys
+~IAM groups
+}
+
+::Q4::How does an application typically connect to an RDS database? 
+{
+~By treating the database as an S3 object
+~By connecting through an IAM group name
+~By selecting an EC2 instance type
+=Using the database endpoint and appropriate connection credentials
+}
+
+::Q5::What kind of data system is RDS designed to run? 
+{
+=Relational databases
+~IAM policy documents
+~Virtual machine images
+~Object storage buckets
+}

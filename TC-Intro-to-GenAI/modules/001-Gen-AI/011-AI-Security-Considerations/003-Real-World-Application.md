@@ -1,0 +1,3 @@
+## Integrating an AI Tool Into a Development Environment
+
+Before adopting a new AI coding assistant across a team, a reasonable first step is reviewing exactly what access it requests, whether it sends code to an external server for processing, and whether that server's data handling terms are acceptable for the organization's codebase. Teams working with genuinely sensitive or regulated code often choose tools that explicitly support running locally or that provide clear guarantees about not retaining or training on submitted code, specifically to avoid the data exposure risks covered earlier in this module.

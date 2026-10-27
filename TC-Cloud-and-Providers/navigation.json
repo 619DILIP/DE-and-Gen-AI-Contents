@@ -1,0 +1,85 @@
+{
+  "id": "5787bb8d-0b7b-4084-96bc-688ae0a2f234",
+  "title": "Cloud and AWS",
+  "description": " Cloud and AWS",
+  "prerequisites": {
+    "url": "README",
+    "title": "Prerequisites and Learning Objectives",
+    "tooltip": "Prerequisites and Learning Objectives"
+  },
+  "studyGuide": {
+    "url": "study-guide",
+    "title": "study-guide",
+    "tooltip": "study-guide"
+  },
+  "modules": [
+    {
+      "id": "518eadc4-cc7b-428d-bd7f-c0eb78ab72d1",
+      "title": "Cloud-and-AWS",
+      "url": "modules/001-Cloud-and-AWS",
+      "description": " Cloud-and-AWS",
+      "tooltip": " Cloud-and-AWS",
+      "prerequisites": {
+        "url": "README",
+        "title": "Prerequisites and Learning Objectives",
+        "tooltip": "Prerequisites and Learning Objectives"
+      },
+      "topics": [
+        {
+          "id": "ae85f6e0-40f8-4471-afc8-ffe1673853af",
+          "url": "modules/001-Cloud-and-AWS/001-Introduction-to-AWS-Core-Services/Cumulative.md",
+          "title": "Introduction to AWS Core Services",
+          "tooltip": "Introduction to AWS Core Services"
+        },
+        {
+          "id": "a7f2c9d1-5b64-4e83-9f21-6c8d3a7b4e52",
+          "url": "modules/001-Cloud-and-AWS/002-Regions-and-Availability-Zones/Cumulative.md",
+          "title": "Regions and Availability Zones",
+          "tooltip": "Regions and Availability Zones"
+        },
+        {
+          "id": "e3f2d757-689d-4c4d-9c8a-e91c78d8b150",
+          "url": "modules/001-Cloud-and-AWS/003-EC2-Basics/Cumulative.md",
+          "title": "EC2 Basics",
+          "tooltip": "EC2 Basics"
+        },
+        {
+          "id": "9d098ddc-b285-4b84-b634-90e612112a2c",
+          "url": "modules/001-Cloud-and-AWS/004-RDS-Basics/Cumulative.md",
+          "title": "RDS Basics",
+          "tooltip": "RDS Basics"
+        },
+        {
+          "id": "0cc8eba5-437b-4dcb-9057-cedc39797769",
+          "url": "modules/001-Cloud-and-AWS/005-S3-Basics/Cumulative.md",
+          "title": "S3 Basics",
+          "tooltip": "S3 Basics"
+        },
+        {
+          "id": "96b8a29d-412a-4ba6-81ef-7bd567679f7c",
+          "url": "modules/001-Cloud-and-AWS/006-AWS-IAM-Fundamentals/Cumulative.md",
+          "title": "AWS IAM Fundamentals",
+          "tooltip": "AWS IAM Fundamentals"
+        },
+        {
+          "id": "db91c915-a8d4-45e3-86aa-2eeab0c4e909",
+          "url": "modules/001-Cloud-and-AWS/007-Cloud-Security-Best-Practices/Cumulative.md",
+          "title": "Cloud Security Best Practices",
+          "tooltip": "Cloud Security Best Practices"
+        },
+        {
+          "id": "e2c99445-79b9-4a30-9cb7-d8456bf048bd",
+          "url": "modules/001-Cloud-and-AWS/008-AWS-Lambda-and-Event-Driven-Pipelines/Cumulative.md",
+          "title": "AWS Lambda and Event-Driven Pipelines",
+          "tooltip": "AWS Lambda and Event-Driven Pipelines"
+        },
+        {
+          "id": "ef226476-d461-43ef-ace4-ed186775ad94",
+          "url": "modules/001-Cloud-and-AWS/009-Local-AWS-Environment/Cumulative.md",
+          "title": "Local AWS Environment",
+          "tooltip": "Local AWS Environment"
+        }
+      ]
+    }
+  ]
+}

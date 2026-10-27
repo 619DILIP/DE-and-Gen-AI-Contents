@@ -1,0 +1,39 @@
+::Q1::What problem does AWS IAM solve? 
+{
+=It controls who can access AWS resources and what actions they are allowed to perform
+~It stores application files
+~It runs virtual machines
+~It provides relational database tables
+}
+
+::Q2::What is an IAM group used for? 
+{
+=Organizing users so permissions can be managed for the group
+~Storing S3 objects
+~Running EC2 workloads
+~Creating database replicas
+}
+
+::Q3::What is an IAM policy? 
+{
+=A document defining allowed or denied actions on specified resources
+~A database backup
+~An EC2 machine image
+~An S3 object itself
+}
+
+::Q4::Why are overly broad IAM permissions risky? 
+{
+=They can allow mistakes or compromised credentials to cause greater damage
+~They make S3 objects smaller
+~They reduce database storage capacity
+~They prevent EC2 from starting
+}
+
+::Q5::How can a narrowly scoped IAM policy be verified? 
+{
+=Confirm permitted actions succeed and actions outside the policy fail
+~Make every action succeed
+~Remove the policy before testing
+~Grant administrator access during verification
+}

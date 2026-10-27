@@ -1,0 +1,26 @@
+::Range::
+How can you check if a number is within a specified range using the range function?
+{
+~ Use a loop and check each value in the range.
+= Use the in keyword with the range object.
+~ Convert the range object to a list and check for inclusion.
+~ Use the contains method of the range object.
+}
+
+::Range::
+Which of the following statements is true about the range function in Python?
+{
+~ The range function generates a list of numbers immediately.
+~ The range function can only be used to generate integers.
+= The range function is memory-efficient as it produces numbers on the fly.
+~ The range function can only generate positive numbers.
+}
+
+::Range::
+Which argument is optional when using the range function?
+{
+~ start
+~ stop
+= step
+~ All arguments are required
+}

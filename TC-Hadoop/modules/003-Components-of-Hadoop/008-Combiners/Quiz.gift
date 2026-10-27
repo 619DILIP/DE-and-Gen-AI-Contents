@@ -1,0 +1,26 @@
+//MCQ
+
+::Combiner::
+How many times a combiner will executes if there are 4 mappers and 2 reducers?{
+    ~ It is going to execute 4 times
+    ~ It is going to execute 2 times
+    ~ It is going to execute 6 times
+    = It may execute zero, one or more times. 
+}
+
+
+
+::Combiner::
+Which of the following statement is false regarding combiner in hadoop?{
+    ~ It is optional to use combiner for map-reduce task.
+    ~ The number of combiners depends on the size of data.
+    = Combiner doesn't do sorting and shuffling operations on the intermediate map output.
+    ~ It reduces the time taken for data transfer over the network.
+}
+
+
+
+::Combiner::
+Combiners works on the reduce side and not in map side.
+{F}
+

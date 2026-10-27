@@ -1,0 +1,38 @@
+// Quiz for the Initializing a Repository topic
+
+::Using Git::
+Which is NOT an advantage of using Git?
+{
+=The full version of a repository is maintained only on a central server.
+~It is more secure.
+~Branching allows for simultaneous code versions.
+~Simpler to roll back mistakes.
+}
+
+::Using Git::
+Which is NOT an advantage of using Git?
+{
+~Allows for easier collaboration.
+=Protects projects by not allowing open source code.
+~Encourages code reviews.
+~Good documentation.
+}
+
+
+::Using Git::
+Which is the command for starting a new repository in Git?
+{
+=git init
+~git start
+~git create
+~git mkdir
+}
+
+::Using Git::
+Which is the command for copying from an existing repository in Git?
+{
+~git copy
+~git cp
+=git clone
+~git mv
+}

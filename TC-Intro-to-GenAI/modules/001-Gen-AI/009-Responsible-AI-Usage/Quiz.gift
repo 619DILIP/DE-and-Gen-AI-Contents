@@ -1,0 +1,39 @@
+::Q1::What is the risk of over-reliance on AI output? 
+{
+=Users may accept incorrect or unsuitable output without sufficient review
+~Models stop generating text
+~Review becomes more accurate automatically
+~AI output becomes permanently correct
+}
+
+::Q2::What type of information generally requires particular caution before being placed into an AI prompt? 
+{
+=Sensitive personal or confidential business information
+~Publicly available generic examples only
+~A generic programming keyword
+~A non-sensitive formatting instruction
+}
+
+::Q3::What is bias in AI-generated content? 
+{
+~A type of encryption
+~A guaranteed sign that every response is false
+=Systematic patterns in generated output that can reflect or amplify biases in data or systems
+~A method for reducing prompt length
+}
+
+::Q4::Why should AI output be treated like a first draft in many contexts? 
+{
+~AI output never needs editing
+~First drafts are always correct
+=It can be a useful starting point but still requires professional review
+~A first draft is the same as verified evidence
+}
+
+::Q5::What should an organization establish for responsible AI use? 
+{
+=Policies describing appropriate data, disclosure, and review practices
+~A rule allowing unrestricted access to every AI tool
+~A rule requiring every prompt to contain confidential data
+~A rule banning all verification
+}

@@ -1,0 +1,47 @@
+::Q1::What is the primary advantage of a NumPy array over a Python list for large numerical datasets?
+{
+~A NumPy array can store unlimited Python object types in the same array
+=NumPy uses a fixed data type and contiguous memory, allowing operations to be performed efficiently
+~NumPy automatically converts every numerical operation into a SQL query
+~A NumPy array does not require memory to store its values
+}
+
+::Q2::A two-dimensional NumPy array is created with two rows, each containing three elements\: [1, 2, 3] and [4, 5, 6]. What are its shape and number of dimensions?
+{
+~shape (6,) and ndim 1
+=shape (2, 3) and ndim 2
+~shape (3, 2) and ndim 2
+~shape (2, 3) and ndim 3
+}
+
+::Q3::A one-dimensional NumPy array contains the values 12, 45, 7, 88, and 23. It is filtered using a boolean condition that selects only values greater than 20. What does this filtering expression return?
+{
+~[12, 7]
+=[45, 88, 23]
+~[True, True, False, True, True]
+~20
+}
+
+::Q4::A two-dimensional NumPy array has two rows\: [1, 2, 3] and [4, 5, 6]. A one-dimensional array [10, 20, 30] is added to it using NumPy's broadcasting rules. What is the result?
+{
+~[[11, 12, 13], [14, 15, 16]]
+=[[11, 22, 33], [14, 25, 36]]
+~[[10, 20, 30], [40, 50, 60]]
+~An error because the arrays have different shapes
+}
+
+::Q5::A two-dimensional NumPy array has two rows\: [10, 20, 30] and [40, 50, 60]. When the sum is computed along axis 0 (summing down each column), what is the result?
+{
+~[60, 150]
+=[50, 70, 90]
+~210
+~[10, 20, 30]
+}
+
+::Q6::Which statement correctly describes the difference between NumPy's arange function used with a start, stop, and step value, and its linspace function used with a start, stop, and a count of values?
+{
+~Both functions use a step size and exclude the endpoint
+=arange uses a step size and excludes the endpoint, while linspace uses a number of values and includes the endpoint by default
+~arange uses a number of values while linspace uses a step size
+~Both functions always produce the same values
+}

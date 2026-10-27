@@ -1,0 +1,38 @@
+//MCQ
+
+::Bigdata Introduction::
+Unprocessed data or processed data are observations or measurements that can be expressed as text, numbers, or other types of media.
+{T}
+
+::Bigdata Introduction::
+Which is a symbolic representation of facts or concepts from which information may be obtained with a reasonable degree of confidence?
+{
+=Data
+~Knowledge
+~Analysis
+~Algorithm
+}
+
+::Bigdata Introduction::
+In Big Data environments, Velocity refers
+{
+~Data can arrive at fast speed
+~Enormous datasets can accumulate within very short periods of time
+~Velocity of data translates into the amount of time it takes for the data to be processed
+=All of the mentioned above
+}
+
+::Bigdata Introduction::
+State True/False - Structured data conforms to a data schema and is often stored in tabular form.
+{T}
+
+::Bigdata Introduction::
+which of the following is an example of unstructured data?
+{
+~Students roll number, age
+~Videos
+~Audio files
+=Both B and C
+}
+
+

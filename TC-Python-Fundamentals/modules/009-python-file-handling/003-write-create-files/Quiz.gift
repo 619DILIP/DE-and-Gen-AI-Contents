@@ -1,0 +1,34 @@
+::Q1::[markdown]What happens when an existing file is opened in write mode (`w`)?{
+~Its existing content is preserved and new content is added to the end
+=Its existing content is truncated before writing
+~The file is opened only for reading
+~An error is always raised
+}
+
+::Q2::Which file mode allows you to append new content while preserving the existing contents of the file?{
+~r+
+~w
+~w+
+=a
+}
+
+::Q3::[markdown]Which statement correctly describes `w+` mode?{
+~It allows only writing and always preserves existing content
+~It allows appending and reading without changing existing content
+~It allows only reading from an existing file
+=It allows reading and writing, and an existing file is truncated when opened
+}
+
+::Q4::[markdown]In write mode, what happens when `seek(0)` is used before another `write()` operation?{
+~It moves the cursor to the end of the file
+~It changes the file mode from `w` to `a`
+=It moves the cursor to the beginning of the file, so the third write overwrites existing data
+~It deletes all existing content
+}
+
+::Q5::[markdown]Which statement correctly compares write mode (`w`) and append mode (`a`)?{
+=`w` truncates an existing file, while `a` preserves its content and positions the cursor at the end
+~`w` and `a` both prevent a new file from being created
+~`w` preserves existing content, while `a` truncates it
+~Both modes preserve existing content and write only at the end
+}

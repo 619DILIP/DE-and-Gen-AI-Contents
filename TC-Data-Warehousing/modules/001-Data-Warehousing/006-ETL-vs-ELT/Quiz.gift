@@ -1,0 +1,39 @@
+::Q1::In ETL, when does transformation occur? 
+{
+~Only after all data has been queried
+~Transformation never occurs in ETL
+=Before the transformed data is loaded into the warehouse
+~After the warehouse has served the final report
+}
+
+::Q2::What is the Extract step responsible for? 
+{
+=Pulling raw data from source systems
+~Creating dimension tables from scratch without source data
+~Writing final reports for business users
+~Deleting the source database
+}
+
+::Q3::What is the Load step in ETL? 
+{
+=Writing the transformed data into the destination warehouse
+~Cleaning data before extraction
+~Pulling raw data from the source
+~Running a report against the source system
+}
+
+::Q4::Why did ELT become more practical with modern cloud data warehouses? 
+{
+~Cloud warehouses cannot store raw data
+~Cloud platforms only support manual transformations
+~Modern warehouses removed the need for extraction
+=Modern warehouses have enough processing power to perform large-scale transformations directly
+}
+
+::Q5::Which sequence correctly represents ELT? 
+{
+~Transform → Extract → Load
+=Extract → Load → Transform
+~Load → Extract → Transform
+~Extract → Transform → Load
+}

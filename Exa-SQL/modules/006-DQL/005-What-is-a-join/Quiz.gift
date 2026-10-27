@@ -1,0 +1,10 @@
+// Quiz for {Fill_in_Here} topic
+
+::JOIN::
+What is a join?{
+~The SQL Join clause is used to establish foreign key relationships.
+~The SQL Join clause is used to combine information and store it as a new table in our database.
+=The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+~The SQL Join clause can only perform INNER JOINs and is rather inconsistently used.
+}
+

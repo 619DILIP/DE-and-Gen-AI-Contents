@@ -1,0 +1,1 @@
+It is common practice to save important information inside files outside of the application that needs the file's data. This could be your logs, a test report, quarterly earnings, the list goes on. Ultimately you will need to produce information in a format that is human friendly, so you need to be able to write data to files.

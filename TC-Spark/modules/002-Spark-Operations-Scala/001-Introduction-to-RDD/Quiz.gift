@@ -1,0 +1,33 @@
+//MCQs
+
+::Spark-RDD::
+Which of the following is not a way to create Spark RDD?{
+    ~ Using parallelize() method
+    ~ By applying transformation on existing RDD.
+    = By applying transformation on SparkSQL
+    ~ From existing Dataframe using ".rdd" operation. 
+}
+
+::Spark-RDD::
+Which of the following statement is wrong regarding RDDs in Spark?{
+    ~ RDDs are the fundamental data structure of Spark.
+    = RDDs are mutable.
+    ~ RDDs are fault tolerant
+    ~ RDDs are distributed.
+}
+
+::Spark-RDD::
+Which method is used to create an Array RDD in Spark?{
+    ~ parallel()
+    ~ parallelized()
+    ~ Array()
+    = parallelize()
+}
+
+::Spark-RDD::
+Which of the following code is the correct representation of creating the Spark RDD in Scala?{
+    = val rdd \= sc.parallelize(Array(1, 2, 3))
+    ~ var rdd \= sc.parallelize(Array(1, 2, 3))
+    ~ val rdd \= parallelize(1, 2, 3)
+    ~ val rdd \= parallelize(array(1, 2, 3))
+}

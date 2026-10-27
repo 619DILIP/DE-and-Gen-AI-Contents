@@ -1,0 +1,26 @@
+// Quiz for Inheritance
+::Inheritance::
+What is inheritance in Python?{
+~A way to create multiple copies of an object
+=A mechanism to allow one class to inherit attributes and methods from another class
+~A type of loop used for iterative calculations
+~A method to define and manipulate arrays in Python
+}
+
+// Quiz for Inheritance
+::Inheritance::
+Which keyword is used for inheritance in Python?{
+~this
+~super
+~inherit
+=class
+}
+
+::Inheritance::
+What is the purpose of inheritance in object-oriented programming?{
+~To create new objects
+~To define variables and constants
+=To promote code reuse and establish hierarchical relationships between classes
+~To perform mathematical calculations
+}
+

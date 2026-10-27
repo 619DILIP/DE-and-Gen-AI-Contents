@@ -1,0 +1,28 @@
+//MCQs
+
+::Spark-RDD::
+How to sort the RDD dataset in descending order?{
+    ~ rdd.sortBy(x \=> x, true)
+    ~ rdd.sort(x \=> x)
+    ~ rdd.sortBy(x \=> x)
+    = rdd.sortBy(x \=> x, false)
+}
+
+
+::Spark-RDD::
+If we have an initial dataset as "sc.parallelize(Array(10, 25, 13, 6, 18, 21))", then which of the following code will return the elements which are less than 15?{
+    ~ rdd.filter(number \=> number > 15)
+    = rdd.filter(number \=> number <15)
+    ~ rdd.reduce(number \=> number <\= 15)
+    ~ rdd.distinct()
+} 
+
+
+::Spark-RDD::
+Which of the following operation doesn't result into shuffle of data over the network?{
+    ~ groupByKey()
+    ~ reduceByKey()
+    ~ repartition()
+    = flatMap()
+}
+

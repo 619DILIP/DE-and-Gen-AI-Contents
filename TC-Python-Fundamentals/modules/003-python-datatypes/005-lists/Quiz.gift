@@ -1,0 +1,41 @@
+::List::
+Which of the following commands will create a list?
+{
+~ list1\=list()
+~ list1 \= []
+~ list1 \= list([20,21,22])
+= All of the above
+}
+
+::List::
+What will be the output of the following snippet?
+\nmy_list \= ['apple', 'banana', 'orange',4,5.2]
+\nprint(my_list[\:])
+{
+= ['apple', 'banana', 'orange', 4,5.2]
+~ ['banana', 'orange', 4,5.2]
+~ ['apple', 'banana', 'orange', 4]
+~ Error
+}
+
+::List::
+What will be the output of the following snippet?
+\nlist1\=("Welcome")
+\nprint(list1)
+ {
+= Welcome
+~ "Welcome"
+~ welcome
+~ WELCOME 
+}
+
+::List::
+What will be the output of the following snippet?
+\nmy_list \= ['apple', 'banana', 'orange', 4, 5.2]
+\n print(my_list[\:-1])
+{
+~ ['apple', 'banana', 'orange', 4, 5.2]
+~ ['banana', 'orange', 4, 5.2]
+= ['apple', 'banana', 'orange', 4]
+~ Error
+}

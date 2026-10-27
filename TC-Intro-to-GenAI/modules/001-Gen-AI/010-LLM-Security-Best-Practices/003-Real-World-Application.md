@@ -1,0 +1,3 @@
+## Building an LLM Powered Feature Safely
+
+A team building a feature that uses an LLM to help generate database queries from natural language questions applies these practices together: the API key used to call the LLM service is stored securely and never exposed in client side code, generated queries are validated against an allow list of permitted operations before execution, rather than run directly, and usage is monitored to catch any unexpected spikes in request volume. None of these steps eliminate the underlying uncertainty in what the model generates, but together they ensure that uncertainty cannot translate directly into an unreviewed action against a production system.

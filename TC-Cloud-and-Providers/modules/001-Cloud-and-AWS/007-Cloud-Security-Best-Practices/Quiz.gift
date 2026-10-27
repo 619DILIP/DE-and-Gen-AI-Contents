@@ -1,0 +1,39 @@
+::Q1::Which is a practical EC2 security measure? 
+{
+=Restricting network access to necessary ports and sources
+~Disabling authentication
+~Sharing administrator credentials
+~Opening every port to the internet
+}
+
+::Q2::What does encryption at rest protect? 
+{
+~Only IAM usernames
+=Data while it is stored
+~Only data being transmitted over a network
+~Only EC2 instance types
+}
+
+::Q3::What does encryption in transit protect? 
+{
+=Data while it moves between systems
+~Only database table definitions
+~Only data stored on disk
+~Only S3 object names
+}
+
+::Q4::What does multi factor authentication add to account security? 
+{
+~A second S3 bucket
+~A second EC2 instance
+~A second database
+=An additional authentication factor beyond a password
+}
+
+::Q5::Why should security groups be restricted? 
+{
+~To remove all network controls
+~To make every address trusted
+=To limit network access to the ports and sources that are actually needed
+~To increase the number of exposed services
+}

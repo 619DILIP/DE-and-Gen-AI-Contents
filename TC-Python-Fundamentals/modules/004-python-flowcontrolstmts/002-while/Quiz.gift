@@ -1,0 +1,26 @@
+::Python While Loop::
+Which statement is used to exit a while loop prematurely?
+{
+=break
+~continue
+~exit
+~stop
+}
+
+::Python While Loop::
+What is the purpose of the continue statement in a while loop?
+{
+=It skips the current iteration and moves to the next one.
+~It exits the loop immediately.
+~It restarts the loop from the beginning.
+~It prints a message to the console.
+}
+
+::Python While Loop::
+Which of the following conditions will result in an infinite loop?
+{
+=while True:
+~while False:
+~while 0:
+~while None:
+}

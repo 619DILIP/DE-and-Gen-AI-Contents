@@ -1,0 +1,23 @@
+
+::Functions::
+To produce a stored function, which of the following statement is used?
+{
+    ~PRODUCE FUNCTION
+    ~PROVIDE PROCEDURE
+    ~CREATE PROCEDURE
+    =CREATE FUNCTION
+}
+
+::Functions::
+A function must always return a value. {TRUE}
+
+::Functions::
+Which of the following is true?
+{
+    ~Functions can contain DML
+    ~Functions can raise exceptions
+    ~Functions are called using the SELECT keyword
+    =All the above
+}
+
+

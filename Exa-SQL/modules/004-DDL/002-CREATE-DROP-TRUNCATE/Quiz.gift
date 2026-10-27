@@ -1,0 +1,26 @@
+::DROP-CREATE-TRUNCATE::
+Which of the following deletes all rows and the table itself.
+{
+    ~TRUNCATE
+    =DROP
+    ~REMOVE
+    ~ALTER
+}
+
+::DROP-CREATE-TRUNCATE::
+Which of the following generates a new empty table in the database.
+{
+    =CREATE TABLE
+    ~DROP TABLE
+    ~TRUNCATE TABLE
+    ~ALTER TABLE
+}
+
+::DROP-CREATE-TRUNCATE::
+MySQL requires _____ privilege to drop a table.
+{
+    =DROP
+    ~ALTER
+    ~DROP ANY TABLE
+    ~UPDATE
+}

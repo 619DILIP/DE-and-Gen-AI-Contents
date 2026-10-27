@@ -1,0 +1,23 @@
+::Q1::What is the main advantage of using cloud computing?
+{
+    ~ You can make the application secure
+    ~ You pay for server costs upfront
+    = It is easier to scale an application
+    ~ You can deploy a monolithic architecture
+}
+
+::Q2::What are the different types of services provided in cloud?
+{
+    ~ IaaS, Paas, ZaaS
+    ~ IaaS, Aaas, SaaS
+    = IaaS, Paas, SaaS
+    ~ IaaS, Qaas, AaaS
+}
+
+::Q3::What are the different types of cloud computing?
+{
+    ~ private
+    ~ public
+    ~ hybrid
+    = All the above 
+}

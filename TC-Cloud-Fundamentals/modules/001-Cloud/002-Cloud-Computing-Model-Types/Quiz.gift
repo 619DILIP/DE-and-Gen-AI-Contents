@@ -1,0 +1,23 @@
+::Q1::Which of the following best describes a Public Cloud?
+{
+    = Cloud infrastructure owned and managed by a third-party provider and delivered over the internet
+    ~ Cloud infrastructure used by only one organization within its premises
+    ~ A combination of on-premise and local servers only
+    ~ A private network with no internet connectivity
+}
+
+::Q2::What is a key characteristic of a Private Cloud?
+{
+    ~ It is shared by multiple organizations over the internet
+    = It is dedicated to a single organization
+    ~ It is always hosted by AWS
+    ~ It does not provide scalability
+}
+
+::Q3::Why do organizations use a Hybrid Cloud model?
+{
+    ~ To completely avoid public cloud services
+    = To combine benefits of both public and private cloud environments
+    ~ To eliminate internet usage
+    ~ To reduce hardware to zero
+}

@@ -1,0 +1,17 @@
+::SQL UNIQUE::
+What is true about the Unique and Primary keys?
+{
+    =Unique can have one or more NULL values but Primary Keys cannot.
+    ~Unique can have no NULL values but Primary can have NULL values.
+    ~Both can have duplicate values.
+    ~None of the above.
+}
+
+::SQL UNIQUE::
+What is the primary purpose of a unique key constraint in a database table?
+{
+    ~To enforce referential integrity between two tables.
+    ~To specify the default value for a column.
+    =To ensure that the values in a column are unique within the table.
+    ~To prevent NULL values from being inserted into a column.
+}

@@ -1,0 +1,3 @@
+## S3 as a Data Lake Landing Zone
+
+A data engineering team building a nightly pipeline commonly configures the extraction step to write raw data directly into an S3 bucket first, organized by date, before any transformation happens. This gives the team a permanent, low cost copy of the exact raw data that was received on any given day. If a bug is later discovered in the transformation logic, the team can reprocess the original raw files sitting in S3 without needing to re extract that data from the original source systems, which may not always have historical data readily available.

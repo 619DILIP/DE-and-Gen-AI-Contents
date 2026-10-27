@@ -1,0 +1,26 @@
+::Boolean::
+Which operator is used for logical NOT in Python?
+{
+~ !
+~ &&
+= not
+~ *
+}
+
+::Boolean::
+Which operator is used for logical OR in Python?
+{
+~ &&
+~ ||
+~ and
+= or
+}
+
+::Boolean::
+Which function is used to check if an object is a boolean type in Python?
+{
+~ isbool()
+= isinstance()
+~ bool()
+~ type()
+}

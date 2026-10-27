@@ -1,0 +1,53 @@
+::Python Syntax::
+What will be the output of the following snippet? print("2+2")
+{
+~4
+~Error
+=2+2
+~None
+}
+
+::Python Syntax::
+What will be the output of the following snippet? print("Welcome to Python")
+{
+~"Welcome to Python"
+=Welcome to Python
+~WELCOME TO PYTHON
+~welcome to python
+}
+
+::Python Syntax::
+What will be the output of the following snippet? print("10 + 10")
+{
+=10 + 10
+~Error
+~Syntax Error
+~10+10
+}
+
+::Python Syntax::
+What will be the output of the following snippet? Print("Hello")
+{
+~Hello
+~"Hello"
+~HELLOW
+=Error
+}
+
+::Python Syntax::
+What will be the output of the following snippet? print(6 * 6)
+{
+~12
+=36
+~1
+~0
+}
+
+::Python Syntax::
+What will be the output of the following snippet? print(4 - 4)
+{
+~1
+~Error
+=0
+~None
+}

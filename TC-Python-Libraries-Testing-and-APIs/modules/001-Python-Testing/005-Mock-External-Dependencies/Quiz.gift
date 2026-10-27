@@ -1,0 +1,39 @@
+::Q1::What is the main purpose of using a mock in a unit test?
+{
+~To execute the real external dependency faster
+=To replace a real dependency and control and record how it is used
+~To test the dependency's internal implementation
+~To permanently replace the dependency in the application
+}
+
+::Q2::Which problem can occur when a unit test makes a real network call?
+{
+~The test becomes independent of external systems
+=The test can become slow or unreliable when the external service is unavailable
+~The test automatically gains better code coverage
+~The test no longer requires assertions
+}
+
+::Q3::A module named mymodule imports requests and calls requests.get. Which target should normally be patched?
+{
+~requests.get where it was originally defined
+=mymodule.requests.get where the module under test looks it up
+~pytest.requests.get
+~unittest.requests.get
+}
+
+::Q4::Which Mock feature is appropriate for simulating a ConnectionError during a test?
+{
+~return_value
+~call_count
+=side_effect
+~call_args
+}
+
+::Q5::When is mocking generally most appropriate?
+{
+~When testing the function being mocked
+~When a dependency is cheap, reliable, and easy to use directly
+=When a dependency is genuinely external, slow, or unreliable
+~When every operation in the test should be mocked
+}

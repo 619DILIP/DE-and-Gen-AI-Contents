@@ -1,0 +1,28 @@
+::SQL Left-and-Right Join::
+What is the primary purpose of a LEFT JOIN in SQL?
+{
+    ~To include only matching records from both tables
+    =To include all records from the left table and matching records from the right table
+    ~To include all records from the right table and matching records from the left table
+    ~To exclude records that have no matching values in the other table
+}
+
+::SQL Left-and-Right Join::
+What happens if there are no matching records in the right table for a row in the left table in a LEFT JOIN?
+{
+    ~The row is excluded from the result set
+    ~The row is included in the result set with default values for columns from the right table
+    =The row is included in the result set with NULL values for columns from the right table
+    ~The row is included in the result set with values from the left table only
+}
+
+::SQL Left-and-Right Join::
+Which of the following statements about RIGHT JOIN is true?
+{
+    ~ It includes only matching records from both tables.
+    = It includes all records from the right table and matching records from the left table.
+    ~ It includes all records from the left table and matching records from the right table.
+    ~ It excludes records that have no matching values in the other table.
+}
+
+

@@ -1,0 +1,5 @@
+- content can be added to files by opening the file in "write" or "append" mode
+- "write" mode will create a new file or truncate an existing file when it is opened
+- "append" mode will create a new file or set the cursor to the end of an existing file when it is opened
+- `w+` and `a+` respectively will allow you to also perform read action on the file
+- any write action will overwrite pre-existing data

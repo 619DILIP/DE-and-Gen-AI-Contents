@@ -1,0 +1,34 @@
+::Q01::Which method reads the entire contents of a file as a string?{
+~readline()
+~readlines()
+=read()
+~tell()
+}
+
+::Q02::[markdown]What does `read(10)` do when used on a file opened in read mode?{
+=Reads the first 10 characters from the current position
+~Reads the first 10 lines of the file
+~Returns the file contents as a list
+~Moves the cursor 10 positions without reading
+}
+
+::Q03::Which method returns the file's lines as a list, with each line represented as an element?{
+~read()
+~readline()
+=readlines()
+~tell()
+}
+
+::Q04::[markdown]What does the `tell()` method return when used with a file object?{
+~The number of lines remaining in the file
+~The file's extension
+=The current cursor position in the file
+~The total size of the file
+}
+
+::Q05::[markdown]Which statement correctly describes binary mode when reading files?{
+~Binary mode prevents the use of `read()` and `readline()`
+=Binary mode is required for read/write operations on non-text-based files
+~Binary mode automatically converts binary data into text
+~Binary mode is required only for CSV files
+}

@@ -1,0 +1,33 @@
+::Aggregate-functions::
+State True/False - collect_set() function returns all values from an input column with duplicate values.
+{
+~ True
+= False
+}
+
+::Aggregate-functions::
+Which of the following is not aggregate functions in Spark SQL?
+{
+~avg()
+~last()
+~min()
+=None of the above
+}
+
+::Aggregate-functions::
+What is the use of collection_list() function in SparkSQL?
+{
+~It will return the list of values
+~It will return unique values from a data
+=It will return all values with duplicates
+~It will all the values from input column
+}
+
+::Aggregate-functions::
+State True/False - sumDistinct() function returns the sum of all distinct values in a column.
+{
+= True
+~ False
+}
+
+

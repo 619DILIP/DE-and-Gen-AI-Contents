@@ -1,0 +1,3 @@
+## RDS Inside a Data Pipeline
+
+A data pipeline, whether running on a scheduled EC2 instance or as an event driven Lambda function, commonly reads raw source data, transforms it, and writes the finished result into an RDS database acting as a staging or warehouse layer. Because RDS handles backups and patching automatically, the team building the pipeline can focus on the transformation logic itself, rather than spending time on database server maintenance. If the pipeline needs to support many simultaneous analytical queries without slowing down, a read replica can be added so those queries run against a separate copy of the database, without affecting the primary database receiving new pipeline data.

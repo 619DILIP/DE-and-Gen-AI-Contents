@@ -1,0 +1,38 @@
+::Q1::What is Amazon EC2?
+{
+~An identity and access management service
+=A service for running virtual servers in the cloud~An object storage service
+~A managed relational database service
+}
+
+::Q2::Why does instance type selection affect cost? 
+{
+~All instance types have exactly the same price
+~Instance type changes only the server's hostname
+~Instance type determines the S3 storage class=Different instance types provide different amounts and types of resources at different prices
+}
+
+::Q3::What is one important configuration choice when launching an EC2 instance? 
+{
+=The instance type
+~The Python package version only
+~The SQL table name only
+~The S3 object key only
+}
+
+
+::Q4::What is a practical way to reduce EC2 cost when a workload does not need the instance running? 
+{
+=Stop the instance when it is no longer needed, where appropriate
+~Disable all network access permanently
+~Increase the instance size
+~Duplicate the instance   
+}
+
+::Q5::What does setting up a Python environment on EC2 allow a developer to do? 
+{
+~Create IAM policies without AWS
+~Turn EC2 into an S3 bucket
+~Convert the instance into a relational table
+=Run Python-based workload or pipeline code on the instance
+}

@@ -1,0 +1,3 @@
+## GenAI in Software Development
+
+Software development is one of the areas where generative AI has had the most immediate, practical impact. Developers now commonly use AI powered tools that suggest code as they type, generate boilerplate code from a description, or explain unfamiliar code in plain language. This does not replace the underlying programming skills covered throughout this curriculum. It changes how those skills are applied day to day, which is why understanding the fundamentals of AI, machine learning, and generative AI is directly relevant to a modern development career, not just a general interest topic.

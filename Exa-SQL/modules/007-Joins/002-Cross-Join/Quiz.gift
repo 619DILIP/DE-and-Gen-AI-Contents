@@ -1,0 +1,17 @@
+::SQL Cross Join::
+Which product is returned in a join query that has no join condition
+{
+    =Cartesian
+    ~Equi Join
+    ~Theta Join
+    ~None of the above
+}
+
+::SQL Cross Join::
+For what reason might we want to use a cross join?
+{
+    ~for when we want to find matching records from two tables
+    ~for when we want all information from two tables
+    =for when we need to find all the possibilities of combining multiple records where the result set includes every row from each contributing table
+    ~None of the above
+}

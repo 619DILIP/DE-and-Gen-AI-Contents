@@ -1,0 +1,1 @@
+There are all sorts of reasons to read data from files: parsing logs, organizing CSV data, uploading text for proofreading, and transforming data for analysis; the list goes on. Working with external files is a common practice, so it is prudent to learn the basics of file reading.

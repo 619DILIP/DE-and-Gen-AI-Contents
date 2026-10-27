@@ -1,0 +1,14 @@
+::Secondary Key::
+Which of the following is a secondary key {
+    ~ Primary key
+    ~ Foreign key
+    = candidate keys other than primary key
+    ~ none of the above.
+}
+
+::Secondary Key::
+A foreign key can be a secondary key. {
+~True
+=False
+}
+

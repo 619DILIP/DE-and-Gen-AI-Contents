@@ -1,0 +1,39 @@
+::Q1::Where can an application securely load an API key instead of hardcoding it? 
+{
+~A URL parameter visible to users
+=An environment variable or dedicated secrets-management service
+~A public source-code comment
+~A README committed to a public repository
+}
+
+::Q2::Why should generated SQL or shell commands not be executed automatically? 
+{
+~Generated commands are guaranteed to be harmless
+~Execution automatically verifies correctness
+~Review makes commands invalid
+=They may contain incorrect or harmful instructions that have not been checked
+}
+
+::Q3::Why is usage monitoring useful for an LLM-integrated system? 
+{
+=It can help identify unusual usage, errors, or unexpected consumption
+~It replaces authentication
+~It removes the need for access control
+~It guarantees every output is correct
+}
+
+::Q4::Why should secrets be excluded from version control? 
+{
+~AWS requires every secret to be public
+~Version control cannot store text
+~Secrets make Git repositories unusable
+=Committed secrets can be exposed to people or systems that should not have them
+}
+
+::Q5::What principle should guide permissions for an LLM-powered feature? 
+{
+=Least privilege
+~Maximum privilege
+~Anonymous access
+~No authentication
+}

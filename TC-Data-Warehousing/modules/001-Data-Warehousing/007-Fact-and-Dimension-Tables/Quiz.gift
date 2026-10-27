@@ -1,0 +1,39 @@
+::Q1::What does a fact table primarily store?
+{ 
+~Only database connection settings
+~Only descriptive information about customers
+=Measurable business events and their numeric measures
+~Only report titles
+}
+
+::Q2::Which columns are measures in the example Fact_Sales table? 
+{
+=quantity and revenue
+~customer_id and date_id
+~sale_id and product_id
+~customer_id and product_id
+}
+
+::Q3::What is the purpose of foreign keys in a fact table? 
+{
+=They reference related dimension tables that provide context
+~They replace all numeric measures
+~They prevent dimension tables from existing
+~They store only calculated report titles
+}
+
+::Q4::What does the grain of a fact table describe? 
+{
+=Exactly what one row in the fact table represents
+~The total number of reports created
+~The physical size of the database server
+~The number of dimensions in a schema
+}
+
+::Q5::Why are dimension tables useful in analytical queries? 
+{
+=They provide descriptive context for measures stored in fact tables
+~They prevent filtering and grouping
+~They store only raw application logs
+~They replace every fact table measure
+}

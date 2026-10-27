@@ -1,0 +1,20 @@
+::Sequence Objectives::
+Which column attribute provides unique numbers for identification?
+{
+    ~GROUPBY
+    ~ROUND
+    ~SIGNED
+    =AUTO_INCREMENT
+}
+
+::Sequence::
+A sequence is a user-defined schema bound object that produces a sequence of varchar values. {FALSE}
+
+::Sequence::
+The number of rows in the table is 10. Suppose all rows are deleted. The new row starts with sequence number _____?
+{
+    =11
+    ~1
+    ~0
+    ~10
+}

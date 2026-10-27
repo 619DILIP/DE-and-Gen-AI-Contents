@@ -1,0 +1,17 @@
+::Question 1:: 
+The most common usage of git merge is to merge two branches. {
+    =True
+    ~False
+}
+
+::Question 2:: 
+You should not fetch the latest remote commits before merging. {
+    ~True
+    =False
+}
+
+::Question 3:: 
+Merge conflicts happen when both branches you’re trying to merge change some part of the same file. {
+    =True
+    ~False
+}

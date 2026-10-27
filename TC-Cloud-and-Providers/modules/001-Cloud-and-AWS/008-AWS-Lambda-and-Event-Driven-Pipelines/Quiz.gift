@@ -1,0 +1,43 @@
+::Q1::A function is deployed to Lambda but nothing triggers it for a week. What happens? 
+{
+=Nothing runs and nothing is billed, since Lambda charges per invocation and execution time
+~The function is billed at a reduced idle rate until it is invoked
+~The function is automatically deleted after a period of inactivity
+~The function runs on a default schedule to stay warm
+}
+
+::Q2::A Lambda handler receives two arguments. What does each one carry? 
+{
+=event describes what triggered the function and its details; context describes the invocation itself
+~event carries the function's return value; context carries its configuration
+~event holds the execution role; context holds the environment variables
+~event is the raw HTTP request; context is the raw HTTP response
+}
+
+::Q3::Why does a function handling S3 events loop over event "Records" rather than reading a single object from the event? {
+=A single invocation may cover more than one object, so assuming one file is a common bug
+~The Records list always contains exactly one item, but the loop is a required convention
+~Records holds the function's previous invocations for auditing
+~Looping is required to keep the function within its execution time limit
+}
+
+::Q4::A Lambda function reads from one S3 bucket and writes to a database. Which set of permissions should its execution role include? {
+=Read access to that one bucket, permission to connect to that one database, and permission to write logs
+~Read access to that one bucket and permission to connect to that one database, with no other permissions
+~Full administrative access, so the function is never blocked by a permissions error
+~No role at all, with an access key stored in the function code instead
+}
+
+::Q5::Partners upload files at unpredictable times, and the data is needed within seconds of arrival. Which pipeline approach fits, and why? {
+=Event driven, because the work is triggered by the upload itself rather than waiting for the next scheduled run
+~Scheduled, because running at fixed times is more efficient for any volume of data
+~Scheduled, because event driven pipelines cannot write to a database
+~Either one, since latency is not affected by the choice
+}
+
+::Q6::A developer sets a counter variable during one Lambda invocation and expects to read it during the next. Why does this not work? {
+=Invocations are stateless and share nothing, so anything that must survive has to be written to an external store
+~The counter is reset only when the function code is redeployed
+~Variables persist but are cleared whenever a cold start occurs
+~The execution role denies write access to memory
+}

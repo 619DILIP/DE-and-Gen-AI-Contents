@@ -1,0 +1,3 @@
+- SQLite is a lightweight SQL-compliant database, and Python has native compatibility with it.
+- The `sqlite3` module gives access to the code needed to connect your Python application to a SQLite database.
+- Databases can either be saved in memory (ephemeral) or stored on disk (persistent).

@@ -1,0 +1,3 @@
+## Classifying Support Tickets
+
+A team using a language model to automatically categorize incoming customer support tickets into categories such as billing, technical issue, or feature request might start with a zero shot prompt describing the categories. If the model's categorization turns out inconsistent, particularly for tickets that could reasonably fit more than one category, the team can switch to a multi shot prompt that includes a handful of real, previously categorized tickets as examples. This grounds the model's decision making in the team's actual categorization conventions, rather than a generic interpretation of the category names alone.

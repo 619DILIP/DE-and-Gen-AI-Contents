@@ -1,0 +1,36 @@
+
+::Stored procedure Objectives::
+To produce a stored procedure, which of the following statement is used?
+{
+    ~CREATE FUNCTION
+    ~PRODUCE FUNCTION
+    ~PROVIDE PROCEDURE
+    =CREATE PROCEDURE
+}
+
+::Stored procedures::
+Stored functions are defined to send their output to a ____ and stored procedures are designed to return outputs to ____.
+{
+    ~ the console, view
+    = query, the application
+    ~ view, the console
+    ~ the application, query
+}
+
+::Stored procedures::
+Which procedure parameter enables the caller to pass in a value and get back a value?
+{
+    =INOUT
+    ~IN
+    ~OUT
+    ~OUTIN
+}
+
+::Stored procedures::
+Which of the following is used to call a stored procedure?
+{
+    ~ select
+    = call
+    ~ set
+    ~ execute
+}

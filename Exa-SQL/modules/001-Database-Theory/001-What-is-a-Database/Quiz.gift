@@ -1,0 +1,17 @@
+::Data and Database::
+SQL databases are a type of RDBMS.
+{
+    =True
+    ~False
+}
+
+::Data and Database::
+Using a database, you can do what to data?
+{
+    ~store data
+    ~filter data
+    ~search data
+    =all of the above
+}
+
+

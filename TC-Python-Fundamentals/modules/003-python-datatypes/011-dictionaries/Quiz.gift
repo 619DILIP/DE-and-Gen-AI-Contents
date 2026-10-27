@@ -1,0 +1,43 @@
+::Question 1::
+Which of the following is an immutable data type that can be used as a key in a dictionary? 
+{
+~ List 
+= String 
+~ Dictionary 
+~ Set
+}
+
+::Question 2::
+Dictionaries in Python are ordered data structures. 
+{
+~ True
+= False
+}
+
+::Question 3::
+The keys in a dictionary must be unique. 
+{
+= True
+~ False
+}
+
+::Question 4::
+You can use a list as a key in a dictionary. 
+{
+~ True
+= False
+}
+
+::Question 5::
+Dictionaries are mutable, which means you can modify their contents after creation.
+{
+= True
+~ False
+}
+
+::Question 6::
+The len() function can be used to get the number of key-value pairs in a dictionary. 
+{
+= True
+~ False
+}

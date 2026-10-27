@@ -1,0 +1,19 @@
+// Quiz for {Fill_in_Here} topic
+
+
+::UPDATE::
+What's the maximum number of records a single `UPDATE` command can change? {
+~100
+~1
+=All records
+~There are no records
+}
+
+::UPDATE::
+Your company has lost the vendor & license to sell their vendor's products in the "Kitchen" category, but still needs to keep the product information. You've been asked to reduce the quantity of all to zero. Which command acheives this? {
+~UPDATE products quantity \= 0 WHERE "Kitchen";
+=UPDATE products SET quantity \= 0 WHERE  category = "Kitchen";
+~SET products UPDATE quantity \= 0 WHERE  category = "Kitchen";
+~UPDATE SET category \= "Kitchen" WHERE quantity = 0 products;
+}
+

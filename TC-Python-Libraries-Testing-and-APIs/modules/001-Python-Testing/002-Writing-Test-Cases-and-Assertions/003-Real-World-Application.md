@@ -1,0 +1,3 @@
+## Writing Tests Alongside Features
+
+In practice, developers write test cases for a function around the same time they write the function itself, rather than as an afterthought. When a bug is reported in existing code, the standard first step is to write a new test case that reproduces the bug, confirm that it fails, then fix the code until the test passes. That new test case then stays in the codebase permanently, so the same bug cannot silently return later without being caught.

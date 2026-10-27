@@ -1,0 +1,4 @@
+# Real World Application for the Math Module
+Much of programming is making one or more computers perform mathematical calculations for us, and then performing one or more actions based on the results of those calculations. As the Python language has been developed common algorithms and mathematical functions have been recognized and implemented in the math module for ease of use. Whether you are working on a coding challenge or trying to optimize your code base, the functions and constants provided in the math module are typically going to be more than sufficiently optimized for handling your use case. 
+
+Should you find yourself needing more functionality or more optimized solutions for your mathematical operations, there is more than likely going to be a third party package of code that has a solution you can use, and more likely than not, that package will make use of the math module.

@@ -1,0 +1,38 @@
+::Q1::What is an S3 object? 
+{
+~An RDS database engine~An EC2 virtual machine
+=A stored item consisting of data and associated metadata identified by a key
+~An IAM user
+}
+
+::Q2::Why is S3 commonly used for data-lake-style storage? 
+{
+~It requires every file to use the same relational schema
+~It stores only SQL tables
+=It can store large amounts of varied data as objects and is designed for scalable storage
+~It is primarily a compute service
+}
+
+::Q3::Why might a pipeline organize S3 objects by date? 
+{
+~To eliminate the need for permissions
+=To provide a predictable structure for locating and managing time-based data
+~To convert S3 into a relational database
+~To change the storage service into EC2
+}
+
+::Q4::What can an application do with S3 from Python? 
+{
+~Only execute SQL against S3
+~Only create EC2 CPU cores
+~Only manage IAM passwords
+=Interact with buckets and objects through an AWS SDK
+}
+
+::Q5::What is an important security practice for S3 buckets? 
+{
+~Storing credentials in object names
+=Avoiding unintended public access
+~Making every bucket public
+~Disabling all access controls
+}

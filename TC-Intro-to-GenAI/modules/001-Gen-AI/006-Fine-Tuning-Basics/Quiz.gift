@@ -1,0 +1,39 @@
+::Q1::What is fine tuning?
+{ 
+~Writing a longer prompt only
+~Changing an API key
+~Installing an IDE extension
+=Further training a pre-trained model on a specialized dataset for a particular purpose
+}
+
+::Q2::When can fine tuning provide an advantage over prompting alone? 
+{
+~When the model should ignore all examples
+~When the task is solved by one short prompt with no repeated pattern
+=When a consistent specialized behavior is needed across many requests
+~When no training examples exist
+}
+
+::Q3::Why evaluate a fine-tuned model? 
+{
+=To determine whether it performs the intended specialized task effectively
+~Evaluation changes the model automatically
+~Evaluation guarantees the model is unbiased
+~Evaluation makes data unnecessary
+}
+
+::Q4::How does fine tuning differ from prompting? 
+{
+~Fine tuning is only a different spelling of prompting
+~Both always change model weights
+~Prompting permanently retrains the model
+=Fine tuning changes the model through additional training, while prompting changes the input instructions
+}
+
+::Q5::What is a specialized support assistant an example of? 
+{
+~A database connection protocol
+=A potential use case where fine tuning may help produce consistent domain-specific behavior
+~A cloud storage bucket
+~An EC2 instance type
+}

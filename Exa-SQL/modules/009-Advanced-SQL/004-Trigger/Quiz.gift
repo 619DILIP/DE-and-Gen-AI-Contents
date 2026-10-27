@@ -1,0 +1,26 @@
+::Triggers Objectives::
+A __________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data.
+{
+    ~Functions
+    ~Sequence
+    =Triggers
+    ~Procedure
+}
+
+::Triggers::
+What are the after triggers?
+{
+    =Triggers that run after an insert, update or delete on a table
+    ~Triggers generated after a particular operation
+    ~Triggers that run after view on a table
+    ~All of the above
+}
+
+::Triggers::
+What are the different variation in triggers?
+{
+    ~Commit, Rollback
+    =Insert, Update, Delete
+    ~Grant, Revoke
+    ~None of the above
+}

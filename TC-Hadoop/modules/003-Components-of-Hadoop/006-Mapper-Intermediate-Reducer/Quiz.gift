@@ -1,0 +1,46 @@
+//MCQ
+
+//Question 1
+::MapReduce::
+Which library should be used to unit test MapReduce code?{
+    ~JUnit
+    ~XUnit
+    =MRUnit
+    ~HadoopUnit
+}
+
+/Question 2
+::MapReduce::
+To create a MapReduce job, what should be coded first?{
+    ~a static job() method
+    =a Job class and instance (NOT SURE)
+    ~a job() method
+    ~a static Job class
+}
+
+//Question 3
+::MapReduce::
+What is the output of the Reducer?{
+    ~a relational table
+    ~an update to the input file
+    ~a single, combined list
+    =a set of <key, value> pairs
+}
+
+//Question 4
+::MapReduce::
+To what does the Mapper map input key/value pairs?{
+    ~an average of keys for values
+    ~a sum of keys for values
+    =a set of intermediate key/value pairs
+    ~a set of final key/value pairs
+}
+
+//Question 5
+::MapReduce::
+In MapReduce, _ have _?{
+    ~tasks; jobs
+    ~jobs; activities
+    =jobs; tasks
+    ~activities; tasks
+}

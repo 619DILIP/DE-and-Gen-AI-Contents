@@ -1,0 +1,39 @@
+::Q1::For a function is_positive(number) that returns number > 0, which input is a boundary case explicitly worth testing?
+{ 
+~-1000
+~5
+=0
+~100
+}
+
+::Q2::What is the purpose of the optional message in an assert statement? 
+{
+~To make the assertion execute twice
+=To provide additional information when the assertion fails
+~To convert an AssertionError into a SyntaxError
+~To prevent the condition from being evaluated
+}
+
+::Q3::Why should a newly reported bug usually get a test case that reproduces it? 
+{
+=The test can confirm the bug before the fix and prevent the same bug from silently returning later
+~The test removes the need to fix the underlying code
+~The test guarantees that no other bugs exist
+~The test permanently documents that the bug must remain
+}
+
+::Q4::Which assertion correctly verifies that a 25 percent discount on 200 produces 150?
+{
+=assert apply_discount(200, 25) \=\= 150
+~assert apply_discount(200, 25) \=\= 225
+~assert apply_discount(200, 25) \=\= 50
+~assert apply_discount(200, 25) \=\= 175
+}
+
+::Q5::Why can grouping several related test cases in one test function improve organization? 
+{
+~It makes edge cases unnecessary
+~It converts all tests into integration tests
+~It prevents every assertion from being evaluated
+=The related behaviors for the same unit can be read and run together
+}
